@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<project name="ORL_et_Prisc" company="Auto-construction" manager="ORL_et_Prisc" phase="" project-start="20150408T000000Z" mrproject-version="2" calendar="1">
+  <properties/>
+  <phases>
+    <phase name="Pr&#xE9;paration en attente de la paille"/>
+    <phase name="Phase paille"/>
+  </phases>
+  <calendars>
+    <day-types>
+      <day-type id="0" name="Travaill&#xE9;" description="Un jour de travail normal"/>
+      <day-type id="1" name="Ch&#xF4;m&#xE9;" description="Un jour ch&#xF4;m&#xE9; normal"/>
+      <day-type id="2" name="Utiliser la base" description="Utilise un jour du calendrier de base"/>
+    </day-types>
+    <calendar id="1" name="D&#xE9;faut">
+      <default-week mon="0" tue="0" wed="0" thu="0" fri="0" sat="1" sun="1"/>
+      <overridden-day-types>
+        <overridden-day-type id="0">
+          <interval start="0800" end="1200"/>
+          <interval start="1300" end="1700"/>
+        </overridden-day-type>
+      </overridden-day-types>
+      <days/>
+    </calendar>
+  </calendars>
+  <tasks>
+    <task id="1" name="Plan Electricit&#xE9;" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="2" name="Plan Plomberie" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="3" name="Plan Rev&#xEA;tements de sol" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="4" name="Lister les menuiseries" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="5" name="Devis Isopaille" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="6" name="Devis Fermettes" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="7" name="En attendant la signature" note="" work="547200" start="20150408T000000Z" end="20150413T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="8" name="Plan pour paille" note="D&#xE9;finir le nombre de bottes" work="57600" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="9" name="Vues en plan (paires et impaires, pleines ou pas, fen&#xEA;tres)" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="10" name="Vues fa&#xE7;ades" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="11" name="Plan d'implantation" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="12" name="Plan pour debit bois" note="" work="403200" start="20150408T000000Z" end="20150413T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="13" name="Plan Ossature bois - Fa&#xE7;ade Sud" note="" work="57600" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="14" name="Plan de d&#xE9;tail" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="15" name="Plan fa&#xE7;ade" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        </task>
+        <task id="16" name="Plan Ossature bois - SAS" note="" work="14400" start="20150408T170000Z" end="20150409T120000Z" work-start="20150409T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="13" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="17" name="Plan Carport" note="" work="57600" start="20150409T170000Z" end="20150413T170000Z" work-start="20150410T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="22" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="18" name="Plan Charpente poutre I Maison" note="" work="7200" start="20150409T120000Z" end="20150409T150000Z" work-start="20150409T120000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="16" type="FS"/>
+          </predecessors>
+          <task id="19" name="Vue en plan" note="" work="7200" start="20150409T120000Z" end="20150409T150000Z" work-start="20150409T120000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="20" name="Vue en coupe" note="" work="0" start="20150409T120000Z" end="20150409T120000Z" work-start="20150409T120000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work"/>
+        </task>
+        <task id="21" name="Plan Charpente poutre I Musique" note="" work="7200" start="20150409T150000Z" end="20150409T170000Z" work-start="20150409T150000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <predecessors>
+            <predecessor id="1" predecessor-id="18" type="FS"/>
+          </predecessors>
+          <task id="22" name="Vue en plan" note="" work="7200" start="20150409T150000Z" end="20150409T170000Z" work-start="20150409T150000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="23" name="Vue en coupe" note="" work="0" start="20150409T150000Z" end="20150409T150000Z" work-start="20150409T150000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work"/>
+        </task>
+        <task id="24" name="Plan lisse basse" note="" work="115200" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="25" name="Vue en plan" note="" work="115200" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <task id="26" name="Passages des sangles de pr&#xE9;compression" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+            <task id="27" name="Passages des sangles d&#xE9;finitives" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+            <task id="28" name="Calepinage OSB" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+            <task id="29" name="Entretoises + support de broche" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          </task>
+          <task id="30" name="Plan de d&#xE9;tail" note="" work="0" start="20150408T000000Z" end="20150408T080000Z" work-start="20150408T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work"/>
+        </task>
+        <task id="31" name="Plan lisse haute" note="" work="115200" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="32" name="Vue en plan" note="" work="115200" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+            <task id="33" name="Passages de sangles de pr&#xE9;compression" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+            <task id="34" name="Passages de sangles d&#xE9;finitives" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+            <task id="35" name="Calepinage OSB" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+            <task id="36" name="Croisement des lisses" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          </task>
+          <task id="37" name="Plan de d&#xE9;tail" note="" work="0" start="20150408T000000Z" end="20150408T080000Z" work-start="20150408T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work"/>
+        </task>
+        <task id="38" name="Plan liaison SAS" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="39" name="Plan Fondations" note="" work="57600" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="40" name="Plan d'&#xE9;vacuation des EU" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="41" name="Plan de d&#xE9;caissement" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+    </task>
+    <task id="42" name="Signature terrain" note="" work="0" start="20150506T000000Z" end="20150506T000000Z" work-start="20150506T080000Z" percent-complete="0" priority="10" type="milestone" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20150506T000000Z"/>
+    </task>
+    <task id="43" name="Pr&#xE9;parer et lancer les commandes" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="44" name="Terrassement, mat&#xE9;riaux fondations, lot bois, paille, quincaillerie, bambou, toiture v&#xE9;g&#xE9;talis&#xE9;e, menuiserie, &#xE9;lectricit&#xE9;, plomberie" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    </task>
+    <task id="45" name="Mettre en place un planning de livraisons" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="46" name="Travaux" note="" work="1987200" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="47" name="Mise en place du compteur temporaire de chantier" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="48" name="Mise n place d'un compteur d'eau et bec de cygne" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="49" name="Implantations (avec outillage de mesure, les piquets, ...)" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="50" name="Pr&#xE9;paration r&#xE9;ception des mat&#xE9;riaux" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="51" name="Terrassement du chemin d'acc&#xE8;s" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="52" name="Passages VRD (tranch&#xE9;e technique, regard interm&#xE9;diaire, tabouret) et anti-retour" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="53" name="Terrassement des constructions" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="54" name="Stockage de la terre v&#xE9;g&#xE9;tale" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="55" name="Mises en oeuvre de la fondation" note="" work="316800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="56" name="Pose du film g&#xE9;otextile en fond de terrassement" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="57" name="Pose des r&#xE9;seaux de drainage (tubes et regards)" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="58" name="Mise en place d'un premier niveau de pouzzolane 20/40 et dammage" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="59" name="Mise en place du r&#xE9;seau d'&#xE9;vacuation des EU diam. 100" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="60" name="Mise en place de la prise d'air du po&#xEA;le" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="61" name="R&#xE9;partition de la tranch&#xE9;e technique dans les constructions" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="62" name="Mise en place du r&#xE9;seau d'alimentation eau chaude / froide" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="63" name="Mise en place d'un deuxi&#xE8;me niveau de pouzzolane 20/40 et dammage" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="64" name="Mise en place du r&#xE9;seau &#xE9;lec + eau de la r&#xE9;cup&#xE9;ration d'eau + trop plein" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="65" name="Mise en place de la couche de finition de pouzzolane 7/15 et dammage" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="66" name="Fiche d'auto-contr&#xF4;le" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="67" name="Collecte de palettes + b&#xE2;ches de protection lieux de stockage et construction" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="68" name="Cr&#xE9;ation de zones de stockage pour l'outillage et la quincaillerie" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="69" name="Organisation d'une zone de travail du lot bois et stockage" note="" work="115200" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="70" name="Stockage livraison bois" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="71" name="Tri et ventilation" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="72" name="Production" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="73" name="Stockage des &#xE9;l&#xE9;ments termin&#xE9;s" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="74" name="Organisation d'une zone de stockage des bottes de paille" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="75" name="Fabrication des aiguilles sp&#xE9;cifiques de reconditionnement des bottes + liens" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="76" name="Pr&#xE9;fabrication et organisation avant mise en oeuvre" note="" work="172800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="77" name="Fabrication Lisses basses, entretoises et panneaux" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="78" name="Fabrication Lisses hautes, entretoises et panneaux" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="79" name="Fabrication des pr&#xE9;cadres" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="80" name="Fabrication des angles de pr&#xE9;compression" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="81" name="Fabrication Poutres en I ou fermettes" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="82" name="Fabrication des broches, aiguilles (Bambou / Noisettier droit, ...) et agraphes" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="83" name="Mise en oeuvre hors d'eau hors d'air" note="" work="1036800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="84" name="Lisses basses" note="" work="144000" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="85" name="Pose d'un grillage petite maille sous les lisses et la maison + retour sur lisses" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="86" name="Mise en place de la bande d'arase sous les lisses basses" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="87" name="Assemblage des lisses basses" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="88" name="Percement des trous pour tubes de pr&#xE9;compression" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="89" name="Pose des broches et isolation int&#xE9;rieure granulat de li&#xE8;ge" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        </task>
+        <task id="90" name="Pose des angles de compression" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="91" name="CV + contr&#xF4;le aplombs" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        </task>
+        <task id="92" name="Pose des pr&#xE9;cadres" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="93" name="CV + contr&#xF4;le aplombs" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        </task>
+        <task id="94" name="Elevation des murs paille" note="" work="144000" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="95" name="Tri et contr&#xF4;le physique des bottes (dimensions, propret&#xE9;, dentis&#xE9;, humidit&#xE9;) : fiche d'auto-contr&#xF4;le" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="96" name="Taille des bottes pour pr&#xE9;cadres et pose du premier rang sur broches" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="97" name="Pose des rangs 2, 3 et 4, compris la pose des agraphes dans les angles de chaque rang et contr&#xF4;le de l'aplomb" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="98" name="Pose des aiguilles" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="99" name="Pose des rangs 5, 6 et 7, compris la pose des agraphes dans les angles de chaque rang et contr&#xF4;le de l'aplomb" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        </task>
+        <task id="100" name="Lisses hautes" note="" work="201600" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="101" name="Raccourcir les pr&#xE9;cadres" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="102" name="Assemblage des lisses hautes sur le mur" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="103" name="Percement des trous des passages des aiguilles dans l'OSB, &#xE0; l'aide d'une scie cloche suivant diam&#xE8;tre des aiguilles (3-4 cm)" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="104" name="Mise en place des aiguilles" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="105" name="Fixation des but&#xE9;es d'aiguilles" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="106" name="Contr&#xF4;le de l'aplomb" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="107" name="Isolation des lises hautes en granulat de li&#xE8;ge" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        </task>
+        <task id="108" name="Pr&#xE9;compression des murs" note="" work="288000" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="109" name="Contr&#xF4;le des hauteurs avant pr&#xE9;compression suivant protocole de mesure" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="110" name="Positionnement des sangles d&#xE9;finitives et boucles en attente" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="111" name="Mise en place des barres basses et hautes de pr&#xE9;compression en commen&#xE7;ant par les angles, et des sangles de fret" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="112" name="Pr&#xE9;compressions des angles" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="113" name="Contr&#xF4;le des hauteurs et des niveaux : d&#xE9;termination d'un point de r&#xE9;f&#xE9;rence de niveau avec laser et pige" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="114" name="Pr&#xE9;compression des longueurs" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="115" name="Contr&#xF4;le des hauteurs et des niveaux suivant point de r&#xE9;f&#xE9;rence" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="116" name="Nouvelle pr&#xE9;compression &#xE0; optimiser et contr&#xF4;le de niveaux" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="117" name="Mise en tension des sangles d&#xE9;finitives et contr&#xF4;le des niveaux et aplomb des murs au persuadeur" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="118" name="Fermeture de la lisse haute" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        </task>
+        <task id="119" name="Ossature bois fa&#xE7;ade sud et sas d'entr&#xE9;e" note="" work="144000" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="120" name="Pose d'un grillage petite maille sous les lisses et la maison + retour sur lisses" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="121" name="Mise en place de la bande d'arase sous les lisses basses" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="122" name="Mesure de la hauteur du mur paille pour adapter la hauteur de l'ossature" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="123" name="Pr&#xE9;fabrication des modules au sol et levage" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+          <task id="124" name="Raccords MOB + PP et fixations" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        </task>
+        <task id="125" name="Charpente" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <task id="126" name="Pose Poutres en I" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        </task>
+        <task id="127" name="Ossature SAS" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="128" name="Carport" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    </task>
+  </tasks>
+  <resource-groups/>
+  <resources/>
+  <allocations/>
+</project>
