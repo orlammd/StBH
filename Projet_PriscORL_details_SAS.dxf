@@ -485,19 +485,19 @@ $SKPOLY
   9
 $TDCREATE
  40
-2457145.862974537
+2457145.866701389
   9
 $TDUCREATE
  40
-2457145.821307871
+2457145.825034722
   9
 $TDUPDATE
  40
-2457145.862997685
+2457145.866724537
   9
 $TDUUPDATE
  40
-2457145.821331019
+2457145.82505787
   9
 $TDINDWG
  40
@@ -925,7 +925,7 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{8C09BB99-D911-96C5-73AF-CB3F5B5A964D}
+{D0B58585-761B-08C3-9870-CF4D19B79D4E}
   9
 $VERSIONGUID
   2
@@ -3821,7 +3821,7 @@ AcDbLayerTableRecord
   2
 Lisse_haute ... Entretoises_aiguilles
  70
-     1
+     0
  62
      6
 420
@@ -5179,7 +5179,7 @@ AcDbLayerTableRecord
   2
 Menuiseries ... Précadres
  70
-     1
+     0
  62
    136
 420
@@ -6871,7 +6871,7 @@ AcDbLayerTableRecord
   2
 Lisse_haute ... Madrier
  70
-     1
+     0
  62
      1
 420
@@ -14531,10 +14531,6 @@ entretoise_lisse_haute
 331
 294C
 331
-294D
-331
-294E
-331
 294F
 331
 2950
@@ -14607,14 +14603,6 @@ entretoise_lisse_haute
 331
 2AC0
 331
-2AC1
-331
-2AC6
-331
-2AC7
-331
-2AF1
-331
 2AF2
 331
 2AF3
@@ -14625,27 +14613,15 @@ entretoise_lisse_haute
 331
 2AF6
 331
-2AF7
-331
 2AF8
-331
-2AF9
 331
 2AFA
 331
 2AFB
 331
-2AFC
-331
 2AFD
 331
-2AFE
-331
-2B00
-331
 2B01
-331
-2B02
 331
 2B03
 331
@@ -14669,8 +14645,6 @@ entretoise_lisse_haute
 331
 2B0E
 331
-2B0F
-331
 2B10
 331
 2B11
@@ -14680,8 +14654,6 @@ entretoise_lisse_haute
 2B13
 331
 2B14
-331
-2B15
 331
 2B16
 331
@@ -172591,46 +172563,6 @@ entretoise_lisse_haute
   0
 INSERT
   5
-294D
-330
-66A9
-100
-AcDbEntity
-  8
-Lisse_haute ... Entretoises_aiguilles
-100
-AcDbBlockReference
-  2
-entretoise_lisse_haute
- 10
-50791.97884110586
- 20
-38675.04948172051
- 30
-0.0
-  0
-INSERT
-  5
-294E
-330
-66A9
-100
-AcDbEntity
-  8
-Lisse_haute ... Entretoises_aiguilles
-100
-AcDbBlockReference
-  2
-entretoise_lisse_haute
- 10
-50791.97884110585
- 20
-39275.04948172051
- 30
-0.0
-  0
-INSERT
-  5
 294F
 330
 66A9
@@ -173384,68 +173316,6 @@ entretoise_lisse_haute
 0.0
  50
 270.0
-  0
-INSERT
-  5
-2AC1
-330
-66A9
-100
-AcDbEntity
-  8
-Lisse_haute ... Entretoises_aiguilles
-100
-AcDbBlockReference
-  2
-entretoise_lisse_haute
- 10
-52441.97884110588
- 20
-35575.04948172051
- 30
-0.0
- 50
-270.0
-  0
-INSERT
-  5
-2AC6
-330
-66A9
-100
-AcDbEntity
-  8
-Lisse_haute ... Entretoises_aiguilles
-100
-AcDbBlockReference
-  2
-entretoise_lisse_haute
- 10
-55591.97884110588
- 20
-36275.04948172051
- 30
-0.0
-  0
-INSERT
-  5
-2AC7
-330
-66A9
-100
-AcDbEntity
-  8
-Lisse_haute ... Entretoises_aiguilles
-100
-AcDbBlockReference
-  2
-entretoise_lisse_haute
- 10
-55591.97884110588
- 20
-36725.04948172053
- 30
-0.0
   0
 LINE
   5
@@ -174337,28 +174207,6 @@ AcDbLine
   0
 INSERT
   5
-2AF1
-330
-66A9
-100
-AcDbEntity
-  8
-Lisse_haute ... Entretoises_aiguilles
-100
-AcDbBlockReference
-  2
-entretoise_lisse_haute
- 10
-51641.97884110593
- 20
-33625.04948172051
- 30
-0.0
- 50
-270.0
-  0
-INSERT
-  5
 2AF2
 330
 66A9
@@ -174469,28 +174317,6 @@ entretoise_lisse_haute
   0
 INSERT
   5
-2AF7
-330
-66A9
-100
-AcDbEntity
-  8
-Lisse_haute ... Entretoises_aiguilles
-100
-AcDbBlockReference
-  2
-entretoise_lisse_haute
- 10
-53366.9788411059
- 20
-33625.04948172051
- 30
-0.0
- 50
-270.0
-  0
-INSERT
-  5
 2AF8
 330
 66A9
@@ -174504,28 +174330,6 @@ AcDbBlockReference
 entretoise_lisse_haute
  10
 52766.97884110589
- 20
-33625.04948172051
- 30
-0.0
- 50
-270.0
-  0
-INSERT
-  5
-2AF9
-330
-66A9
-100
-AcDbEntity
-  8
-Lisse_haute ... Entretoises_aiguilles
-100
-AcDbBlockReference
-  2
-entretoise_lisse_haute
- 10
-52166.97884110588
  20
 33625.04948172051
  30
@@ -174579,28 +174383,6 @@ entretoise_lisse_haute
   0
 INSERT
   5
-2AFC
-330
-66A9
-100
-AcDbEntity
-  8
-Lisse_haute ... Entretoises_aiguilles
-100
-AcDbBlockReference
-  2
-entretoise_lisse_haute
- 10
-55766.97884110593
- 20
-33625.04948172051
- 30
-0.0
- 50
-270.0
-  0
-INSERT
-  5
 2AFD
 330
 66A9
@@ -174623,50 +174405,6 @@ entretoise_lisse_haute
   0
 INSERT
   5
-2AFE
-330
-66A9
-100
-AcDbEntity
-  8
-Lisse_haute ... Entretoises_aiguilles
-100
-AcDbBlockReference
-  2
-entretoise_lisse_haute
- 10
-56966.97884110594
- 20
-33625.04948172051
- 30
-0.0
- 50
-270.0
-  0
-INSERT
-  5
-2B00
-330
-66A9
-100
-AcDbEntity
-  8
-Lisse_haute ... Entretoises_aiguilles
-100
-AcDbBlockReference
-  2
-entretoise_lisse_haute
- 10
-58991.9788411059
- 20
-33625.04948172051
- 30
-0.0
- 50
-270.0
-  0
-INSERT
-  5
 2B01
 330
 66A9
@@ -174680,28 +174418,6 @@ AcDbBlockReference
 entretoise_lisse_haute
  10
 59591.9788411059
- 20
-33625.04948172051
- 30
-0.0
- 50
-270.0
-  0
-INSERT
-  5
-2B02
-330
-66A9
-100
-AcDbEntity
-  8
-Lisse_haute ... Entretoises_aiguilles
-100
-AcDbBlockReference
-  2
-entretoise_lisse_haute
- 10
-60191.9788411059
  20
 33625.04948172051
  30
@@ -174899,7 +174615,7 @@ AcDbBlockReference
   2
 entretoise_lisse_haute
  10
-66191.9788411059
+66304.47884110587
  20
 33625.04948172051
  30
@@ -174923,7 +174639,7 @@ entretoise_lisse_haute
  10
 48791.97884110589
  20
-33725.04948172047
+33837.54948172052
  30
 0.0
   0
@@ -174944,26 +174660,6 @@ entretoise_lisse_haute
 48791.9788411059
  20
 33125.04948172047
- 30
-0.0
-  0
-INSERT
-  5
-2B0F
-330
-66A9
-100
-AcDbEntity
-  8
-Lisse_haute ... Entretoises_aiguilles
-100
-AcDbBlockReference
-  2
-entretoise_lisse_haute
- 10
-48791.97884110591
- 20
-32525.04948172047
  30
 0.0
   0
@@ -175064,26 +174760,6 @@ entretoise_lisse_haute
 48791.97884110594
  20
 29525.04948172047
- 30
-0.0
-  0
-INSERT
-  5
-2B15
-330
-66A9
-100
-AcDbEntity
-  8
-Lisse_haute ... Entretoises_aiguilles
-100
-AcDbBlockReference
-  2
-entretoise_lisse_haute
- 10
-48791.97884110595
- 20
-28925.04948172047
  30
 0.0
   0
