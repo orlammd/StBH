@@ -96,7 +96,7 @@
       <task id="44" name="Terrassement, mat&#xE9;riaux fondations, lot bois, paille, quincaillerie, bambou, toiture v&#xE9;g&#xE9;talis&#xE9;e, menuiserie, &#xE9;lectricit&#xE9;, plomberie" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
     </task>
     <task id="45" name="Mettre en place un planning de livraisons" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-    <task id="46" name="Travaux" note="" work="1987200" start="20150408T000000Z" end="20150617T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="46" name="Travaux" note="" work="1987200" start="20150408T000000Z" end="20150710T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <task id="47" name="Mise en place du compteur temporaire de chantier" note="" work="28800" start="20150615T000000Z" end="20150615T170000Z" work-start="20150615T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <constraint type="must-start-on" time="20150615T000000Z"/>
       </task>
@@ -109,84 +109,88 @@
       <task id="50" name="Pr&#xE9;paration r&#xE9;ception des mat&#xE9;riaux" note="" work="28800" start="20150617T000000Z" end="20150617T170000Z" work-start="20150617T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <constraint type="must-start-on" time="20150617T000000Z"/>
       </task>
-      <task id="51" name="Terrassement du chemin d'acc&#xE8;s" note="" work="28800" start="20150408T000000Z" end="20150408T170000Z" work-start="20150408T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="52" name="Passages VRD (tranch&#xE9;e technique, regard interm&#xE9;diaire, tabouret) et anti-retour" note="" work="28800" start="20150408T170000Z" end="20150409T170000Z" work-start="20150409T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="51" name="Terrassement du chemin d'acc&#xE8;s" note="" work="28800" start="20150617T170000Z" end="20150618T170000Z" work-start="20150618T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <predecessors>
+          <predecessor id="1" predecessor-id="50" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="52" name="Passages VRD (tranch&#xE9;e technique, regard interm&#xE9;diaire, tabouret) et anti-retour" note="" work="28800" start="20150618T170000Z" end="20150619T170000Z" work-start="20150619T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="51" type="FS"/>
         </predecessors>
       </task>
-      <task id="53" name="Terrassement des constructions" note="" work="28800" start="20150409T170000Z" end="20150410T170000Z" work-start="20150410T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="53" name="Terrassement des constructions" note="" work="28800" start="20150619T170000Z" end="20150622T170000Z" work-start="20150622T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="52" type="FS"/>
         </predecessors>
       </task>
-      <task id="54" name="Stockage de la terre v&#xE9;g&#xE9;tale" note="" work="28800" start="20150410T170000Z" end="20150413T170000Z" work-start="20150413T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="54" name="Stockage de la terre v&#xE9;g&#xE9;tale" note="" work="28800" start="20150622T170000Z" end="20150623T170000Z" work-start="20150623T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="53" type="FS"/>
         </predecessors>
       </task>
-      <task id="55" name="Mises en oeuvre de la fondation" note="" work="316800" start="20150413T170000Z" end="20150428T170000Z" work-start="20150414T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="55" name="Mises en oeuvre de la fondation" note="" work="316800" start="20150623T170000Z" end="20150708T170000Z" work-start="20150624T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="54" type="FS"/>
         </predecessors>
-        <task id="56" name="Pose du film g&#xE9;otextile en fond de terrassement" note="" work="28800" start="20150413T170000Z" end="20150414T170000Z" work-start="20150414T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        <task id="57" name="Pose des r&#xE9;seaux de drainage (tubes et regards)" note="" work="28800" start="20150414T170000Z" end="20150415T170000Z" work-start="20150415T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="56" name="Pose du film g&#xE9;otextile en fond de terrassement" note="" work="28800" start="20150623T170000Z" end="20150624T170000Z" work-start="20150624T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="57" name="Pose des r&#xE9;seaux de drainage (tubes et regards)" note="" work="28800" start="20150624T170000Z" end="20150625T170000Z" work-start="20150625T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
           <predecessors>
             <predecessor id="1" predecessor-id="56" type="FS"/>
           </predecessors>
         </task>
-        <task id="58" name="Mise en place d'un premier niveau de pouzzolane 20/40 et dammage" note="" work="28800" start="20150415T170000Z" end="20150416T170000Z" work-start="20150416T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="58" name="Mise en place d'un premier niveau de pouzzolane 20/40 et dammage" note="" work="28800" start="20150625T170000Z" end="20150626T170000Z" work-start="20150626T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
           <predecessors>
             <predecessor id="1" predecessor-id="57" type="FS"/>
           </predecessors>
         </task>
-        <task id="59" name="Mise en place du r&#xE9;seau d'&#xE9;vacuation des EU diam. 100" note="" work="28800" start="20150416T170000Z" end="20150417T170000Z" work-start="20150417T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="59" name="Mise en place du r&#xE9;seau d'&#xE9;vacuation des EU diam. 100" note="" work="28800" start="20150626T170000Z" end="20150629T170000Z" work-start="20150629T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
           <predecessors>
             <predecessor id="1" predecessor-id="58" type="FS"/>
           </predecessors>
         </task>
-        <task id="60" name="Mise en place de la prise d'air du po&#xEA;le" note="" work="28800" start="20150417T170000Z" end="20150420T170000Z" work-start="20150420T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="60" name="Mise en place de la prise d'air du po&#xEA;le" note="" work="28800" start="20150629T170000Z" end="20150630T170000Z" work-start="20150630T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
           <predecessors>
             <predecessor id="1" predecessor-id="59" type="FS"/>
           </predecessors>
         </task>
-        <task id="61" name="R&#xE9;partition de la tranch&#xE9;e technique dans les constructions" note="" work="28800" start="20150420T170000Z" end="20150421T170000Z" work-start="20150421T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="61" name="R&#xE9;partition de la tranch&#xE9;e technique dans les constructions" note="" work="28800" start="20150630T170000Z" end="20150701T170000Z" work-start="20150701T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
           <predecessors>
             <predecessor id="1" predecessor-id="60" type="FS"/>
           </predecessors>
         </task>
-        <task id="62" name="Mise en place du r&#xE9;seau d'alimentation eau chaude / froide" note="" work="28800" start="20150421T170000Z" end="20150422T170000Z" work-start="20150422T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="62" name="Mise en place du r&#xE9;seau d'alimentation eau chaude / froide" note="" work="28800" start="20150701T170000Z" end="20150702T170000Z" work-start="20150702T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
           <predecessors>
             <predecessor id="1" predecessor-id="61" type="FS"/>
           </predecessors>
         </task>
-        <task id="63" name="Mise en place d'un deuxi&#xE8;me niveau de pouzzolane 20/40 et dammage" note="" work="28800" start="20150422T170000Z" end="20150423T170000Z" work-start="20150423T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="63" name="Mise en place d'un deuxi&#xE8;me niveau de pouzzolane 20/40 et dammage" note="" work="28800" start="20150702T170000Z" end="20150703T170000Z" work-start="20150703T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
           <predecessors>
             <predecessor id="1" predecessor-id="62" type="FS"/>
           </predecessors>
         </task>
-        <task id="64" name="Mise en place du r&#xE9;seau &#xE9;lec + eau de la r&#xE9;cup&#xE9;ration d'eau + trop plein" note="" work="28800" start="20150423T170000Z" end="20150424T170000Z" work-start="20150424T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="64" name="Mise en place du r&#xE9;seau &#xE9;lec + eau de la r&#xE9;cup&#xE9;ration d'eau + trop plein" note="" work="28800" start="20150703T170000Z" end="20150706T170000Z" work-start="20150706T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
           <predecessors>
             <predecessor id="1" predecessor-id="63" type="FS"/>
           </predecessors>
         </task>
-        <task id="65" name="Mise en place de la couche de finition de pouzzolane 7/15 et dammage" note="" work="28800" start="20150424T170000Z" end="20150427T170000Z" work-start="20150427T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="65" name="Mise en place de la couche de finition de pouzzolane 7/15 et dammage" note="" work="28800" start="20150706T170000Z" end="20150707T170000Z" work-start="20150707T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
           <predecessors>
             <predecessor id="1" predecessor-id="64" type="FS"/>
           </predecessors>
         </task>
-        <task id="66" name="Fiche d'auto-contr&#xF4;le" note="" work="28800" start="20150427T170000Z" end="20150428T170000Z" work-start="20150428T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="66" name="Fiche d'auto-contr&#xF4;le" note="" work="28800" start="20150707T170000Z" end="20150708T170000Z" work-start="20150708T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
           <predecessors>
             <predecessor id="1" predecessor-id="65" type="FS"/>
           </predecessors>
         </task>
       </task>
-      <task id="67" name="Collecte de palettes + b&#xE2;ches de protection lieux de stockage et construction" note="" work="28800" start="20150428T170000Z" end="20150429T170000Z" work-start="20150429T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="67" name="Collecte de palettes + b&#xE2;ches de protection lieux de stockage et construction" note="" work="28800" start="20150708T170000Z" end="20150709T170000Z" work-start="20150709T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="66" type="FS"/>
         </predecessors>
       </task>
-      <task id="68" name="Cr&#xE9;ation de zones de stockage pour l'outillage et la quincaillerie" note="" work="28800" start="20150429T170000Z" end="20150430T170000Z" work-start="20150430T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="68" name="Cr&#xE9;ation de zones de stockage pour l'outillage et la quincaillerie" note="" work="28800" start="20150709T170000Z" end="20150710T170000Z" work-start="20150710T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="67" type="FS"/>
         </predecessors>
