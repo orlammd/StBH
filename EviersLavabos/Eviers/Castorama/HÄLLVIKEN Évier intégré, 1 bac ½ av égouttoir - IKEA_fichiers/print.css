@@ -1,0 +1,108 @@
+#printfriendly { display : none; }
+#nonprintfriendly { display : block; }
+
+TD {align:left;valign:top;}
+ 
+.greyBorderTop{border-top:2px solid #EAEAEA;}
+.greyBorderRight{border-right:1px solid #CCCCCC;}
+.greyBorderLeft{border-left:1px solid #CCCCCC;}
+.greyBorderBottom{border-bottom:1px solid #CCCCCC;}
+.greyBorderBottom2{border-bottom:2px solid #EAEAEA;}
+.greyBorderBottom3{border-bottom:3px solid #666666;}
+.greyBorderTop1{border-top:1px solid #CCCCCC;}
+.orangeBorderVertical{border-top:1px solid #FF9900;}
+ 
+ .largeName{font-family:Arial,Verdana,Sans-Serif;font-size:24px;font-weight:bold;color:#333333;}
+
+.headerOnWhite {font-family:Arial,Verdana,Sans-Serif;font-size:13px;font-weight:bold;color:#333333;}
+.headerOnGrey {font-family:Arial,Verdana,Sans-Serif;font-size:13px;font-weight:bold;color:#666666;}
+.headerGrey{font-family:Arial,Verdana,Sans-Serif;font-size:15px;font-weight:bold;line-height:15px;color:#666666;}
+
+
+.iconLabel{font-family:Arial,Verdana,Sans-Serif;font-size:11px;font-weight:bold;color:#666666}
+.bulletListHeadline{font-family:Arial,Verdana,Sans-Serif;font-weight:bold;font-size:11px;line-height:13px;padding-bottom:7px;color:#666666;}
+
+.instructional {font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;font-style:italic;color:#999999;}
+.defaultCopyGrey {font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;color:#999999;}
+.defaultCopyItalic {font-family:Arial,Verdana,Sans-Serif;font-size:11px;font-style:italic;line-height:13px;color:#666666;}
+
+
+.ikeaFamily{font-family:Arial,Verdana,Sans-Serif;font-size:12px;font-weight:bold;color:#E06023;}
+.ikeaFamilyCaps{font-family:Arial,Verdana,Sans-Serif;font-size:12px;font-weight:bold;color:#E06023;text-transform:uppercase;}
+.ikeaFamilyCaps11{font-family:Arial,Verdana,Sans-Serif;font-size:11px;font-weight:bold;color:#E06023;text-transform:uppercase;}
+
+
+
+.darkGrey12Bold {font-family:Arial,Verdana,Sans-Serif;font-size:12px;font-weight:bold;line-height:15px;padding-bottom:10px;color:#333333;}
+
+.firstPrice11{font-family:Arial,Verdana,Sans-Serif;font-size:11px;font-weight:bold;color:#333333;text-transform:none;}
+
+.secondPrice {font-family:Arial,Verdana,Sans-Serif;font-size:13px;color:#666666;}
+.secondPrice11 {font-family:Arial,Verdana,Sans-Serif;font-size:11px;color:#666666;}
+.secondPrice14 {font-family:Arial,Verdana,Sans-Serif;font-size:14px;font-weight:regular;color:#666666;}
+.secondPrice16 {font-family:Arial,Verdana,Sans-Serif;font-size:14px;font-weight:bold;color:#666666;}
+.secondPriceBigItem {font-family:Arial,Verdana,Sans-Serif;font-size:14px;font-weight:bold;color:#333333;}
+
+
+.bulletList{font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;color:#4D7EE5;}
+A:bulletList{font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;color:#4D7EE5;}
+A:active.bulletList{font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;color:#4D7EE5;}
+A:visited.bulletList{font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;color:#4D7EE5;}
+A:hover.bulletList{font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;color:#4D7EE5;text-decoration:underline;}
+
+.bulletListGrey{font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;color:#666666;}
+A:bulletListGrey{font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;color:#666666;}
+A:active.bulletListGrey{font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;color:#666666;}
+A:visited.bulletListGrey{font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;color:#666666;}
+A:hover.bulletListGrey{font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;color:#666666;text-decoration:underline;}
+
+.productCategories2Columns {font-family:Arial,Verdana,Sans-Serif;font-size:12px;line-height:14px;font-weight:bold;color:#4D7EE5;}
+A:link.productCategories2Columns {font-family:Arial,Verdana,Sans-Serif;font-size:12px;line-height:14px;font-weight:bold;color:#4D7EE5;}
+A:visited.productCategories2Columns {font-family:Arial,Verdana,Sans-Serif;font-size:12px;line-height:14px;font-weight:bold;color:#4D7EE5;}
+A:active.productCategories2Columns {font-family:Arial,Verdana,Sans-Serif;font-size:12px;line-height:14px;font-weight:bold;color:#4D7EE5;}
+A:hover.productCategories2Columns {font-family:Arial,Verdana,Sans-Serif;font-size:12px;line-height:13px;font-weight:bold;color:#4D7EE5;text-decoration:underline;}
+
+.productCategories4Columns {font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;font-weight:bold;color:#4D7EE5;}
+A:productCategories4Columns {font-family:Arial, Verdana, Sans-Serif;font-size:11px;line-height:13px;font-weight:bold;color:#4D7EE5;}
+A:link.productCategories4Columns {font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;font-weight:bold;color:#4D7EE5;}
+A:active.productCategories4Columns {font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;font-weight:bold;color:#4D7EE5;}
+A:visited.productCategories4Columns {font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;font-weight:bold;color:#4D7EE5;}
+a:hover.productCategories4Columns {font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;font-weight:bold;color:#4D7EE5;text-decoration:underline;}
+  
+.smallPrice	{font-family:Arial,Verdana,Sans-Serif;font-size:12px;font-weight:bold;color:#333333;}
+A:link.smallPrice {font-family:Arial,Verdana,Sans-Serif;font-size:12px;font-weight:bold;color:#333333;}
+A:active.smallPrice {font-family:Arial,Verdana,Sans-Serif;font-size:12px;font-weight:bold;color:#333333;}
+A:visited.smallPrice {font-family:Arial,Verdana,Sans-Serif;font-size:12px;font-weight:bold;color:#333333;}
+a:hover.smallPrice {font-family:Arial,Verdana,Sans-Serif;font-size:12px;font-weight:bold;color:#333333;text-decoration:underline;}
+
+.viewMore {font-family:Arial,Verdana,Sans-Serif;font-size:10px;font-weight:regular;line-height:13px;color:#999999;}
+A:link.viewMore {font-family:Arial,Verdana,Sans-Serif;font-size:10px;font-weight:regular;line-height:13px;color:#999999;}
+A:active.viewMore {font-family:Arial,Verdana,Sans-Serif;font-size:10px;font-weight:regular;line-height:13px;color:#999999;}
+A:visited.viewMore {font-family:Arial,Verdana,Sans-Serif;font-size:10px;font-weight:regular;line-height:13px;color:#999999;}
+a:hover.viewMore {font-family:Arial,Verdana,Sans-Serif;font-size:10px;font-weight:regular;line-height:13px;color:#999999;}
+
+.defaultCopy {font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;color:#666666;}
+A:link.defaultCopy {font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;color:#4D7EE5;}
+A:active.defaultCopy {font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;color:#4D7EE5;}
+A:visited.defaultCopy {font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;color:#4D7EE5;}
+a:hover.defaultCopy {font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;color:#4D7EE5;text-decoration:underline;}
+
+.defaultCopy15 {font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:15px;color:#666666;font-weight:regular;}
+.defaultCopyBold15 {font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:15px;color:#666666;font-weight:bold;}
+.defaultCopyBoldPadding7 {font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;font-weight:bold;padding-bottom:7px;color:#666666;}
+
+.defaultCopyBoldPadding10 {font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;font-weight:bold;padding-bottom:10px;color:#333333;text-transform:capitalize;}
+A:link.defaultCopyBoldPadding10 {font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;font-weight:bold;padding-bottom:10px;color:#4D7EE5;}
+A:active.defaultCopyBoldPadding10 {font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;font-weight:bold;padding-bottom:10px;color:#4D7EE5;}
+A:visited.defaultCopyBoldPadding10 {font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;font-weight:bold;padding-bottom:10px;color:#4D7EE5;}
+a:hover.defaultCopyBoldPadding10 {font-family:Arial,Verdana,Sans-Serif;font-size:11px;line-height:13px;font-weight:bold;padding-bottom:10px;color:#4D7EE5;text-decoration:underline;}
+
+.largeHeadline{font-family:Arial,Verdana,Sans-Serif;font-weight:bold;font-size:12px;line-height:15px;color:#666666;}
+A:link.largeHeadline {font-family:Arial,Verdana,Sans-Serif;font-size:12px;font-weight:bold;line-height:15px;color:#4D7EE5;}
+A:active.largeHeadline {font-family:Arial,Verdana,Sans-Serif;font-size:12px;font-weight:bold;line-height:15px;color:#4D7EE5;}
+A:visited.largeHeadline {font-family:Arial,Verdana,Sans-Serif;font-size:12px;font-weight:bold;line-height:15px;color:#4D7EE5;}
+a:hover.largeHeadline {font-family:Arial,Verdana,Sans-Serif;font-size:12px;font-weight:bold;line-height:15px;color:#4D7EE5;text-decoration:underline;}
+
+#newicon {position:relative;top:233;left:0;}
+
+

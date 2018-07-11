@@ -1,0 +1,28 @@
+/* This is a local css with styles used depending on locale */
+/* This is used by countries with a "wider" language, e.g. that needs more text for the content */
+
+.newImgSmall {
+	width:5.21em;/*50px;*/
+	height:1.46em;/*14px;*/
+}
+
+.newImgLarge {
+	width:6.67em;/*64px;*/
+	height:1.88em;/*18px;*/
+}
+
+.leftNavigation .navigationBlock .productItem .newImgSmall {
+	float:left;
+	margin-right:0.83em; /*8px*/
+    margin-top:0.94em; /*9px;*/
+}
+
+.leftNavigation .navigationBlock .productItem .prodNameNewImg {
+    float:left;
+    width:69%; /*137px;*/
+    padding:1.04em 0;
+}
+#CartMoreInfoBox{
+margin-top:44px !important;
+*margin-top: 0px !important;	
+}

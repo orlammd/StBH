@@ -1,0 +1,157 @@
+<html><head>
+    <title>MasterTag Adverline</title>
+    <meta name="author" content="Adverline">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <script src="iframe_data/partnertag_test_tracking.html" type="text/javascript"></script></head>
+  <body>
+    <div id="tags">&nbsp;</div>    
+    <script language="javascript" type="text/javascript">
+    adv_id_spub=0;
+    //Décodage des variables passées par url
+    function extractUrlParams(){	
+      var f = [];
+      var t = "";
+      
+      if(location.search.substring(1)!="") {
+        t=location.search.substring(1).split('&');
+        for (var i=0; i<t.length; i++){
+          var x = t[ i ].split('=');
+          f[x[0]]=x[1];
+        }
+      }
+      
+      if(location.hash.substring(1)!="") {
+        t = location.hash.substring(1).split('&');
+        for (var i=0; i<t.length; i++){
+          var x = t[ i ].split('=');
+          f[x[0]]=x[1];
+        }
+      }
+      return f;
+    }
+    
+    //Récupération de celles qui sont présentes dans le cookie
+    function extractCookieData(ids){
+      var f = [];
+      var found=true;
+      var x;
+      var fckstr=document.cookie;
+      //var cregpex=new RegExp("/.*?(c"+adv_par['id_spub']+"_.*?=.*?;).*?/","i");
+      var cregpex=new RegExp(".*?(c"+ids+"_[^;]*).*");
+      while (found){ 
+         if(cregpex.test(fckstr)){
+           vct = fckstr.replace(cregpex,"$1");
+           fckstr = fckstr.replace(vct,"");
+           fckstr = fckstr.replace(/^(;\s)/i,"");
+           x = vct.split('=');
+           f[x[0]]=x[1];
+         } else found=false;         
+      }
+      return f;
+    }   
+
+    function advWriteCookie(nom,valeur){
+      adv_duree = 31*24*60 ; //31 jours par défaut 
+      if (/\_(\d+)$/.test(nom)) { // passé avec durée
+        adv_duree = nom.replace(/.*\_(\d+)/, "$1"); 
+        adv_cname = nom.replace(new RegExp("adv_cookie_(.*)_"+adv_duree+"$"), "$1") ; 
+      } else {//sans durée
+        adv_cname = nom.replace(/adv_cookie_(.*)$/, "$1") ; 
+      }
+    
+      try {
+        if(typeof valeur!='undefined' && valeur!=null && valeur!='null'){
+          document.cookie = "c"+adv_cname
+            +"="
+            + encodeURIComponent(valeur)
+            + "; expires="
+            + new Date((new Date).getTime() + (adv_duree*60000)).toUTCString() 
+            + "; Path=/";
+          /*if(console.log)
+            console.log("c"+adv_cname
+            +"="
+            + encodeURIComponent(valeur)
+            + "; expires="
+            + new Date((new Date).getTime() + (adv_duree*60000)).toUTCString() 
+            + "; Path=/");*/
+        }
+      } catch (e) {}
+    }
+    
+    function advDeleteCookie(nom){
+      if (/\_(\d+)$/.test(nom))  // passé avec durée
+        adv_cname = nom.replace(new RegExp("adv_cookie_(.*)_"+adv_duree+"$"), "$1") ; 
+      else
+        adv_cname = nom.replace(/adv_cookie_(.*)$/, "$1") ; 
+    
+      try {
+        document.cookie = "c"+adv_cname
+          +"=null; expires="
+          + new Date((new Date).getTime() -600000).toUTCString() 
+          + "; Path=/";
+      } catch (e) {}
+    }
+   
+    /* Extraction des variables */
+    adv_par=extractUrlParams();
+    
+    /* Réaffection dans le context de l'iframe */
+    try{
+      for (var i in adv_par){
+        if(!/^adv_cookie_/.test(i)){
+          adv_par[i] = adv_par[i].replace("&", "");
+          if( /^(\d*\.?\d+)$/.test(adv_par[i]) && (!(/^0\d/.test(adv_par[i]))) ) {
+            eval(i+' = '+parseFloat (adv_par[i]));
+            document.write('<!--p '+'var '+i+' = '+adv_par[i]+' ---'+'>');
+          } else {
+            eval(i+' = \''+decodeURIComponent(adv_par[i]).replace(/'/gi,"\\'")+'\';');
+            document.write('<!--p '+'var '+i+' = \''+decodeURIComponent(adv_par[i]).replace(/'/gi,"\\'")+'\';'+' ---'+'>');
+          }
+        }
+      }
+    } catch (e){}
+    
+    /* Correspondance de variables pour rétro-compatibilité */
+    if (typeof adv_par['id_spub']=='undefined' || adv_par['id_spub']==null) adv_par['id_spub']=adv_par['s'];
+    if (typeof adv_par['action'] =='undefined' || adv_par['action'] ==null) adv_par['action'] =adv_par['a'];
+    
+    adv_id_spub=adv_par['id_spub'];
+    
+    //Lecture du cookie
+    adv_cki=extractCookieData(adv_id_spub);
+    
+    /* Réaffection des cookies dans context de l'iframe */
+    try{
+      for (var i in adv_cki){
+		    adv_cki[i] = adv_cki[i].replace("&", "");
+        n = "adv_cookie_"+i.replace(new RegExp("^c"+adv_id_spub+"_"), adv_id_spub+"_");
+        if( /^(\d*\.?\d+)$/.test(adv_cki[i]) && (!(/^0\d/.test(adv_cki[i]))) ) {
+          eval(n+' = '+parseFloat (adv_cki[i]));
+          document.write('<!--c '+'var '+n+' = '+adv_cki[i]+' ---'+'>');
+        } else {
+          eval(n+' = \''+decodeURIComponent(adv_cki[i]).replace(/'/gi,"\\'")+'\';');
+          document.write('<!--c '+'var '+n+' = \''+decodeURIComponent(adv_cki[i]).replace(/'/gi,"\\'")+'\';'+' ---'+'>');
+        }
+      }
+    } catch (e){}
+        
+    /* Modification url des scripts pour le mode test */
+    if((typeof adv_partnertag_mode!='undefined') && adv_partnertag_mode!='')
+      adv_partnertag_mode+="/";
+    else 
+      adv_partnertag_mode="";
+    
+    /* Appel du script dans la page */
+    if (typeof adv_par['id_spub']!='undefined' && typeof adv_par['action']!='undefined') {
+      if (typeof adv_par['context']!='undefined' && adv_par['context']=='std')
+        document.write('<sc'+'ript src="'+adv_partnertag_mode+adv_par['id_spub']+'_'+adv_par['action']+'.js" language="javascript" type="text/javascript"></sc'+'ript>');
+      else if (typeof adv_par['context']!='undefined' && adv_par['context']=='enc')
+        document.write('<sc'+'ript src="'+adv_partnertag_mode+adv_par['id_spub']+'_'+adv_par['action']+'_enc.js" language="javascript" type="text/javascript"></sc'+'ript>');
+      else
+        document.write('<sc'+'ript src="'+adv_partnertag_mode+adv_par['id_spub']+'_'+adv_par['action']+'_if.js" language="javascript" type="text/javascript"></sc'+'ript>');      
+    }    
+    </script><!--p var s = 104417 ---><!--p var a = 'tag'; ---><!--p var a3 = 'Casto698324'; ---><!--p var a6 = 20170503 ---><!--c var adv_cookie_104417_lstvis = 20170503 ---><!--c var adv_cookie_104417_frtvis = 20170503 ---><script src="iframe_data/104417_tag_if.js" language="javascript" type="text/javascript"></script><!-- a0->adv_cst_v_tag_104417_jstdom == null --><!-- a1->adv_cst_v_tag_104417_jsutms == null --><!-- a2->adv_cst_v_tag_104417_section == null --><!-- a3->adv_cst_v_tag_104417_product == Casto698324 --><!-- a4->adv_cst_v_tag_104417_brand == null --><img src="iframe_data/track.gif"><img src="iframe_data/seg.html" height="1" width="1">	
+  
+
+
+</body></html>

@@ -1,0 +1,312 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <script src="79705CF43EB9982AA0B8_data/zanox.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript" charset="utf-8">
+            zanox.runsInIframe = true;
+        </script>
+    <script defer="defer" async="" type="text/javascript" src="79705CF43EB9982AA0B8_data/retar_js.php"></script></head>
+    <body style="margin:0px;padding:0px;">
+        <div class="zx_mediaslot zx_7F7E97FF2455680D6A21">
+                <div id="ZX79705CF43EB9982AA0B8" class="zx_app_79705CF43EB9982AA0B8"><script type="text/javascript">
+
+ function copyProducts(products, debugMode)
+ {
+    var tmp_products = "";
+
+    for (var indice in products)
+    {
+       var identifier = products[indice]["identifier"];
+
+       if ( debugMode == "1" )
+       {
+          alert("pushing product identifier" + indice + "=" + identifier);
+       }
+
+       tmp_products += identifier + ";";
+    }
+
+    // remove the last semi-colon
+    tmp_products = tmp_products.substring(0, (tmp_products.length - 1) );
+
+    if ( debugMode == "1" )
+    {
+       alert("products injected =" + tmp_products + " by copyProducts");
+    }
+
+    return(tmp_products);
+ }
+
+ function addAmounts(products, debugMode)
+ {
+    var tmp_totalAmount = 0;
+
+    for (var indice in products)
+    {
+       var identifier = products[indice]["identifier"];
+       var amount = products[indice]["amount"];
+       var quantity = products[indice]["quantity"];
+
+       if ( debugMode == "1" )
+       {
+          alert("total Amount of product identifier" + identifier + "=" + (amount * quantity));
+       }
+
+       tmp_totalAmount += amount * quantity;
+    }
+
+    if ( debugMode == "1" )
+    {
+       alert("total Amount =" + tmp_totalAmount + " by addAmounts");
+    }
+
+    return(tmp_totalAmount);
+
+ }
+
+  zanox.setCallback("79705CF43EB9982AA0B8", function(data)
+  {
+     var settings = data.app.settings;   		       // all the settings
+
+     var debugMode      = settings["debugMode"];               // debug mode On (1) or Off (0)
+     var pageType       = settings["pageType"].toLowerCase();  // pageType
+     var merchantName   = settings["merchantName"];            // merchant name
+     var categoryId     = settings["category_categoryId"];
+     var productId      = settings["product_productId"];
+     var bproducts      = settings["basket_products"];
+     var transactionId  = settings["checkout_transactionId"];
+     var ctotalAmount   = settings["checkout_totalAmount"];
+     var cproducts      = settings["checkout_products"];
+
+     var veoxa_products = "";				       // semi-colon separated list of products id
+     var btotalAmount   = "00.00";                             // calculated basket total Amount
+     var proto   = (("https:" == document.location.protocol) ? "https:" : "http:");
+
+     if ( (debugMode == null) || (debugMode == "") )  // debug mode is Off by default
+     {
+        debugMode = "0";
+     }
+
+     if ( debugMode == "1" )
+     {
+        alert("veoxa running in debug mode");
+     }
+
+     if ( (pageType == null) || (pageType == "") )  // pageType is "generic" by default
+     {
+        if ( debugMode == "1" )
+        {
+           alert("Empty or undefined pageType");
+           return;
+        }
+        else
+        {
+        	pageType = "generic";
+        }
+     }
+
+     if ( (merchantName == null) || (merchantName == "") )  // merchant name is "00" by default
+     {
+        if ( debugMode == "1" )
+        {
+           alert("Empty or undefined merchant name");
+           return;
+        }
+        else
+        {
+        	merchantName = "00";
+        }
+     }
+
+     switch (pageType)
+     {
+        // on home page
+        case "home" : if ( debugMode == "1" )
+                      {
+                         alert("pageType is " + pageType);
+                         alert("Merchant name=" + merchantName);
+                         alert("proto =" + proto);
+                         alert("doing zanox.load " + proto + "//vu.veoxa.com/trafic/retar.php?type=HOME&boutique=" + merchantName);
+                      }
+
+                      zanox.load(proto + "//vu.veoxa.com/trafic/retar.php?type=HOME&boutique=" + merchantName);
+
+                      break;
+
+        // on category page
+        case "category" : if ( (categoryId == null) || (categoryId == "") )  // categoryId is "00" by default
+                          {
+                          	if ( debugMode == "1" )
+                            {
+                               alert("Empty or undefined category Id");
+                               return;
+                            }
+                            else
+                            {
+        	                     categoryId = "00";
+                            }
+                          }
+
+                         if ( debugMode == "1" )
+                         {
+                            alert("pageType is " + pageType);
+                            alert("Merchant name=" + merchantName);
+                            alert("proto =" + proto);
+                            alert("category Id=" + categoryId);
+                            alert("doing zanox.load " + proto + "//vu.veoxa.com/trafic/retar.php?type=CATEGORIE&boutique=" + merchantName + "&categorie_id=" + categoryId);
+                         }
+
+                          zanox.load(proto + "//vu.veoxa.com/trafic/retar.php?type=CATEGORIE&boutique=" + merchantName + "&categorie_id=" + categoryId);
+
+                          break;
+
+        // on product page
+        case "product" : if ( (productId == null) || (productId == "") )  // productId is "00" by default
+                          {
+                          	if ( debugMode == "1" )
+                            {
+                               alert("Empty or undefined product Id");
+                               return;
+                            }
+                            else
+                            {
+        	                     productId = "00";
+                            }
+                          }
+
+                         if ( debugMode == "1" )
+                         {
+                            alert("pageType is " + pageType);
+                            alert("Merchant name=" + merchantName);
+                            alert("proto =" + proto);
+                            alert("product Id=" + productId);
+                            alert("doing zanox.load " + proto + "//vu.veoxa.com/trafic/retar.php?type=PRODUIT&boutique=" + merchantName + "&produit_id=" + productId);
+                         }
+
+                         zanox.load(proto + "//vu.veoxa.com/trafic/retar.php?type=PRODUIT&boutique=" + merchantName + "&produit_id=" + productId);
+
+                         break;
+
+        // on basket page
+        case "basket" : if ( (bproducts == null) || (bproducts == "") )  // bproducts is all "00" by default
+                        {
+                          if ( debugMode == "1" )
+                          {
+                             alert("Empty or undefined products");
+                             return;
+                          }
+                          else
+                          {
+        	                   bproducts = [
+                                         {
+                        	                 "identifier":"00",
+                         	                 "amount":"00.00",
+                         	                 "currency":"EUR",
+                         	                 "quantity":"00"
+                                         }
+                                        ];
+                          }
+                        }
+
+                        if ( debugMode == "1" )
+                        {
+                           alert("pageType is " + pageType);
+                           alert("Merchant name=" + merchantName);
+                        }
+
+                        veoxa_products = copyProducts(bproducts , debugMode);
+                        btotalAmount = addAmounts(bproducts , debugMode);
+
+                        //  alert("total Amount=" + btotalAmount);
+
+                        if ( debugMode == "1" )
+                        {
+                           alert("doing zanox.load " + proto + "//vu.veoxa.com/trafic/retar.php?type=PANIER&boutique=" + merchantName + "&transaction_amount=" + btotalAmount + "&data=" + veoxa_products);
+                        }
+
+                        zanox.load(proto + "//vu.veoxa.com/trafic/retar.php?type=PANIER&boutique=" + merchantName + "&transaction_amount=" + btotalAmount + "&data=" + veoxa_products);
+
+                        break;
+
+        // runs on checkout page
+        case "checkout" : if ( (transactionId == null) || (transactionId == "") )  // transactionId is "00" by default
+                          {
+                             if ( debugMode == "1" )
+                             {
+                                alert("Empty or undefined transaction Id");
+                                return;
+                             }
+                             else
+                             {
+        	                      transactionId = "00";
+                             }
+                          }
+
+                          if ( (ctotalAmount == null) || (ctotalAmount == "") )  // ctotalAmount is "00.00" by default
+                          {
+                             if ( debugMode == "1" )
+                             {
+                                alert("Empty or undefined total Amount");
+                                return;
+                             }
+                             else
+                             {
+        	                      ctotalAmount = "00.00";
+                             }
+                          }
+
+                          if ( (cproducts == null) || (cproducts == "") )  // cproducts is all "00" by default
+                          {
+                             if ( debugMode == "1" )
+                             {
+                                alert("Empty or undefined products");
+                                return;
+                             }
+                             else
+                             {
+        	                      cproducts = [
+                                            {
+                        	                    "identifier":"00",
+                         	                    "amount":"00.00",
+                         	                    "currency":"EUR",
+                         	                    "quantity":"00"
+                                            }
+                                           ];
+                             }
+                          }
+
+                          if ( debugMode == "1" )
+                          {
+                             alert("pageType is " + pageType);
+                             alert("Merchant name=" + merchantName);
+                             alert("proto =" + proto);
+                             alert("transaction Id=" + transactionId);
+                             alert("total Amount=" + ctotalAmount);
+                          }
+
+                          veoxa_products = copyProducts(cproducts , debugMode);
+
+                         if ( debugMode == "1" )
+                         {
+                            alert("doing zanox.load " + proto + "//vu.veoxa.com/trafic/retar.php?type=TRANSACTION&boutique=" + merchantName + "&transaction_id=" + transactionId + "&transaction_amount=" + ctotalAmount + "&valid=1&data=" + veoxa_products);
+                         }
+
+                         zanox.load(proto + "//vu.veoxa.com/trafic/retar.php?type=TRANSACTION&boutique=" + merchantName + "&transaction_id=" + transactionId + "&transaction_amount=" + ctotalAmount + "&valid=1&data=" + veoxa_products);
+
+                         break;
+
+        // we should never be here
+        default : if ( debugMode == "1" )
+                  {
+                     alert("Unexpected pageType : " + pageType);
+                  }
+                  break;
+
+     } // switch
+
+  }); // function
+
+</script></div>
+        </div>
+    
+</body></html>

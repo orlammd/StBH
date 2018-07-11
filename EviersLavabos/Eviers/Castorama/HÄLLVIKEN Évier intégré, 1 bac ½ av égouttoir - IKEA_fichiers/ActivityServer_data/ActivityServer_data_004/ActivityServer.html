@@ -1,0 +1,36 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"></head><body><script>
+(function (w, d, namespace, domain, progId, tagId, undefined) {
+w[namespace] = w[namespace] || {}; var act = w[namespace], payload = []; 
+act.tags = act.tags || []; act.tags.push(tagId, payload);
+var protocol = d.location.protocol;
+
+// Start editable part
+payload.push({
+module: 'OrderTracking',
+event: 'Lead',
+order_id: '92296e2c-5be8-4246-8f29-ecb20cb2f163',
+rate_number: 1,
+program_subid1: '%ADVERTISER_SUBID_1%',
+program_subid2: '%ADVERTISER_SUBID_2%',
+voucher_code: '%VOUCHERCODE%',
+publisher_id: %PUBLISHER_ID%
+});
+// End editable part
+
+if (act.get === undefined) {
+var s = d.createElement('script');
+s.type = 'text/javascript';
+s.src = protocol + '//' + domain + '/' + 'affadvc.aspx?ns=' + namespace + 
+'&dm=' + domain + '&site=' + progId + '&tag=' + tagId;
+s.async = false; // always keep false for standard tracking
+(d.getElementsByTagName('body')[0] || d.getElementsByTagName('head')[0]).appendChild(s);
+} else { act.get(w, d, progId, tagId); }
+})(window, document,
+// Start editable part
+'aff_act_1.0', 'act.reussissonsensemble.fr', 14472, 'TAG-ID-1');
+// End editable part
+</script>
+<noscript>
+<img src="https://clic.reussissonsensemble.fr/TrackOrder.aspx?site=14472&event=lead&order_id=%TRACKING_NUMBER%&rate_number=1&publisher_id=%PUBLISHER_ID%&program_subid1=%ADVERTISER_SUBID_1%&program_subid2=%ADVERTISER_SUBID_2%&voucher_code=%VOUCHERCODE%" />
+</noscript></body></html>
