@@ -489,19 +489,19 @@ $SKPOLY
   9
 $TDCREATE
  40
-2459362.622939815
+2459362.637488426
   9
 $TDUCREATE
  40
-2459362.581273148
+2459362.595821759
   9
 $TDUPDATE
  40
-2459362.622939815
+2459362.637488426
   9
 $TDUUPDATE
  40
-2459362.581273148
+2459362.595821759
   9
 $TDINDWG
  40
@@ -549,7 +549,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-A35
+A45
   9
 $SURFTAB1
  70
@@ -929,7 +929,7 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{99D7B787-2BF2-7F7E-8160-B6281F3E15D7}
+{B270C6FA-ACE0-A8F0-3D82-72674DB4F42B}
   9
 $VERSIONGUID
   2
@@ -1073,7 +1073,7 @@ $TILEMODELIGHTSYNCH
   9
 $CMATERIAL
 347
-903
+913
   9
 $SOLIDHIST
 280
@@ -1267,7 +1267,7 @@ TABLE
   2
 VPORT
   5
-8C8
+8D8
 330
 0
 100
@@ -1277,9 +1277,9 @@ AcDbSymbolTable
   0
 VPORT
   5
-8E8
+8F8
 330
-8C8
+8D8
 100
 AcDbSymbolTableRecord
 100
@@ -1395,7 +1395,7 @@ AcDbViewportTableRecord
  63
    250
 361
-92C
+93C
   0
 ENDTAB
   0
@@ -1403,7 +1403,7 @@ TABLE
   2
 LTYPE
   5
-8C5
+8D5
 330
 0
 100
@@ -1413,9 +1413,9 @@ AcDbSymbolTable
   0
 LTYPE
   5
-8D3
+8E3
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -1435,9 +1435,9 @@ ByBlock
   0
 LTYPE
   5
-8D4
+8E4
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -1457,9 +1457,9 @@ ByLayer
   0
 LTYPE
   5
-8D5
+8E5
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -1479,9 +1479,9 @@ Solid line
   0
 LTYPE
   5
-964
+974
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -1509,9 +1509,9 @@ ISO dash __ __ __ __ __ __ __ __ __ __ __ __ __
   0
 LTYPE
   5
-965
+975
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -1539,9 +1539,9 @@ ISO dash space __    __    __    __    __    __
   0
 LTYPE
   5
-966
+976
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -1577,9 +1577,9 @@ ISO long-dash dot ____ . ____ . ____ . ____ . _
   0
 LTYPE
   5
-967
+977
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -1623,9 +1623,9 @@ ISO long-dash double-dot ____ .. ____ .. ____ .
   0
 LTYPE
   5
-968
+978
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -1677,9 +1677,9 @@ ISO long-dash triple-dot ____ ... ____ ... ____
   0
 LTYPE
   5
-969
+979
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -1707,9 +1707,9 @@ ISO dot . . . . . . . . . . . . . . . . . . . .
   0
 LTYPE
   5
-96A
+97A
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -1745,9 +1745,9 @@ ISO long-dash short-dash ____ __ ____ __ ____ _
   0
 LTYPE
   5
-96B
+97B
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -1791,9 +1791,9 @@ ISO long-dash double-short-dash ____ __ __ ____
   0
 LTYPE
   5
-96C
+97C
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -1829,9 +1829,9 @@ ISO dash dot __ . __ . __ . __ . __ . __ . __ .
   0
 LTYPE
   5
-96D
+97D
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -1875,9 +1875,9 @@ ISO double-dash dot __ __ . __ __ . __ __ . __ _
   0
 LTYPE
   5
-96E
+97E
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -1921,9 +1921,9 @@ ISO dash double-dot __ . . __ . . __ . . __ . .
   0
 LTYPE
   5
-96F
+97F
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -1975,9 +1975,9 @@ ISO double-dash double-dot __ __ . . __ __ . . _
   0
 LTYPE
   5
-970
+980
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -2029,9 +2029,9 @@ ISO dash triple-dot __ . . . __ . . . __ . . . _
   0
 LTYPE
   5
-971
+981
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -2091,9 +2091,9 @@ ISO double-dash triple-dot __ __ . . . __ __ . .
   0
 LTYPE
   5
-974
+984
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -2121,7 +2121,7 @@ Batting SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
  75
      0
 340
-972
+982
  46
 2.54
  50
@@ -2139,7 +2139,7 @@ BAT
  75
      0
 340
-973
+983
  46
 2.54
  50
@@ -2157,9 +2157,9 @@ BAT
   0
 LTYPE
   5
-975
+985
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -2203,9 +2203,9 @@ Border __ __ . __ __ . __ __ . __ __ . __ __ .
   0
 LTYPE
   5
-976
+986
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -2249,9 +2249,9 @@ Border (.5x) __.__.__.__.__.__.__.__.__.__.__.
   0
 LTYPE
   5
-977
+987
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -2295,9 +2295,9 @@ Border (2x) ____  ____  .  ____  ____  .  ___
   0
 LTYPE
   5
-978
+988
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -2333,9 +2333,9 @@ Center ____ _ ____ _ ____ _ ____ _ ____ _ ____
   0
 LTYPE
   5
-979
+989
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -2371,9 +2371,9 @@ Center (.5x) ___ _ ___ _ ___ _ ___ _ ___ _ ___
   0
 LTYPE
   5
-97A
+98A
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -2409,9 +2409,9 @@ Center (2x) ________  __  ________  __  _____
   0
 LTYPE
   5
-97B
+98B
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -2447,9 +2447,9 @@ Dash dot __ . __ . __ . __ . __ . __ . __ . __
   0
 LTYPE
   5
-97C
+98C
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -2485,9 +2485,9 @@ Dash dot (.5x) _._._._._._._._._._._._._._._.
   0
 LTYPE
   5
-97D
+98D
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -2523,9 +2523,9 @@ Dash dot (2x) ____  .  ____  .  ____  .  ___
   0
 LTYPE
   5
-97E
+98E
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -2553,9 +2553,9 @@ Dashed __ __ __ __ __ __ __ __ __ __ __ __ __ _
   0
 LTYPE
   5
-97F
+98F
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -2583,9 +2583,9 @@ Dashed (.5x) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
   0
 LTYPE
   5
-980
+990
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -2613,9 +2613,9 @@ Dashed (2x) ____  ____  ____  ____  ____  ___
   0
 LTYPE
   5
-981
+991
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -2659,9 +2659,9 @@ Divide ____ . . ____ . . ____ . . ____ . . ____
   0
 LTYPE
   5
-982
+992
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -2705,9 +2705,9 @@ Divide (.5x) __..__..__..__..__..__..__..__.._
   0
 LTYPE
   5
-983
+993
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -2751,9 +2751,9 @@ Divide (2x) ________  .  .  ________  .  .  _
   0
 LTYPE
   5
-984
+994
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -2781,9 +2781,9 @@ Dot . . . . . . . . . . . . . . . . . . . . . . . .
   0
 LTYPE
   5
-985
+995
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -2811,9 +2811,9 @@ Dot (.5x) ........................................
   0
 LTYPE
   5
-986
+996
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -2841,9 +2841,9 @@ Dot (2x) .  .  .  .  .  .  .  .  .  .  .  .  .  .
   0
 LTYPE
   5
-988
+998
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -2867,7 +2867,7 @@ Drainage ---->---->---->----
  75
      0
 340
-987
+997
  46
 2.54
  50
@@ -2885,9 +2885,9 @@ RIGHT_ARROW
   0
 LTYPE
   5
-98A
+99A
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -2911,7 +2911,7 @@ Drainage reversed----<----<----<----
  75
      0
 340
-989
+999
  46
 2.54
  50
@@ -2929,9 +2929,9 @@ RIGHT_ARROW
   0
 LTYPE
   5
-98C
+99C
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -2959,7 +2959,7 @@ Fenceline circle ----0-----0----0-----0----0-----0--
  75
      0
 340
-98B
+99B
  46
 2.54
  50
@@ -2981,9 +2981,9 @@ CIRC1
   0
 LTYPE
   5
-98E
+99E
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -3011,7 +3011,7 @@ Fenceline square ----[]-----[]----[]-----[]----[]---
  75
      0
 340
-98D
+99D
  46
 2.54
  50
@@ -3033,9 +3033,9 @@ BOX
   0
 LTYPE
   5
-990
+9A0
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -3063,7 +3063,7 @@ Gas line ----GAS----GAS----GAS----GAS----GAS----GAS--
  75
      0
 340
-98F
+99F
  46
 2.54
  50
@@ -3081,9 +3081,9 @@ GAS
   0
 LTYPE
   5
-991
+9A1
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -3111,9 +3111,9 @@ Hidden __ __ __ __ __ __ __ __ __ __ __ __ __ __
   0
 LTYPE
   5
-992
+9A2
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -3141,9 +3141,9 @@ Hidden (.5x) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
   0
 LTYPE
   5
-993
+9A3
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -3171,9 +3171,9 @@ Hidden (2x) ____ ____ ____ ____ ____ ____ ____
   0
 LTYPE
   5
-995
+9A5
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -3201,7 +3201,7 @@ Hot water supply ---- HW ---- HW ---- HW ----
  75
      0
 340
-994
+9A4
  46
 2.54
  50
@@ -3219,9 +3219,9 @@ HW
   0
 LTYPE
   5
-996
+9A6
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -3265,9 +3265,9 @@ Phantom ______  __  __  ______  __  __  ______
   0
 LTYPE
   5
-997
+9A7
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -3311,9 +3311,9 @@ Phantom (.5x) ___ _ _ ___ _ _ ___ _ _ ___ _ _
   0
 LTYPE
   5
-998
+9A8
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -3357,9 +3357,9 @@ Phantom (2x) ____________    ____    ____   _
   0
 LTYPE
   5
-99A
+9AA
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -3383,7 +3383,7 @@ Tracks -|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
  75
      0
 340
-999
+9A9
  46
 6.35
  50
@@ -3401,9 +3401,9 @@ TRACK1
   0
 LTYPE
   5
-99D
+9AD
 330
-8C5
+8D5
 100
 AcDbSymbolTableRecord
 100
@@ -3431,7 +3431,7 @@ Zig zag /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
  75
      0
 340
-99B
+9AB
  46
 5.08
  50
@@ -3449,7 +3449,7 @@ ZIG
  75
      0
 340
-99C
+9AC
  46
 5.08
  50
@@ -3471,7 +3471,7 @@ TABLE
   2
 LAYER
   5
-8C2
+8D2
 330
 0
 100
@@ -3481,9 +3481,9 @@ AcDbSymbolTable
   0
 LAYER
   5
-8D0
+8E0
 330
-8C2
+8D2
 100
 AcDbSymbolTableRecord
 100
@@ -3501,17 +3501,17 @@ Continuous
 370
     25
 390
-8CF
+8DF
 347
-905
+915
 348
 0
   0
 LAYER
   5
-99E
+9AE
 330
-8C2
+8D2
 100
 AcDbSymbolTableRecord
 100
@@ -3529,17 +3529,17 @@ Continuous
 370
     25
 390
-8CF
+8DF
 347
-905
+915
 348
 0
   0
 LAYER
   5
-99F
+9AF
 330
-8C2
+8D2
 100
 AcDbSymbolTableRecord
 100
@@ -3559,17 +3559,17 @@ Continuous
 370
     -3
 390
-8CF
+8DF
 347
-905
+915
 348
 0
   0
 LAYER
   5
-9A0
+9B0
 330
-8C2
+8D2
 100
 AcDbSymbolTableRecord
 100
@@ -3587,17 +3587,17 @@ Continuous
 370
     25
 390
-8CF
+8DF
 347
-905
+915
 348
 0
   0
 LAYER
   5
-9A1
+9B1
 330
-8C2
+8D2
 100
 AcDbSymbolTableRecord
 100
@@ -3615,17 +3615,17 @@ Continuous
 370
     25
 390
-8CF
+8DF
 347
-905
+915
 348
 0
   0
 LAYER
   5
-9A2
+9B2
 330
-8C2
+8D2
 100
 AcDbSymbolTableRecord
 100
@@ -3643,17 +3643,17 @@ Continuous
 370
     25
 390
-8CF
+8DF
 347
-905
+915
 348
 0
   0
 LAYER
   5
-9A3
+9B3
 330
-8C2
+8D2
 100
 AcDbSymbolTableRecord
 100
@@ -3671,17 +3671,17 @@ Continuous
 370
     25
 390
-8CF
+8DF
 347
-905
+915
 348
 0
   0
 LAYER
   5
-9A4
+9B4
 330
-8C2
+8D2
 100
 AcDbSymbolTableRecord
 100
@@ -3699,17 +3699,17 @@ Continuous
 370
     25
 390
-8CF
+8DF
 347
-905
+915
 348
 0
   0
 LAYER
   5
-9A5
+9B5
 330
-8C2
+8D2
 100
 AcDbSymbolTableRecord
 100
@@ -3727,17 +3727,17 @@ Continuous
 370
     25
 390
-8CF
+8DF
 347
-905
+915
 348
 0
   0
 LAYER
   5
-9A6
+9B6
 330
-8C2
+8D2
 100
 AcDbSymbolTableRecord
 100
@@ -3745,7 +3745,7 @@ AcDbLayerTableRecord
   2
 Ouvrant ... Cadre
  70
-     0
+     1
  62
     22
 420
@@ -3755,17 +3755,17 @@ Continuous
 370
     25
 390
-8CF
+8DF
 347
-905
+915
 348
 0
   0
 LAYER
   5
-9A7
+9B7
 330
-8C2
+8D2
 100
 AcDbSymbolTableRecord
 100
@@ -3773,7 +3773,7 @@ AcDbLayerTableRecord
   2
 Ouvrant ... EcharpesTraverses
  70
-     0
+     1
  62
     22
 420
@@ -3783,17 +3783,17 @@ Continuous
 370
     25
 390
-8CF
+8DF
 347
-905
+915
 348
 0
   0
 LAYER
   5
-9A8
+9B8
 330
-8C2
+8D2
 100
 AcDbSymbolTableRecord
 100
@@ -3811,17 +3811,17 @@ Continuous
 370
     25
 390
-8CF
+8DF
 347
-905
+915
 348
 0
   0
 LAYER
   5
-9A9
+9B9
 330
-8C2
+8D2
 100
 AcDbSymbolTableRecord
 100
@@ -3839,17 +3839,17 @@ Continuous
 370
     25
 390
-8CF
+8DF
 347
-905
+915
 348
 0
   0
 LAYER
   5
-9AA
+9BA
 330
-8C2
+8D2
 100
 AcDbSymbolTableRecord
 100
@@ -3857,7 +3857,7 @@ AcDbLayerTableRecord
   2
 Ouvrant ... Cadre ... Feuillure
  70
-     0
+     1
  62
     16
 420
@@ -3867,17 +3867,17 @@ Continuous
 370
     25
 390
-8CF
+8DF
 347
-905
+915
 348
 0
   0
 LAYER
   5
-9AB
+9BB
 330
-8C2
+8D2
 100
 AcDbSymbolTableRecord
 100
@@ -3895,17 +3895,17 @@ Continuous
 370
     25
 390
-8CF
+8DF
 347
-905
+915
 348
 0
   0
 LAYER
   5
-9AC
+9BC
 330
-8C2
+8D2
 100
 AcDbSymbolTableRecord
 100
@@ -3923,17 +3923,17 @@ Continuous
 370
     25
 390
-8CF
+8DF
 347
-905
+915
 348
 0
   0
 LAYER
   5
-9AD
+9BD
 330
-8C2
+8D2
 100
 AcDbSymbolTableRecord
 100
@@ -3951,17 +3951,17 @@ Continuous
 370
     25
 390
-8CF
+8DF
 347
-905
+915
 348
 0
   0
 LAYER
   5
-9AE
+9BE
 330
-8C2
+8D2
 100
 AcDbSymbolTableRecord
 100
@@ -3979,17 +3979,17 @@ Continuous
 370
     25
 390
-8CF
+8DF
 347
-905
+915
 348
 0
   0
 LAYER
   5
-9AF
+9BF
 330
-8C2
+8D2
 100
 AcDbSymbolTableRecord
 100
@@ -3997,7 +3997,7 @@ AcDbLayerTableRecord
   2
 Ouvrant ... EcharpesTraverses ... Feuillure
  70
-     0
+     1
  62
     16
 420
@@ -4007,9 +4007,9 @@ Continuous
 370
     25
 390
-8CF
+8DF
 347
-905
+915
 348
 0
   0
@@ -4019,7 +4019,7 @@ TABLE
   2
 STYLE
   5
-8C3
+8D3
 330
 0
 100
@@ -4029,9 +4029,9 @@ AcDbSymbolTable
   0
 STYLE
   5
-8D1
+8E1
 330
-8C3
+8D3
 100
 AcDbSymbolTableRecord
 100
@@ -4057,9 +4057,9 @@ txt
   0
 STYLE
   5
-962
+972
 330
-8C3
+8D3
 100
 AcDbSymbolTableRecord
 100
@@ -4085,9 +4085,9 @@ txt
   0
 STYLE
   5
-972
+982
 330
-8C3
+8D3
 100
 AcDbSymbolTableRecord
 100
@@ -4113,9 +4113,9 @@ ltypeshp.shx
   0
 STYLE
   5
-973
+983
 330
-8C3
+8D3
 100
 AcDbSymbolTableRecord
 100
@@ -4141,9 +4141,9 @@ ltypeshp.shx
   0
 STYLE
   5
-987
+997
 330
-8C3
+8D3
 100
 AcDbSymbolTableRecord
 100
@@ -4169,9 +4169,9 @@ qcadshp.shx
   0
 STYLE
   5
-989
+999
 330
-8C3
+8D3
 100
 AcDbSymbolTableRecord
 100
@@ -4197,9 +4197,9 @@ qcadshp.shx
   0
 STYLE
   5
-98B
+99B
 330
-8C3
+8D3
 100
 AcDbSymbolTableRecord
 100
@@ -4225,9 +4225,9 @@ ltypeshp.shx
   0
 STYLE
   5
-98D
+99D
 330
-8C3
+8D3
 100
 AcDbSymbolTableRecord
 100
@@ -4253,9 +4253,9 @@ ltypeshp.shx
   0
 STYLE
   5
-98F
+99F
 330
-8C3
+8D3
 100
 AcDbSymbolTableRecord
 100
@@ -4281,9 +4281,9 @@ STANDARD
   0
 STYLE
   5
-994
+9A4
 330
-8C3
+8D3
 100
 AcDbSymbolTableRecord
 100
@@ -4309,9 +4309,9 @@ STANDARD
   0
 STYLE
   5
-999
+9A9
 330
-8C3
+8D3
 100
 AcDbSymbolTableRecord
 100
@@ -4337,9 +4337,9 @@ ltypeshp.shx
   0
 STYLE
   5
-99B
+9AB
 330
-8C3
+8D3
 100
 AcDbSymbolTableRecord
 100
@@ -4365,9 +4365,9 @@ ltypeshp.shx
   0
 STYLE
   5
-99C
+9AC
 330
-8C3
+8D3
 100
 AcDbSymbolTableRecord
 100
@@ -4393,9 +4393,9 @@ ltypeshp.shx
   0
 STYLE
   5
-A26
+A36
 330
-8C3
+8D3
 100
 AcDbSymbolTableRecord
 100
@@ -4427,9 +4427,9 @@ Liberation Sans
   0
 STYLE
   5
-A27
+A37
 330
-8C3
+8D3
 100
 AcDbSymbolTableRecord
 100
@@ -4461,9 +4461,9 @@ Liberation Sans
   0
 STYLE
   5
-A28
+A38
 330
-8C3
+8D3
 100
 AcDbSymbolTableRecord
 100
@@ -4495,9 +4495,9 @@ Liberation Sans
   0
 STYLE
   5
-A29
+A39
 330
-8C3
+8D3
 100
 AcDbSymbolTableRecord
 100
@@ -4529,9 +4529,9 @@ Liberation Sans
   0
 STYLE
   5
-A2A
+A3A
 330
-8C3
+8D3
 100
 AcDbSymbolTableRecord
 100
@@ -4563,9 +4563,9 @@ Liberation Sans
   0
 STYLE
   5
-A2B
+A3B
 330
-8C3
+8D3
 100
 AcDbSymbolTableRecord
 100
@@ -4601,7 +4601,7 @@ TABLE
   2
 VIEW
   5
-8C6
+8D6
 330
 0
 100
@@ -4615,7 +4615,7 @@ TABLE
   2
 UCS
   5
-8C7
+8D7
 330
 0
 100
@@ -4629,7 +4629,7 @@ TABLE
   2
 APPID
   5
-8C9
+8D9
 330
 0
 100
@@ -4639,9 +4639,9 @@ AcDbSymbolTable
   0
 APPID
   5
-8D2
+8E2
 330
-8C9
+8D9
 100
 AcDbSymbolTableRecord
 100
@@ -4653,9 +4653,9 @@ ACAD
   0
 APPID
   5
-92D
+93D
 330
-8C9
+8D9
 100
 AcDbSymbolTableRecord
 100
@@ -4671,7 +4671,7 @@ TABLE
   2
 DIMSTYLE
   5
-8CA
+8DA
 330
 0
 100
@@ -4683,9 +4683,9 @@ AcDbDimStyleTable
   0
 DIMSTYLE
 105
-8E6
+8F6
 330
-8CA
+8DA
 100
 AcDbSymbolTableRecord
 100
@@ -4697,11 +4697,11 @@ Standard
 178
      0
 340
-8D1
+8E1
   0
 DIMSTYLE
 105
-963
+973
 102
 {ACAD_REACTORS
 330
@@ -4719,7 +4719,7 @@ DIMSTYLE
 102
 }
 330
-8CA
+8DA
 100
 AcDbSymbolTableRecord
 100
@@ -4745,7 +4745,7 @@ QCADDimStyle
 178
      0
 340
-962
+972
   0
 ENDTAB
   0
@@ -4753,7 +4753,7 @@ TABLE
   2
 BLOCK_RECORD
   5
-8C1
+8D1
 330
 0
 100
@@ -4763,9 +4763,9 @@ AcDbSymbolTable
   0
 BLOCK_RECORD
   5
-8DE
+8EE
 330
-8C1
+8D1
 100
 AcDbSymbolTableRecord
 100
@@ -4773,7 +4773,7 @@ AcDbBlockTableRecord
   2
 *Model_Space
 340
-8E1
+8F1
  70
      0
 280
@@ -4783,9 +4783,9 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-8DA
+8EA
 330
-8C1
+8D1
 100
 AcDbSymbolTableRecord
 100
@@ -4793,7 +4793,7 @@ AcDbBlockTableRecord
   2
 *Paper_Space
 340
-8DD
+8ED
  70
      0
 280
@@ -4803,9 +4803,9 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-8E2
+8F2
 330
-8C1
+8D1
 100
 AcDbSymbolTableRecord
 100
@@ -4813,7 +4813,7 @@ AcDbBlockTableRecord
   2
 *Paper_Space0
 340
-8E5
+8F5
  70
      0
 280
@@ -4823,9 +4823,9 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-9B0
+9C0
 330
-8C1
+8D1
 100
 AcDbSymbolTableRecord
 100
@@ -4849,15 +4849,15 @@ B9
   0
 BLOCK_RECORD
   5
-9B3
+9C3
 330
-8C1
+8D1
 100
 AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-30x90_TraverseHorizontaleOuvrant_Profil
+30x100_TraverseHorizontaleOuvrant_Profil
 340
 0
 102
@@ -4875,15 +4875,15 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-9B6
+9C6
 330
-8C1
+8D1
 100
 AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-30x95_CadreHorizontalOuvrant_Haut_Profil
+30x115_CadreHorizontalOuvrant_Haut_Profil
 340
 0
 102
@@ -4901,9 +4901,9 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-9B9
+9C9
 330
-8C1
+8D1
 100
 AcDbSymbolTableRecord
 100
@@ -4929,15 +4929,15 @@ TenonCadreHorizontal_Ouvrants
   0
 BLOCK_RECORD
   5
-9BC
+9CC
 330
-8C1
+8D1
 100
 AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-30x100_CadreHorizontalOuvrant_Bas_Profil
+30x115_CadreHorizontalOuvrant_Bas_Profil
 340
 0
 102
@@ -4955,15 +4955,15 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-9BF
+9CF
 330
-8C1
+8D1
 100
 AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-30x95_CadreHorizontalOuvrant_Haut
+30x115_CadreHorizontalOuvrant_Haut
 340
 0
 102
@@ -4981,9 +4981,9 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-9C2
+9D2
 330
-8C1
+8D1
 100
 AcDbSymbolTableRecord
 100
@@ -5009,15 +5009,15 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-9C5
+9D5
 330
-8C1
+8D1
 100
 AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-30x100_CadreHorizontalOuvrant_Bas
+30x115_CadreHorizontalOuvrant_Bas
 340
 0
 102
@@ -5035,9 +5035,9 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-9C8
+9D8
 330
-8C1
+8D1
 100
 AcDbSymbolTableRecord
 100
@@ -5063,15 +5063,15 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-9CB
+9DB
 330
-8C1
+8D1
 100
 AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-30x90_TraverseHorizontaleOuvrant
+30x100_TraverseHorizontaleOuvrant
 340
 0
 102
@@ -5089,9 +5089,9 @@ A0
   0
 BLOCK_RECORD
   5
-9CE
+9DE
 330
-8C1
+8D1
 100
 AcDbSymbolTableRecord
 100
@@ -5115,9 +5115,9 @@ TenonTraverses_Ouvrants
   0
 BLOCK_RECORD
   5
-9D1
+9E1
 330
-8C1
+8D1
 100
 AcDbSymbolTableRecord
 100
@@ -5143,9 +5143,9 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-9D4
+9E4
 330
-8C1
+8D1
 100
 AcDbSymbolTableRecord
 100
@@ -5169,9 +5169,9 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-9D7
+9E7
 330
-8C1
+8D1
 100
 AcDbSymbolTableRecord
 100
@@ -5195,9 +5195,9 @@ B6
   0
 BLOCK_RECORD
   5
-9DA
+9EA
 330
-8C1
+8D1
 100
 AcDbSymbolTableRecord
 100
@@ -5221,9 +5221,9 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-9DD
+9ED
 330
-8C1
+8D1
 100
 AcDbSymbolTableRecord
 100
@@ -5241,9 +5241,9 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-9E9
+9F9
 330
-8C1
+8D1
 100
 AcDbSymbolTableRecord
 100
@@ -5261,9 +5261,9 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-9F5
+A05
 330
-8C1
+8D1
 100
 AcDbSymbolTableRecord
 100
@@ -5281,9 +5281,9 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-A01
+A11
 330
-8C1
+8D1
 100
 AcDbSymbolTableRecord
 100
@@ -5301,9 +5301,9 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-A0E
+A1E
 330
-8C1
+8D1
 100
 AcDbSymbolTableRecord
 100
@@ -5321,9 +5321,9 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-A1A
+A2A
 330
-8C1
+8D1
 100
 AcDbSymbolTableRecord
 100
@@ -5349,9 +5349,9 @@ BLOCKS
   0
 BLOCK
   5
-8DF
+8EF
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -5375,9 +5375,9 @@ AcDbBlockBegin
   0
 ENDBLK
   5
-8E0
+8F0
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -5387,9 +5387,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-8DB
+8EB
 330
-8DA
+8EA
 100
 AcDbEntity
  67
@@ -5415,9 +5415,9 @@ AcDbBlockBegin
   0
 ENDBLK
   5
-8DC
+8EC
 330
-8DA
+8EA
 100
 AcDbEntity
  67
@@ -5429,9 +5429,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-8E3
+8F3
 330
-8E2
+8F2
 100
 AcDbEntity
   8
@@ -5455,9 +5455,9 @@ AcDbBlockBegin
   0
 ENDBLK
   5
-8E4
+8F4
 330
-8E2
+8F2
 100
 AcDbEntity
   8
@@ -5467,9 +5467,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-9B1
+9C1
 330
-9B0
+9C0
 100
 AcDbEntity
   8
@@ -5495,7 +5495,7 @@ LINE
   5
 B7
 330
-9B0
+9C0
 100
 AcDbEntity
   8
@@ -5519,7 +5519,7 @@ LINE
   5
 BA
 330
-9B0
+9C0
 100
 AcDbEntity
   8
@@ -5543,7 +5543,7 @@ LINE
   5
 BB
 330
-9B0
+9C0
 100
 AcDbEntity
   8
@@ -5567,7 +5567,7 @@ LINE
   5
 BC
 330
-9B0
+9C0
 100
 AcDbEntity
   8
@@ -5591,7 +5591,7 @@ LINE
   5
 BE
 330
-9B0
+9C0
 100
 AcDbEntity
   8
@@ -5615,7 +5615,7 @@ LINE
   5
 670
 330
-9B0
+9C0
 100
 AcDbEntity
   8
@@ -5637,9 +5637,9 @@ AcDbLine
   0
 ENDBLK
   5
-9B2
+9C2
 330
-9B0
+9C0
 100
 AcDbEntity
   8
@@ -5649,9 +5649,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-9B4
+9C4
 330
-9B3
+9C3
 100
 AcDbEntity
   8
@@ -5659,7 +5659,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-30x90_TraverseHorizontaleOuvrant_Profil
+30x100_TraverseHorizontaleOuvrant_Profil
  70
      0
  10
@@ -5669,15 +5669,15 @@ AcDbBlockBegin
  30
 0.0
   3
-30x90_TraverseHorizontaleOuvrant_Profil
+30x100_TraverseHorizontaleOuvrant_Profil
   1
-30x90_TraverseHorizontaleOuvrant_Profil
+30x100_TraverseHorizontaleOuvrant_Profil
   0
 LINE
   5
 290
 330
-9B3
+9C3
 100
 AcDbEntity
   8
@@ -5685,15 +5685,15 @@ Ouvrant ... EcharpesTraverses
 100
 AcDbLine
  10
-0.0
+-0.0000000000000253
  20
-0.0
+-5.0
  30
 0.0
  11
-0.0000000000004547
+0.00000000000048
  21
-90.0
+95.0
  31
 0.0
   0
@@ -5701,7 +5701,7 @@ LINE
   5
 291
 330
-9B3
+9C3
 100
 AcDbEntity
   8
@@ -5709,23 +5709,47 @@ Ouvrant ... EcharpesTraverses
 100
 AcDbLine
  10
-30.0
+29.99999999999998
  20
--0.0000000000001137
+-5.0
+ 30
+0.0
+ 11
+30.00000000000048
+ 21
+95.0
+ 31
+0.0
+  0
+LINE
+  5
+8C8
+330
+9C3
+100
+AcDbEntity
+  8
+Ouvrant ... EcharpesTraverses
+100
+AcDbLine
+ 10
+0.000000000000455
+ 20
+95.0
  30
 0.0
  11
 30.00000000000045
  21
-89.99999999999989
+95.0
  31
 0.0
   0
 LINE
   5
-2A0
+8C9
 330
-9B3
+9C3
 100
 AcDbEntity
   8
@@ -5733,47 +5757,23 @@ Ouvrant ... EcharpesTraverses
 100
 AcDbLine
  10
-0.0000000000004547
+0.0000000000000003
  20
-90.0
- 30
-0.0
- 11
-30.00000000000045
- 21
-90.0
- 31
-0.0
-  0
-LINE
-  5
-2A4
-330
-9B3
-100
-AcDbEntity
-  8
-Ouvrant ... EcharpesTraverses
-100
-AcDbLine
- 10
-0.0
- 20
-0.0
+-5.0
  30
 0.0
  11
 30.0
  21
-0.0
+-5.0
  31
 0.0
   0
 LINE
   5
-2A6
+8CA
 330
-9B3
+9C3
 100
 AcDbEntity
   8
@@ -5781,47 +5781,47 @@ Ouvrant ... EcharpesTraverses
 100
 AcDbLine
  10
-30.00000000000045
+0.000000000000455
  20
-89.99999999999989
+95.0
  30
 0.0
  11
-0.0
- 21
-0.0
- 31
-0.0
-  0
-LINE
-  5
-2A7
-330
-9B3
-100
-AcDbEntity
-  8
-Ouvrant ... EcharpesTraverses
-100
-AcDbLine
- 10
 30.0
+ 21
+-5.0
+ 31
+0.0
+  0
+LINE
+  5
+8CB
+330
+9C3
+100
+AcDbEntity
+  8
+Ouvrant ... EcharpesTraverses
+100
+AcDbLine
+ 10
+0.0000000000000003
  20
--0.0000000000001137
+-5.0
  30
 0.0
  11
-0.0000000000004547
+30.00000000000045
  21
-90.0
+95.0
  31
 0.0
   0
 ENDBLK
   5
-9B5
+9C5
 330
-9B3
+9C3
 100
 AcDbEntity
   8
@@ -5831,9 +5831,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-9B7
+9C7
 330
-9B6
+9C6
 100
 AcDbEntity
   8
@@ -5841,7 +5841,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-30x95_CadreHorizontalOuvrant_Haut_Profil
+30x115_CadreHorizontalOuvrant_Haut_Profil
  70
      0
  10
@@ -5851,43 +5851,19 @@ AcDbBlockBegin
  30
 0.0
   3
-30x95_CadreHorizontalOuvrant_Haut_Profil
+30x115_CadreHorizontalOuvrant_Haut_Profil
   1
-30x95_CadreHorizontalOuvrant_Haut_Profil
-  0
-LINE
-  5
-260
-330
-9B6
-100
-AcDbEntity
-  8
-Ouvrant ... Cadre
-100
-AcDbLine
- 10
-0.0
- 20
--95.0
- 30
-0.0
- 11
-30.0
- 21
--95.0
- 31
-0.0
+30x115_CadreHorizontalOuvrant_Haut_Profil
   0
 LINE
   5
 261
 330
-9B6
+9C6
 100
 AcDbEntity
   8
-Ouvrant ... Cadre
+Ouvrant ... EcharpesTraverses
 100
 AcDbLine
  10
@@ -5907,11 +5883,11 @@ LINE
   5
 26C
 330
-9B6
+9C6
 100
 AcDbEntity
   8
-Ouvrant ... Cadre
+Ouvrant ... EcharpesTraverses
 100
 AcDbLine
  10
@@ -5923,7 +5899,7 @@ AcDbLine
  11
 0.0
  21
--95.0
+-115.0
  31
 0.0
   0
@@ -5931,11 +5907,11 @@ LINE
   5
 27B
 330
-9B6
+9C6
 100
 AcDbEntity
   8
-Ouvrant ... Cadre
+Ouvrant ... EcharpesTraverses
 100
 AcDbLine
  10
@@ -5947,7 +5923,7 @@ AcDbLine
  11
 30.0
  21
--95.0
+-115.0
  31
 0.0
   0
@@ -5955,11 +5931,11 @@ LINE
   5
 28B
 330
-9B6
+9C6
 100
 AcDbEntity
   8
-Ouvrant ... Cadre
+Ouvrant ... EcharpesTraverses
 100
 AcDbLine
  10
@@ -5971,7 +5947,7 @@ AcDbLine
  11
 30.0
  21
--95.0
+-115.0
  31
 0.0
   0
@@ -5979,11 +5955,11 @@ LINE
   5
 28C
 330
-9B6
+9C6
 100
 AcDbEntity
   8
-Ouvrant ... Cadre
+Ouvrant ... EcharpesTraverses
 100
 AcDbLine
  10
@@ -5995,15 +5971,39 @@ AcDbLine
  11
 0.0
  21
--95.0
+-115.0
+ 31
+0.0
+  0
+LINE
+  5
+8C4
+330
+9C6
+100
+AcDbEntity
+  8
+Ouvrant ... EcharpesTraverses
+100
+AcDbLine
+ 10
+0.000000000000007
+ 20
+-115.0
+ 30
+0.0
+ 11
+30.00000000000001
+ 21
+-115.0
  31
 0.0
   0
 ENDBLK
   5
-9B8
+9C8
 330
-9B6
+9C6
 100
 AcDbEntity
   8
@@ -6013,9 +6013,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-9BA
+9CA
 330
-9B9
+9C9
 100
 AcDbEntity
   8
@@ -6039,37 +6039,13 @@ TenonCadreHorizontal_Ouvrants
   0
 LINE
   5
-283
-330
-9B9
-100
-AcDbEntity
-  8
-Ouvrant ... Cadre
-100
-AcDbLine
- 10
--0.0000000000004547
- 20
-60.0
- 30
-0.0
- 11
-10.0
- 21
-60.0
- 31
-0.0
-  0
-LINE
-  5
 286
 330
-9B9
+9C9
 100
 AcDbEntity
   8
-Ouvrant ... Cadre
+Ouvrant ... EcharpesTraverses
 100
 AcDbLine
  10
@@ -6089,17 +6065,17 @@ LINE
   5
 288
 330
-9B9
+9C9
 100
 AcDbEntity
   8
-Ouvrant ... Cadre
+Ouvrant ... EcharpesTraverses
 100
 AcDbLine
  10
 -0.0000000000004547
  20
-60.0
+75.0
  30
 0.0
  11
@@ -6113,17 +6089,17 @@ LINE
   5
 289
 330
-9B9
+9C9
 100
 AcDbEntity
   8
-Ouvrant ... Cadre
+Ouvrant ... EcharpesTraverses
 100
 AcDbLine
  10
 9.999999999999545
  20
-60.0
+75.0
  30
 0.0
  11
@@ -6133,11 +6109,35 @@ AcDbLine
  31
 0.0
   0
+LINE
+  5
+8C1
+330
+9C9
+100
+AcDbEntity
+  8
+Ouvrant ... EcharpesTraverses
+100
+AcDbLine
+ 10
+0.0000000000000046
+ 20
+75.0
+ 30
+0.0
+ 11
+10.00000000000001
+ 21
+75.0
+ 31
+0.0
+  0
 ENDBLK
   5
-9BB
+9CB
 330
-9B9
+9C9
 100
 AcDbEntity
   8
@@ -6147,9 +6147,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-9BD
+9CD
 330
-9BC
+9CC
 100
 AcDbEntity
   8
@@ -6157,7 +6157,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-30x100_CadreHorizontalOuvrant_Bas_Profil
+30x115_CadreHorizontalOuvrant_Bas_Profil
  70
      0
  10
@@ -6167,15 +6167,15 @@ AcDbBlockBegin
  30
 0.0
   3
-30x100_CadreHorizontalOuvrant_Bas_Profil
+30x115_CadreHorizontalOuvrant_Bas_Profil
   1
-30x100_CadreHorizontalOuvrant_Bas_Profil
+30x115_CadreHorizontalOuvrant_Bas_Profil
   0
 LINE
   5
 265
 330
-9BC
+9CC
 100
 AcDbEntity
   8
@@ -6199,7 +6199,7 @@ LINE
   5
 2AA
 330
-9BC
+9CC
 100
 AcDbEntity
   8
@@ -6209,7 +6209,7 @@ AcDbLine
  10
 0.0
  20
-100.0
+115.0
  30
 0.0
  11
@@ -6223,7 +6223,7 @@ LINE
   5
 2B3
 330
-9BC
+9CC
 100
 AcDbEntity
   8
@@ -6233,7 +6233,7 @@ AcDbLine
  10
 30.0
  20
-100.0
+115.0
  30
 0.0
  11
@@ -6245,33 +6245,9 @@ AcDbLine
   0
 LINE
   5
-2B4
-330
-9BC
-100
-AcDbEntity
-  8
-Ouvrant ... EcharpesTraverses
-100
-AcDbLine
- 10
-0.0
- 20
-100.0
- 30
-0.0
- 11
-30.0
- 21
-100.0
- 31
-0.0
-  0
-LINE
-  5
 2B5
 330
-9BC
+9CC
 100
 AcDbEntity
   8
@@ -6281,7 +6257,7 @@ AcDbLine
  10
 30.0
  20
-100.0
+115.0
  30
 0.0
  11
@@ -6295,7 +6271,7 @@ LINE
   5
 2B6
 330
-9BC
+9CC
 100
 AcDbEntity
   8
@@ -6311,15 +6287,39 @@ AcDbLine
  11
 0.0
  21
-100.0
+115.0
+ 31
+0.0
+  0
+LINE
+  5
+8C0
+330
+9CC
+100
+AcDbEntity
+  8
+Ouvrant ... EcharpesTraverses
+100
+AcDbLine
+ 10
+0.000000000000007
+ 20
+115.0
+ 30
+0.0
+ 11
+30.00000000000001
+ 21
+115.0
  31
 0.0
   0
 ENDBLK
   5
-9BE
+9CE
 330
-9BC
+9CC
 100
 AcDbEntity
   8
@@ -6329,9 +6329,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-9C0
+9D0
 330
-9BF
+9CF
 100
 AcDbEntity
   8
@@ -6339,7 +6339,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-30x95_CadreHorizontalOuvrant_Haut
+30x115_CadreHorizontalOuvrant_Haut
  70
      0
  10
@@ -6349,19 +6349,19 @@ AcDbBlockBegin
  30
 0.0
   3
-30x95_CadreHorizontalOuvrant_Haut
+30x115_CadreHorizontalOuvrant_Haut
   1
-30x95_CadreHorizontalOuvrant_Haut
+30x115_CadreHorizontalOuvrant_Haut
   0
 LINE
   5
 1FF
 330
-9BF
+9CF
 100
 AcDbEntity
   8
-Ouvrant ... Cadre
+Ouvrant ... EcharpesTraverses
 100
 AcDbLine
  10
@@ -6374,30 +6374,6 @@ AcDbLine
 619.0
  21
 0.0
- 31
-0.0
-  0
-LINE
-  5
-202
-330
-9BF
-100
-AcDbEntity
-  8
-Ouvrant ... Cadre
-100
-AcDbLine
- 10
-0.0000000000000058
- 20
-95.0
- 30
-0.0
- 11
-619.0
- 21
-95.0
  31
 0.0
   0
@@ -6405,17 +6381,17 @@ LINE
   5
 203
 330
-9BF
+9CF
 100
 AcDbEntity
   8
-Ouvrant ... Cadre
+Ouvrant ... EcharpesTraverses
 100
 AcDbLine
  10
-0.0000000000000058
+0.000000000000007
  20
-95.0
+115.0
  30
 0.0
  11
@@ -6429,17 +6405,17 @@ LINE
   5
 204
 330
-9BF
+9CF
 100
 AcDbEntity
   8
-Ouvrant ... Cadre
+Ouvrant ... EcharpesTraverses
 100
 AcDbLine
  10
 619.0
  20
-95.0
+115.0
  30
 0.0
  11
@@ -6453,11 +6429,11 @@ LINE
   5
 205
 330
-9BF
+9CF
 100
 AcDbEntity
   8
-Ouvrant ... Cadre
+Ouvrant ... EcharpesTraverses
   6
 ACAD_ISO03W100
 100
@@ -6465,7 +6441,7 @@ AcDbLine
  10
 -75.0
  20
-77.5
+95.0
  30
 0.0
  11
@@ -6479,11 +6455,11 @@ LINE
   5
 206
 330
-9BF
+9CF
 100
 AcDbEntity
   8
-Ouvrant ... Cadre
+Ouvrant ... EcharpesTraverses
   6
 ACAD_ISO03W100
 100
@@ -6491,7 +6467,7 @@ AcDbLine
  10
 694.0
  20
-77.5
+95.0
  30
 0.0
  11
@@ -6505,11 +6481,11 @@ LINE
   5
 209
 330
-9BF
+9CF
 100
 AcDbEntity
   8
-Ouvrant ... Cadre
+Ouvrant ... EcharpesTraverses
   6
 ACAD_ISO03W100
 100
@@ -6517,13 +6493,13 @@ AcDbLine
  10
 -75.0
  20
-77.5
+95.0
  30
 0.0
  11
 0.0
  21
-77.5
+95.0
  31
 0.0
   0
@@ -6531,11 +6507,11 @@ LINE
   5
 20A
 330
-9BF
+9CF
 100
 AcDbEntity
   8
-Ouvrant ... Cadre
+Ouvrant ... EcharpesTraverses
   6
 ACAD_ISO03W100
 100
@@ -6543,13 +6519,13 @@ AcDbLine
  10
 619.0000000000001
  20
-77.5
+95.0
  30
 0.0
  11
 693.9999999999999
  21
-77.5
+95.0
  31
 0.0
   0
@@ -6557,11 +6533,11 @@ LINE
   5
 20B
 330
-9BF
+9CF
 100
 AcDbEntity
   8
-Ouvrant ... Cadre
+Ouvrant ... EcharpesTraverses
   6
 ACAD_ISO03W100
 100
@@ -6583,11 +6559,11 @@ LINE
   5
 20C
 330
-9BF
+9CF
 100
 AcDbEntity
   8
-Ouvrant ... Cadre
+Ouvrant ... EcharpesTraverses
   6
 ACAD_ISO03W100
 100
@@ -6605,11 +6581,35 @@ AcDbLine
  31
 0.0
   0
+LINE
+  5
+8C2
+330
+9CF
+100
+AcDbEntity
+  8
+Ouvrant ... EcharpesTraverses
+100
+AcDbLine
+ 10
+0.000000000000007
+ 20
+115.0
+ 30
+0.0
+ 11
+619.0
+ 21
+115.0
+ 31
+0.0
+  0
 ENDBLK
   5
-9C1
+9D1
 330
-9BF
+9CF
 100
 AcDbEntity
   8
@@ -6619,9 +6619,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-9C3
+9D3
 330
-9C2
+9D2
 100
 AcDbEntity
   8
@@ -6647,7 +6647,7 @@ LINE
   5
 68
 330
-9C2
+9D2
 100
 AcDbEntity
   8
@@ -6671,7 +6671,7 @@ LINE
   5
 6B
 330
-9C2
+9D2
 100
 AcDbEntity
   8
@@ -6695,7 +6695,7 @@ LINE
   5
 6C
 330
-9C2
+9D2
 100
 AcDbEntity
   8
@@ -6719,7 +6719,7 @@ LINE
   5
 72
 330
-9C2
+9D2
 100
 AcDbEntity
   8
@@ -6741,9 +6741,9 @@ AcDbLine
   0
 ENDBLK
   5
-9C4
+9D4
 330
-9C2
+9D2
 100
 AcDbEntity
   8
@@ -6753,9 +6753,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-9C6
+9D6
 330
-9C5
+9D5
 100
 AcDbEntity
   8
@@ -6763,7 +6763,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-30x100_CadreHorizontalOuvrant_Bas
+30x115_CadreHorizontalOuvrant_Bas
  70
      0
  10
@@ -6773,15 +6773,15 @@ AcDbBlockBegin
  30
 0.0
   3
-30x100_CadreHorizontalOuvrant_Bas
+30x115_CadreHorizontalOuvrant_Bas
   1
-30x100_CadreHorizontalOuvrant_Bas
+30x115_CadreHorizontalOuvrant_Bas
   0
 LINE
   5
 1CE
 330
-9C5
+9D5
 100
 AcDbEntity
   8
@@ -6805,7 +6805,7 @@ LINE
   5
 1CF
 330
-9C5
+9D5
 100
 AcDbEntity
   8
@@ -6829,7 +6829,7 @@ LINE
   5
 1D7
 330
-9C5
+9D5
 100
 AcDbEntity
   8
@@ -6855,7 +6855,7 @@ LINE
   5
 1D8
 330
-9C5
+9D5
 100
 AcDbEntity
   8
@@ -6881,7 +6881,7 @@ LINE
   5
 1D9
 330
-9C5
+9D5
 100
 AcDbEntity
   8
@@ -6907,7 +6907,7 @@ LINE
   5
 1DA
 330
-9C5
+9D5
 100
 AcDbEntity
   8
@@ -6933,7 +6933,7 @@ LINE
   5
 1DB
 330
-9C5
+9D5
 100
 AcDbEntity
   8
@@ -6959,7 +6959,7 @@ LINE
   5
 1DD
 330
-9C5
+9D5
 100
 AcDbEntity
   8
@@ -6985,7 +6985,7 @@ LINE
   5
 1ED
 330
-9C5
+9D5
 100
 AcDbEntity
   8
@@ -7009,7 +7009,7 @@ LINE
   5
 8BC
 330
-9C5
+9D5
 100
 AcDbEntity
   8
@@ -7031,9 +7031,9 @@ AcDbLine
   0
 ENDBLK
   5
-9C7
+9D7
 330
-9C5
+9D5
 100
 AcDbEntity
   8
@@ -7043,9 +7043,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-9C9
+9D9
 330
-9C8
+9D8
 100
 AcDbEntity
   8
@@ -7071,7 +7071,7 @@ LINE
   5
 54
 330
-9C8
+9D8
 100
 AcDbEntity
   8
@@ -7095,7 +7095,7 @@ LINE
   5
 55
 330
-9C8
+9D8
 100
 AcDbEntity
   8
@@ -7119,7 +7119,7 @@ LINE
   5
 57
 330
-9C8
+9D8
 100
 AcDbEntity
   8
@@ -7143,7 +7143,7 @@ LINE
   5
 58
 330
-9C8
+9D8
 100
 AcDbEntity
   8
@@ -7165,9 +7165,9 @@ AcDbLine
   0
 ENDBLK
   5
-9CA
+9DA
 330
-9C8
+9D8
 100
 AcDbEntity
   8
@@ -7177,9 +7177,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-9CC
+9DC
 330
-9CB
+9DB
 100
 AcDbEntity
   8
@@ -7187,7 +7187,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-30x90_TraverseHorizontaleOuvrant
+30x100_TraverseHorizontaleOuvrant
  70
      0
  10
@@ -7197,15 +7197,15 @@ AcDbBlockBegin
  30
 0.0
   3
-30x90_TraverseHorizontaleOuvrant
+30x100_TraverseHorizontaleOuvrant
   1
-30x90_TraverseHorizontaleOuvrant
+30x100_TraverseHorizontaleOuvrant
   0
 LINE
   5
 1C9
 330
-9CB
+9DB
 100
 AcDbEntity
   8
@@ -7217,13 +7217,13 @@ AcDbLine
  10
 47.0
  20
-80.0
+85.0
  30
 0.0
  11
 -28.0
  21
-80.00000000000001
+85.00000000000001
  31
 0.0
   0
@@ -7231,7 +7231,7 @@ LINE
   5
 1CA
 330
-9CB
+9DB
 100
 AcDbEntity
   8
@@ -7243,13 +7243,13 @@ AcDbLine
  10
 47.0
  20
-20.0
+15.0
  30
 0.0
  11
 -28.0
  21
-20.00000000000001
+15.00000000000001
  31
 0.0
   0
@@ -7257,7 +7257,7 @@ LINE
   5
 1CC
 330
-9CB
+9DB
 100
 AcDbEntity
   8
@@ -7269,13 +7269,13 @@ AcDbLine
  10
 666.0
  20
-80.0
+85.0
  30
 0.0
  11
 741.0
  21
-80.0
+85.0
  31
 0.0
   0
@@ -7283,7 +7283,7 @@ LINE
   5
 1CD
 330
-9CB
+9DB
 100
 AcDbEntity
   8
@@ -7295,13 +7295,13 @@ AcDbLine
  10
 666.0
  20
-20.0
+15.0
  30
 0.0
  11
 741.0
  21
-20.00000000000001
+15.00000000000001
  31
 0.0
   0
@@ -7309,7 +7309,7 @@ LINE
   5
 1E1
 330
-9CB
+9DB
 100
 AcDbEntity
   8
@@ -7321,13 +7321,13 @@ AcDbLine
  10
 741.0
  20
-20.00000000000001
+15.00000000000001
  30
 0.0
  11
 741.0
  21
-80.0
+84.99999999999999
  31
 0.0
   0
@@ -7335,7 +7335,7 @@ LINE
   5
 1E3
 330
-9CB
+9DB
 100
 AcDbEntity
   8
@@ -7347,61 +7347,13 @@ AcDbLine
  10
 -28.0
  20
-20.00000000000001
+15.00000000000001
  30
 0.0
  11
 -28.0
  21
-80.00000000000001
- 31
-0.0
-  0
-LINE
-  5
-1F8
-330
-9CB
-100
-AcDbEntity
-  8
-Ouvrant ... EcharpesTraverses
-100
-AcDbLine
- 10
-47.0
- 20
-95.0
- 30
-0.0
- 11
-666.0
- 21
-95.0
- 31
-0.0
-  0
-LINE
-  5
-1F9
-330
-9CB
-100
-AcDbEntity
-  8
-Ouvrant ... EcharpesTraverses
-100
-AcDbLine
- 10
-47.0
- 20
-5.0
- 30
-0.0
- 11
-666.0
- 21
-5.0
+85.00000000000001
  31
 0.0
   0
@@ -7409,7 +7361,7 @@ LINE
   5
 1FB
 330
-9CB
+9DB
 100
 AcDbEntity
   8
@@ -7419,13 +7371,13 @@ AcDbLine
  10
 47.0
  20
-5.0
+0.0
  30
 0.0
  11
 47.0
  21
-95.0
+100.0
  31
 0.0
   0
@@ -7433,7 +7385,7 @@ LINE
   5
 1FE
 330
-9CB
+9DB
 100
 AcDbEntity
   8
@@ -7443,21 +7395,69 @@ AcDbLine
  10
 666.0
  20
-5.0
+0.0
  30
 0.0
  11
 666.0
  21
-95.0
+100.0
+ 31
+0.0
+  0
+LINE
+  5
+8C6
+330
+9DB
+100
+AcDbEntity
+  8
+Ouvrant ... EcharpesTraverses
+100
+AcDbLine
+ 10
+47.0
+ 20
+100.0
+ 30
+0.0
+ 11
+666.0
+ 21
+100.0
+ 31
+0.0
+  0
+LINE
+  5
+8C7
+330
+9DB
+100
+AcDbEntity
+  8
+Ouvrant ... EcharpesTraverses
+100
+AcDbLine
+ 10
+47.0
+ 20
+0.0
+ 30
+0.0
+ 11
+666.0
+ 21
+0.0
  31
 0.0
   0
 ENDBLK
   5
-9CD
+9DD
 330
-9CB
+9DB
 100
 AcDbEntity
   8
@@ -7467,9 +7467,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-9CF
+9DF
 330
-9CE
+9DE
 100
 AcDbEntity
   8
@@ -7493,33 +7493,9 @@ TenonTraverses_Ouvrants
   0
 LINE
   5
-299
-330
-9CE
-100
-AcDbEntity
-  8
-Ouvrant ... EcharpesTraverses
-100
-AcDbLine
- 10
-0.0000000000004547
- 20
-60.0
- 30
-0.0
- 11
-10.00000000000045
- 21
-60.0
- 31
-0.0
-  0
-LINE
-  5
 29C
 330
-9CE
+9DE
 100
 AcDbEntity
   8
@@ -7527,15 +7503,15 @@ Ouvrant ... EcharpesTraverses
 100
 AcDbLine
  10
-0.0
+-0.0000000000000379
  20
-0.0
+-5.0
  30
 0.0
  11
-0.0000000000004547
+0.0000000000004926
  21
-60.0
+65.0
  31
 0.0
   0
@@ -7543,7 +7519,7 @@ LINE
   5
 29D
 330
-9CE
+9DE
 100
 AcDbEntity
   8
@@ -7551,23 +7527,23 @@ Ouvrant ... EcharpesTraverses
 100
 AcDbLine
  10
-10.0
+9.999999999999963
  20
-0.0
+-5.0
  30
 0.0
  11
-10.00000000000045
+10.00000000000049
  21
-60.0
+65.0
  31
 0.0
   0
 LINE
   5
-29E
+8CC
 330
-9CE
+9DE
 100
 AcDbEntity
   8
@@ -7575,23 +7551,47 @@ Ouvrant ... EcharpesTraverses
 100
 AcDbLine
  10
-0.0
+0.000000000000455
  20
-0.0
+65.0
  30
 0.0
  11
 10.00000000000045
  21
+65.0
+ 31
 0.0
+  0
+LINE
+  5
+8CD
+330
+9DE
+100
+AcDbEntity
+  8
+Ouvrant ... EcharpesTraverses
+100
+AcDbLine
+ 10
+0.0000000000000003
+ 20
+-5.0
+ 30
+0.0
+ 11
+10.00000000000045
+ 21
+-5.0
  31
 0.0
   0
 ENDBLK
   5
-9D0
+9E0
 330
-9CE
+9DE
 100
 AcDbEntity
   8
@@ -7601,9 +7601,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-9D2
+9E2
 330
-9D1
+9E1
 100
 AcDbEntity
   8
@@ -7629,7 +7629,7 @@ LINE
   5
 1F1
 330
-9D1
+9E1
 100
 AcDbEntity
   8
@@ -7653,7 +7653,7 @@ LINE
   5
 8B2
 330
-9D1
+9E1
 100
 AcDbEntity
   8
@@ -7677,7 +7677,7 @@ LINE
   5
 8B3
 330
-9D1
+9E1
 100
 AcDbEntity
   8
@@ -7701,7 +7701,7 @@ LINE
   5
 8B6
 330
-9D1
+9E1
 100
 AcDbEntity
   8
@@ -7723,9 +7723,9 @@ AcDbLine
   0
 ENDBLK
   5
-9D3
+9E3
 330
-9D1
+9E1
 100
 AcDbEntity
   8
@@ -7735,9 +7735,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-9D5
+9E5
 330
-9D4
+9E4
 100
 AcDbEntity
   8
@@ -7763,7 +7763,7 @@ LINE
   5
 5E
 330
-9D4
+9E4
 100
 AcDbEntity
   8
@@ -7787,7 +7787,7 @@ LINE
   5
 5F
 330
-9D4
+9E4
 100
 AcDbEntity
   8
@@ -7811,7 +7811,7 @@ LINE
   5
 62
 330
-9D4
+9E4
 100
 AcDbEntity
   8
@@ -7835,7 +7835,7 @@ LINE
   5
 64
 330
-9D4
+9E4
 100
 AcDbEntity
   8
@@ -7857,9 +7857,9 @@ AcDbLine
   0
 ENDBLK
   5
-9D6
+9E6
 330
-9D4
+9E4
 100
 AcDbEntity
   8
@@ -7869,9 +7869,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-9D8
+9E8
 330
-9D7
+9E7
 100
 AcDbEntity
   8
@@ -7897,7 +7897,7 @@ LINE
   5
 AE
 330
-9D7
+9E7
 100
 AcDbEntity
   8
@@ -7921,7 +7921,7 @@ LINE
   5
 B0
 330
-9D7
+9E7
 100
 AcDbEntity
   8
@@ -7945,7 +7945,7 @@ LINE
   5
 B1
 330
-9D7
+9E7
 100
 AcDbEntity
   8
@@ -7969,7 +7969,7 @@ LINE
   5
 66F
 330
-9D7
+9E7
 100
 AcDbEntity
   8
@@ -7991,9 +7991,9 @@ AcDbLine
   0
 ENDBLK
   5
-9D9
+9E9
 330
-9D7
+9E7
 100
 AcDbEntity
   8
@@ -8003,9 +8003,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-9DB
+9EB
 330
-9DA
+9EA
 100
 AcDbEntity
   8
@@ -8031,7 +8031,7 @@ LINE
   5
 73
 330
-9DA
+9EA
 100
 AcDbEntity
   8
@@ -8055,7 +8055,7 @@ LINE
   5
 76
 330
-9DA
+9EA
 100
 AcDbEntity
   8
@@ -8079,7 +8079,7 @@ LINE
   5
 77
 330
-9DA
+9EA
 100
 AcDbEntity
   8
@@ -8103,7 +8103,7 @@ LINE
   5
 79
 330
-9DA
+9EA
 100
 AcDbEntity
   8
@@ -8125,9 +8125,9 @@ AcDbLine
   0
 ENDBLK
   5
-9DC
+9EC
 330
-9DA
+9EA
 100
 AcDbEntity
   8
@@ -8137,9 +8137,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-9DE
+9EE
 330
-9DD
+9ED
 100
 AcDbEntity
   8
@@ -8163,9 +8163,9 @@ AcDbBlockBegin
   0
 LINE
   5
-9E0
+9F0
 330
-9DD
+9ED
 100
 AcDbEntity
   8
@@ -8191,9 +8191,9 @@ AcDbLine
   0
 LINE
   5
-9E1
+9F1
 330
-9DD
+9ED
 100
 AcDbEntity
   8
@@ -8219,9 +8219,9 @@ AcDbLine
   0
 LINE
   5
-9E2
+9F2
 330
-9DD
+9ED
 100
 AcDbEntity
   8
@@ -8247,9 +8247,9 @@ AcDbLine
   0
 SOLID
   5
-9E3
+9F3
 330
-9DD
+9ED
 100
 AcDbEntity
   8
@@ -8285,9 +8285,9 @@ AcDbTrace
   0
 SOLID
   5
-9E4
+9F4
 330
-9DD
+9ED
 100
 AcDbEntity
   8
@@ -8323,9 +8323,9 @@ AcDbTrace
   0
 MTEXT
   5
-9E5
+9F5
 330
-9DD
+9ED
 100
 AcDbEntity
   8
@@ -8361,9 +8361,9 @@ QCADDimTextStyle
   0
 POINT
   5
-9E6
+9F6
 330
-9DD
+9ED
 100
 AcDbEntity
   8
@@ -8381,9 +8381,9 @@ AcDbPoint
   0
 POINT
   5
-9E7
+9F7
 330
-9DD
+9ED
 100
 AcDbEntity
   8
@@ -8401,9 +8401,9 @@ AcDbPoint
   0
 POINT
   5
-9E8
+9F8
 330
-9DD
+9ED
 100
 AcDbEntity
   8
@@ -8421,9 +8421,9 @@ AcDbPoint
   0
 ENDBLK
   5
-9DF
+9EF
 330
-9DD
+9ED
 100
 AcDbEntity
   8
@@ -8433,9 +8433,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-9EA
+9FA
 330
-9E9
+9F9
 100
 AcDbEntity
   8
@@ -8459,9 +8459,9 @@ AcDbBlockBegin
   0
 LINE
   5
-9EC
+9FC
 330
-9E9
+9F9
 100
 AcDbEntity
   8
@@ -8487,9 +8487,9 @@ AcDbLine
   0
 LINE
   5
-9ED
+9FD
 330
-9E9
+9F9
 100
 AcDbEntity
   8
@@ -8515,9 +8515,9 @@ AcDbLine
   0
 LINE
   5
-9EE
+9FE
 330
-9E9
+9F9
 100
 AcDbEntity
   8
@@ -8543,9 +8543,9 @@ AcDbLine
   0
 SOLID
   5
-9EF
+9FF
 330
-9E9
+9F9
 100
 AcDbEntity
   8
@@ -8581,9 +8581,9 @@ AcDbTrace
   0
 SOLID
   5
-9F0
+A00
 330
-9E9
+9F9
 100
 AcDbEntity
   8
@@ -8619,9 +8619,9 @@ AcDbTrace
   0
 MTEXT
   5
-9F1
+A01
 330
-9E9
+9F9
 100
 AcDbEntity
   8
@@ -8657,9 +8657,9 @@ QCADDimTextStyle
   0
 POINT
   5
-9F2
+A02
 330
-9E9
+9F9
 100
 AcDbEntity
   8
@@ -8677,9 +8677,9 @@ AcDbPoint
   0
 POINT
   5
-9F3
+A03
 330
-9E9
+9F9
 100
 AcDbEntity
   8
@@ -8697,9 +8697,9 @@ AcDbPoint
   0
 POINT
   5
-9F4
+A04
 330
-9E9
+9F9
 100
 AcDbEntity
   8
@@ -8717,9 +8717,9 @@ AcDbPoint
   0
 ENDBLK
   5
-9EB
+9FB
 330
-9E9
+9F9
 100
 AcDbEntity
   8
@@ -8729,9 +8729,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-9F6
+A06
 330
-9F5
+A05
 100
 AcDbEntity
   8
@@ -8755,9 +8755,9 @@ AcDbBlockBegin
   0
 LINE
   5
-9F8
+A08
 330
-9F5
+A05
 100
 AcDbEntity
   8
@@ -8783,9 +8783,9 @@ AcDbLine
   0
 LINE
   5
-9F9
+A09
 330
-9F5
+A05
 100
 AcDbEntity
   8
@@ -8811,9 +8811,9 @@ AcDbLine
   0
 LINE
   5
-9FA
+A0A
 330
-9F5
+A05
 100
 AcDbEntity
   8
@@ -8839,9 +8839,9 @@ AcDbLine
   0
 SOLID
   5
-9FB
+A0B
 330
-9F5
+A05
 100
 AcDbEntity
   8
@@ -8877,9 +8877,9 @@ AcDbTrace
   0
 SOLID
   5
-9FC
+A0C
 330
-9F5
+A05
 100
 AcDbEntity
   8
@@ -8915,9 +8915,9 @@ AcDbTrace
   0
 MTEXT
   5
-9FD
+A0D
 330
-9F5
+A05
 100
 AcDbEntity
   8
@@ -8953,9 +8953,9 @@ QCADDimTextStyle
   0
 POINT
   5
-9FE
+A0E
 330
-9F5
+A05
 100
 AcDbEntity
   8
@@ -8973,9 +8973,9 @@ AcDbPoint
   0
 POINT
   5
-9FF
+A0F
 330
-9F5
+A05
 100
 AcDbEntity
   8
@@ -8993,9 +8993,9 @@ AcDbPoint
   0
 POINT
   5
-A00
+A10
 330
-9F5
+A05
 100
 AcDbEntity
   8
@@ -9013,9 +9013,9 @@ AcDbPoint
   0
 ENDBLK
   5
-9F7
+A07
 330
-9F5
+A05
 100
 AcDbEntity
   8
@@ -9025,9 +9025,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-A02
+A12
 330
-A01
+A11
 100
 AcDbEntity
   8
@@ -9051,9 +9051,9 @@ AcDbBlockBegin
   0
 LINE
   5
-A04
+A14
 330
-A01
+A11
 100
 AcDbEntity
   8
@@ -9079,9 +9079,9 @@ AcDbLine
   0
 LINE
   5
-A05
+A15
 330
-A01
+A11
 100
 AcDbEntity
   8
@@ -9107,9 +9107,9 @@ AcDbLine
   0
 LINE
   5
-A06
+A16
 330
-A01
+A11
 100
 AcDbEntity
   8
@@ -9135,9 +9135,9 @@ AcDbLine
   0
 LINE
   5
-A07
+A17
 330
-A01
+A11
 100
 AcDbEntity
   8
@@ -9163,9 +9163,9 @@ AcDbLine
   0
 SOLID
   5
-A08
+A18
 330
-A01
+A11
 100
 AcDbEntity
   8
@@ -9201,9 +9201,9 @@ AcDbTrace
   0
 SOLID
   5
-A09
+A19
 330
-A01
+A11
 100
 AcDbEntity
   8
@@ -9239,9 +9239,9 @@ AcDbTrace
   0
 MTEXT
   5
-A0A
+A1A
 330
-A01
+A11
 100
 AcDbEntity
   8
@@ -9283,9 +9283,9 @@ QCADDimTextStyle
   0
 POINT
   5
-A0B
+A1B
 330
-A01
+A11
 100
 AcDbEntity
   8
@@ -9303,9 +9303,9 @@ AcDbPoint
   0
 POINT
   5
-A0C
+A1C
 330
-A01
+A11
 100
 AcDbEntity
   8
@@ -9323,9 +9323,9 @@ AcDbPoint
   0
 POINT
   5
-A0D
+A1D
 330
-A01
+A11
 100
 AcDbEntity
   8
@@ -9343,9 +9343,9 @@ AcDbPoint
   0
 ENDBLK
   5
-A03
+A13
 330
-A01
+A11
 100
 AcDbEntity
   8
@@ -9355,9 +9355,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-A0F
+A1F
 330
-A0E
+A1E
 100
 AcDbEntity
   8
@@ -9381,9 +9381,9 @@ AcDbBlockBegin
   0
 LINE
   5
-A11
+A21
 330
-A0E
+A1E
 100
 AcDbEntity
   8
@@ -9409,9 +9409,9 @@ AcDbLine
   0
 LINE
   5
-A12
+A22
 330
-A0E
+A1E
 100
 AcDbEntity
   8
@@ -9437,9 +9437,9 @@ AcDbLine
   0
 LINE
   5
-A13
+A23
 330
-A0E
+A1E
 100
 AcDbEntity
   8
@@ -9465,9 +9465,9 @@ AcDbLine
   0
 SOLID
   5
-A14
+A24
 330
-A0E
+A1E
 100
 AcDbEntity
   8
@@ -9503,9 +9503,9 @@ AcDbTrace
   0
 SOLID
   5
-A15
+A25
 330
-A0E
+A1E
 100
 AcDbEntity
   8
@@ -9541,9 +9541,9 @@ AcDbTrace
   0
 MTEXT
   5
-A16
+A26
 330
-A0E
+A1E
 100
 AcDbEntity
   8
@@ -9585,9 +9585,9 @@ QCADDimTextStyle
   0
 POINT
   5
-A17
+A27
 330
-A0E
+A1E
 100
 AcDbEntity
   8
@@ -9605,9 +9605,9 @@ AcDbPoint
   0
 POINT
   5
-A18
+A28
 330
-A0E
+A1E
 100
 AcDbEntity
   8
@@ -9625,9 +9625,9 @@ AcDbPoint
   0
 POINT
   5
-A19
+A29
 330
-A0E
+A1E
 100
 AcDbEntity
   8
@@ -9645,9 +9645,9 @@ AcDbPoint
   0
 ENDBLK
   5
-A10
+A20
 330
-A0E
+A1E
 100
 AcDbEntity
   8
@@ -9657,9 +9657,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-A1B
+A2B
 330
-A1A
+A2A
 100
 AcDbEntity
   8
@@ -9683,9 +9683,9 @@ AcDbBlockBegin
   0
 LINE
   5
-A1D
+A2D
 330
-A1A
+A2A
 100
 AcDbEntity
   8
@@ -9711,9 +9711,9 @@ AcDbLine
   0
 LINE
   5
-A1E
+A2E
 330
-A1A
+A2A
 100
 AcDbEntity
   8
@@ -9739,9 +9739,9 @@ AcDbLine
   0
 LINE
   5
-A1F
+A2F
 330
-A1A
+A2A
 100
 AcDbEntity
   8
@@ -9767,9 +9767,9 @@ AcDbLine
   0
 SOLID
   5
-A20
+A30
 330
-A1A
+A2A
 100
 AcDbEntity
   8
@@ -9805,9 +9805,9 @@ AcDbTrace
   0
 SOLID
   5
-A21
+A31
 330
-A1A
+A2A
 100
 AcDbEntity
   8
@@ -9843,9 +9843,9 @@ AcDbTrace
   0
 MTEXT
   5
-A22
+A32
 330
-A1A
+A2A
 100
 AcDbEntity
   8
@@ -9887,9 +9887,9 @@ QCADDimTextStyle
   0
 POINT
   5
-A23
+A33
 330
-A1A
+A2A
 100
 AcDbEntity
   8
@@ -9907,9 +9907,9 @@ AcDbPoint
   0
 POINT
   5
-A24
+A34
 330
-A1A
+A2A
 100
 AcDbEntity
   8
@@ -9927,9 +9927,9 @@ AcDbPoint
   0
 POINT
   5
-A25
+A35
 330
-A1A
+A2A
 100
 AcDbEntity
   8
@@ -9947,9 +9947,9 @@ AcDbPoint
   0
 ENDBLK
   5
-A1C
+A2C
 330
-A1A
+A2A
 100
 AcDbEntity
   8
@@ -9967,7 +9967,7 @@ LINE
   5
 3E
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -9991,7 +9991,7 @@ LINE
   5
 3F
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -10015,7 +10015,7 @@ LINE
   5
 42
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -10039,7 +10039,7 @@ LINE
   5
 43
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -10063,7 +10063,7 @@ LINE
   5
 44
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -10087,7 +10087,7 @@ LINE
   5
 45
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -10111,7 +10111,7 @@ LINE
   5
 46
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -10135,7 +10135,7 @@ LINE
   5
 47
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -10159,7 +10159,7 @@ LINE
   5
 48
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -10183,7 +10183,7 @@ DIMENSION
   5
 4A
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -10291,7 +10291,7 @@ DIMENSION
   5
 4B
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -10399,7 +10399,7 @@ DIMENSION
   5
 4C
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -10507,7 +10507,7 @@ DIMENSION
   5
 4D
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -10615,7 +10615,7 @@ DIMENSION
   5
 4E
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -10723,7 +10723,7 @@ DIMENSION
   5
 4F
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -10831,7 +10831,7 @@ MTEXT
   5
 50
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -10867,7 +10867,7 @@ INSERT
   5
 5A
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -10887,7 +10887,7 @@ INSERT
   5
 5D
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -10907,7 +10907,7 @@ INSERT
   5
 61
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -10927,7 +10927,7 @@ INSERT
   5
 6A
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -10947,7 +10947,7 @@ INSERT
   5
 71
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -10967,7 +10967,7 @@ INSERT
   5
 75
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -10987,7 +10987,7 @@ MTEXT
   5
 7B
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11023,7 +11023,7 @@ MTEXT
   5
 7C
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11059,7 +11059,7 @@ MTEXT
   5
 7D
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11095,7 +11095,7 @@ INSERT
   5
 92
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11115,7 +11115,7 @@ INSERT
   5
 97
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11135,7 +11135,7 @@ INSERT
   5
 98
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11143,7 +11143,7 @@ Ouvrant ... Cadre
 100
 AcDbBlockReference
   2
-30x100_CadreHorizontalOuvrant_Bas
+30x115_CadreHorizontalOuvrant_Bas
  10
 40.0
  20
@@ -11155,7 +11155,7 @@ INSERT
   5
 A0
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11163,7 +11163,7 @@ Ouvrant ... EcharpesTraverses
 100
 AcDbBlockReference
   2
-30x90_TraverseHorizontaleOuvrant
+30x100_TraverseHorizontaleOuvrant
  10
 90.00000000000006
  20
@@ -11175,7 +11175,7 @@ LINE
   5
 A4
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11199,7 +11199,7 @@ LINE
   5
 A6
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11223,7 +11223,7 @@ LINE
   5
 A7
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11247,7 +11247,7 @@ LINE
   5
 A8
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11271,7 +11271,7 @@ LINE
   5
 A9
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11295,7 +11295,7 @@ MTEXT
   5
 AA
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11331,7 +11331,7 @@ MTEXT
   5
 AB
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11367,7 +11367,7 @@ INSERT
   5
 B6
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11387,7 +11387,7 @@ INSERT
   5
 B9
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11407,7 +11407,7 @@ INSERT
   5
 201
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11415,11 +11415,11 @@ Ouvrant ... Cadre
 100
 AcDbBlockReference
   2
-30x95_CadreHorizontalOuvrant_Haut
+30x115_CadreHorizontalOuvrant_Haut
  10
 137.0000000000001
  20
-1946.0
+1926.0
  30
 0.0
   0
@@ -11427,7 +11427,7 @@ LINE
   5
 215
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11445,7 +11445,7 @@ AcDbLine
  11
 122.0
  21
-775.0000000000001
+770.0000000000001
  31
 0.0
   0
@@ -11453,7 +11453,7 @@ LINE
   5
 216
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11465,13 +11465,13 @@ AcDbLine
  10
 122.0
  20
-835.0000000000001
+840.0000000000002
  30
 0.0
  11
 122.0000000000001
  21
-1961.0
+1941.0
  31
 0.0
   0
@@ -11479,7 +11479,7 @@ LINE
   5
 218
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11491,13 +11491,13 @@ AcDbLine
  10
 771.0000000000001
  20
-835.0000000000001
+840.0
  30
 0.0
  11
 771.0000000000001
  21
-1961.0
+1941.0
  31
 0.0
   0
@@ -11505,7 +11505,7 @@ LINE
   5
 21A
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11517,13 +11517,13 @@ AcDbLine
  10
 122.0000000000001
  20
-1961.0
+1941.0
  30
 0.0
  11
 137.0000000000001
  21
-1961.0
+1941.0
  31
 0.0
   0
@@ -11531,7 +11531,7 @@ LINE
   5
 21B
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11543,13 +11543,13 @@ AcDbLine
  10
 137.0000000000001
  20
-1961.0
+1941.0
  30
 0.0
  11
 756.0000000000001
  21
-1961.0
+1941.0
  31
 0.0
   0
@@ -11557,7 +11557,7 @@ LINE
   5
 21C
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11569,13 +11569,13 @@ AcDbLine
  10
 756.0000000000001
  20
-1961.0
+1941.0
  30
 0.0
  11
 771.0000000000001
  21
-1961.0
+1941.0
  31
 0.0
   0
@@ -11583,7 +11583,7 @@ LINE
   5
 21F
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11595,13 +11595,13 @@ AcDbLine
  10
 756.0
  20
-835.0000000000001
+840.0000000000001
  30
 0.0
  11
 771.0000000000001
  21
-835.0000000000001
+840.0000000000001
  31
 0.0
   0
@@ -11609,7 +11609,7 @@ LINE
   5
 220
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11621,13 +11621,13 @@ AcDbLine
  10
 771.0
  20
-775.0000000000001
+770.0000000000001
  30
 0.0
  11
 756.0
  21
-775.0000000000001
+770.0000000000001
  31
 0.0
   0
@@ -11635,7 +11635,7 @@ LINE
   5
 221
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11647,13 +11647,13 @@ AcDbLine
  10
 137.0000000000001
  20
-775.0000000000001
+770.0000000000001
  30
 0.0
  11
 756.0
  21
-775.0000000000001
+770.0000000000001
  31
 0.0
   0
@@ -11661,7 +11661,7 @@ LINE
   5
 222
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11673,13 +11673,13 @@ AcDbLine
  10
 137.0000000000001
  20
-835.0000000000001
+840.0000000000001
  30
 0.0
  11
 756.0
  21
-835.0000000000001
+840.0000000000001
  31
 0.0
   0
@@ -11687,7 +11687,7 @@ LINE
   5
 223
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11699,13 +11699,13 @@ AcDbLine
  10
 122.0000000000001
  20
-835.0000000000001
+840.0000000000001
  30
 0.0
  11
 137.0000000000001
  21
-835.0000000000001
+840.0000000000001
  31
 0.0
   0
@@ -11713,7 +11713,7 @@ LINE
   5
 224
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11725,13 +11725,13 @@ AcDbLine
  10
 137.0000000000001
  20
-775.0000000000001
+770.0000000000001
  30
 0.0
  11
 122.0000000000001
  21
-775.0000000000001
+770.0000000000001
  31
 0.0
   0
@@ -11739,7 +11739,7 @@ LINE
   5
 226
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11765,7 +11765,7 @@ LINE
   5
 228
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11791,7 +11791,7 @@ LINE
   5
 231
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11815,7 +11815,7 @@ LINE
   5
 232
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11839,7 +11839,7 @@ LINE
   5
 233
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11863,7 +11863,7 @@ LINE
   5
 234
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11887,7 +11887,7 @@ LINE
   5
 235
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11911,7 +11911,7 @@ LINE
   5
 236
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11935,7 +11935,7 @@ LINE
   5
 237
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11959,7 +11959,7 @@ ARC
   5
 23E
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -11985,7 +11985,7 @@ ARC
   5
 244
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12011,7 +12011,7 @@ LINE
   5
 245
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12035,7 +12035,7 @@ LINE
   5
 247
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12059,7 +12059,7 @@ LINE
   5
 24A
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12083,7 +12083,7 @@ LINE
   5
 24C
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12107,7 +12107,7 @@ LINE
   5
 24D
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12131,7 +12131,7 @@ LINE
   5
 24E
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12155,7 +12155,7 @@ ARC
   5
 24F
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12181,7 +12181,7 @@ ARC
   5
 255
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12207,7 +12207,7 @@ ARC
   5
 259
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12233,7 +12233,7 @@ LINE
   5
 25A
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12257,7 +12257,7 @@ LINE
   5
 25C
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12281,7 +12281,7 @@ LINE
   5
 271
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12305,7 +12305,7 @@ LINE
   5
 272
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12329,7 +12329,7 @@ LINE
   5
 273
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12353,7 +12353,7 @@ LINE
   5
 274
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12377,7 +12377,7 @@ LINE
   5
 275
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12401,7 +12401,7 @@ LINE
   5
 276
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12425,7 +12425,7 @@ LINE
   5
 277
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12449,7 +12449,7 @@ LINE
   5
 278
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12473,7 +12473,7 @@ LINE
   5
 279
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12497,7 +12497,7 @@ LINE
   5
 27A
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12521,7 +12521,7 @@ INSERT
   5
 28E
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12533,7 +12533,7 @@ TenonCadreHorizontal_Ouvrants
  10
 2568.042978938824
  20
-1963.5
+1946.0
  30
 0.0
   0
@@ -12541,7 +12541,7 @@ INSERT
   5
 2A9
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12561,7 +12561,7 @@ INSERT
   5
 2AE
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12581,7 +12581,7 @@ INSERT
   5
 2B0
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12589,7 +12589,7 @@ Ouvrant ... EcharpesTraverses
 100
 AcDbBlockReference
   2
-30x90_TraverseHorizontaleOuvrant_Profil
+30x100_TraverseHorizontaleOuvrant_Profil
  10
 2558.042978938823
  20
@@ -12601,7 +12601,7 @@ INSERT
   5
 2B2
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12609,7 +12609,7 @@ Ouvrant ... Cadre
 100
 AcDbBlockReference
   2
-30x95_CadreHorizontalOuvrant_Haut_Profil
+30x115_CadreHorizontalOuvrant_Haut_Profil
  10
 2558.042978938823
  20
@@ -12621,7 +12621,7 @@ INSERT
   5
 2B8
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12629,7 +12629,7 @@ Ouvrant ... Cadre
 100
 AcDbBlockReference
   2
-30x100_CadreHorizontalOuvrant_Bas_Profil
+30x115_CadreHorizontalOuvrant_Bas_Profil
  10
 2558.042978938823
  20
@@ -12641,7 +12641,7 @@ LINE
   5
 2B9
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12665,7 +12665,7 @@ LINE
   5
 2BB
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12689,7 +12689,7 @@ LINE
   5
 2BE
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12701,13 +12701,13 @@ AcDbLine
  10
 2578.042978938823
  20
-1961.0
+1941.0
  30
 0.0
  11
 2558.042978938823
  21
-1961.0
+1941.0
  31
 0.0
   0
@@ -12715,7 +12715,7 @@ LINE
   5
 2BF
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12727,13 +12727,13 @@ AcDbLine
  10
 2578.042978938823
  20
-100.0000000000001
+115.0000000000001
  30
 0.0
  11
 2558.042978938823
  21
-100.0000000000001
+115.0000000000001
  31
 0.0
   0
@@ -12741,7 +12741,7 @@ LINE
   5
 2C0
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12767,7 +12767,7 @@ LINE
   5
 2C1
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12793,7 +12793,7 @@ LINE
   5
 2C4
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12805,7 +12805,7 @@ AcDbLine
  10
 2578.042978938823
  20
-1961.0
+1941.0
  30
 0.0
  11
@@ -12819,7 +12819,7 @@ LINE
   5
 2C5
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12837,7 +12837,7 @@ AcDbLine
  11
 2578.042978938823
  21
-95.0
+115.0000000000001
  31
 0.0
   0
@@ -12845,7 +12845,7 @@ LINE
   5
 2C8
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12871,7 +12871,7 @@ LINE
   5
 2C9
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12897,7 +12897,7 @@ LINE
   5
 2CA
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12923,7 +12923,7 @@ LINE
   5
 2CB
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12949,7 +12949,7 @@ LINE
   5
 2CC
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -12975,7 +12975,7 @@ LINE
   5
 2CD
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13001,7 +13001,7 @@ LINE
   5
 2CE
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13013,13 +13013,13 @@ AcDbLine
  10
 2558.042978938823
  20
-110.0000000000001
+115.0000000000001
  30
 0.0
  11
 2578.042978938823
  21
-110.0000000000001
+115.0000000000001
  31
 0.0
   0
@@ -13027,7 +13027,7 @@ LINE
   5
 2CF
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13039,13 +13039,13 @@ AcDbLine
  10
 2558.042978938823
  20
-1946.0
+1941.0
  30
 0.0
  11
 2578.042978938823
  21
-1946.0
+1941.0
  31
 0.0
   0
@@ -13053,7 +13053,7 @@ LINE
   5
 2D4
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13077,7 +13077,7 @@ LINE
   5
 2D6
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13101,7 +13101,7 @@ LINE
   5
 2D7
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13125,7 +13125,7 @@ LINE
   5
 2D8
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13149,7 +13149,7 @@ LINE
   5
 2D9
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13173,7 +13173,7 @@ LINE
   5
 2DA
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13197,7 +13197,7 @@ LINE
   5
 2DB
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13221,7 +13221,7 @@ LINE
   5
 2DC
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13245,7 +13245,7 @@ LINE
   5
 2DE
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13269,7 +13269,7 @@ LINE
   5
 2DF
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13293,7 +13293,7 @@ LINE
   5
 2E0
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13317,7 +13317,7 @@ LINE
   5
 2E1
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13341,7 +13341,7 @@ LINE
   5
 2E2
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13365,7 +13365,7 @@ LINE
   5
 2E3
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13389,7 +13389,7 @@ LINE
   5
 2E4
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13413,7 +13413,7 @@ LINE
   5
 2E5
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13437,7 +13437,7 @@ LINE
   5
 2E6
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13461,7 +13461,7 @@ LINE
   5
 2E7
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13487,7 +13487,7 @@ LINE
   5
 2E8
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13513,7 +13513,7 @@ LINE
   5
 2E9
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13539,7 +13539,7 @@ LINE
   5
 2EE
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13549,13 +13549,13 @@ AcDbLine
  10
 2578.042978938823
  20
-1961.0
+1941.0
  30
 0.0
  11
 2578.042978938823
  21
-1946.0
+1926.0
  31
 0.0
   0
@@ -13563,7 +13563,7 @@ LINE
   5
 2EF
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13573,13 +13573,13 @@ AcDbLine
  10
 2578.042978938823
  20
-1946.0
+1926.0
  30
 0.0
  11
 2558.042978938823
  21
-1946.0
+1926.0
  31
 0.0
   0
@@ -13587,7 +13587,7 @@ LINE
   5
 2F0
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13597,13 +13597,13 @@ AcDbLine
  10
 2558.042978938823
  20
-1946.0
+1926.0
  30
 0.0
  11
 2558.042978938823
  21
-1961.0
+1941.0
  31
 0.0
   0
@@ -13611,7 +13611,7 @@ LINE
   5
 2F1
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13621,13 +13621,13 @@ AcDbLine
  10
 2558.042978938823
  20
-1961.0
+1941.0
  30
 0.0
  11
 2578.042978938823
  21
-1961.0
+1941.0
  31
 0.0
   0
@@ -13635,7 +13635,7 @@ LINE
   5
 2F2
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13645,13 +13645,13 @@ AcDbLine
  10
 2578.042978938823
  20
-1961.0
+1941.0
  30
 0.0
  11
 2558.042978938823
  21
-1946.0
+1926.0
  31
 0.0
   0
@@ -13659,7 +13659,7 @@ LINE
   5
 2F3
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13669,13 +13669,13 @@ AcDbLine
  10
 2558.042978938823
  20
-1961.0
+1941.0
  30
 0.0
  11
 2578.042978938823
  21
-1946.0
+1926.0
  31
 0.0
   0
@@ -13683,7 +13683,7 @@ LINE
   5
 2F4
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13707,7 +13707,7 @@ LINE
   5
 2F5
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13731,7 +13731,7 @@ LINE
   5
 2F6
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13755,7 +13755,7 @@ LINE
   5
 2F7
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13779,7 +13779,7 @@ LINE
   5
 2F8
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13803,7 +13803,7 @@ LINE
   5
 2F9
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13827,7 +13827,7 @@ LINE
   5
 2FA
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13851,7 +13851,7 @@ LINE
   5
 2FB
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13875,7 +13875,7 @@ LINE
   5
 2FC
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13899,7 +13899,7 @@ LINE
   5
 2FD
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13923,7 +13923,7 @@ LINE
   5
 2FE
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13947,7 +13947,7 @@ LINE
   5
 2FF
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13971,7 +13971,7 @@ LINE
   5
 300
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -13995,7 +13995,7 @@ LINE
   5
 301
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14019,7 +14019,7 @@ LINE
   5
 302
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14043,7 +14043,7 @@ LINE
   5
 303
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14067,7 +14067,7 @@ LINE
   5
 304
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14091,7 +14091,7 @@ LINE
   5
 305
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14115,7 +14115,7 @@ LINE
   5
 306
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14139,7 +14139,7 @@ LINE
   5
 307
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14163,7 +14163,7 @@ LINE
   5
 308
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14187,7 +14187,7 @@ LINE
   5
 309
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14211,7 +14211,7 @@ LINE
   5
 30B
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14221,13 +14221,13 @@ AcDbLine
  10
 122.0000000000001
  20
-1961.0
+1941.0
  30
 0.0
  11
 137.0000000000001
  21
-1946.0
+1926.0
  31
 0.0
   0
@@ -14235,7 +14235,7 @@ LINE
   5
 30D
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14245,13 +14245,13 @@ AcDbLine
  10
 122.0000000000001
  20
-1961.0
+1941.0
  30
 0.0
  11
 771.0000000000001
  21
-1961.0
+1941.0
  31
 0.0
   0
@@ -14259,7 +14259,7 @@ LINE
   5
 30E
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14269,13 +14269,13 @@ AcDbLine
  10
 771.0000000000001
  20
-1961.0
+1941.0
  30
 0.0
  11
 756.0000000000001
  21
-1946.0
+1926.0
  31
 0.0
   0
@@ -14283,7 +14283,7 @@ LINE
   5
 30F
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14293,13 +14293,13 @@ AcDbLine
  10
 756.0000000000001
  20
-1946.0
+1926.0
  30
 0.0
  11
 137.0000000000001
  21
-1946.0
+1926.0
  31
 0.0
   0
@@ -14307,7 +14307,7 @@ LINE
   5
 310
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14317,13 +14317,13 @@ AcDbLine
  10
 756.0000000000001
  20
-1946.0
+1926.0
  30
 0.0
  11
 756.0
  21
-850.0000000000001
+855.0
  31
 0.0
   0
@@ -14331,7 +14331,7 @@ LINE
   5
 311
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14341,13 +14341,13 @@ AcDbLine
  10
 756.0
  20
-850.0000000000001
+855.0000000000001
  30
 0.0
  11
 771.0000000000001
  21
-835.0000000000001
+840.0000000000001
  31
 0.0
   0
@@ -14355,7 +14355,7 @@ LINE
   5
 312
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14365,13 +14365,13 @@ AcDbLine
  10
 771.0000000000001
  20
-835.0000000000001
+840.0000000000001
  30
 0.0
  11
 771.0000000000001
  21
-1961.0
+1941.0
  31
 0.0
   0
@@ -14379,7 +14379,7 @@ LINE
   5
 314
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14389,13 +14389,13 @@ AcDbLine
  10
 771.0
  20
-775.0000000000001
+770.0000000000001
  30
 0.0
  11
 756.0
  21
-760.0000000000001
+755.0000000000001
  31
 0.0
   0
@@ -14403,7 +14403,7 @@ LINE
   5
 315
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14413,7 +14413,7 @@ AcDbLine
  10
 756.0
  20
-760.0000000000001
+755.0000000000001
  30
 0.0
  11
@@ -14427,7 +14427,7 @@ LINE
   5
 316
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14437,13 +14437,13 @@ AcDbLine
  10
 122.0000000000001
  20
-775.0000000000001
+770.0000000000001
  30
 0.0
  11
 137.0000000000001
  21
-760.0000000000001
+755.0000000000001
  31
 0.0
   0
@@ -14451,7 +14451,7 @@ LINE
   5
 317
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14461,13 +14461,13 @@ AcDbLine
  10
 122.0
  20
-835.0000000000001
+840.0000000000001
  30
 0.0
  11
 137.0000000000001
  21
-850.0000000000001
+855.0000000000001
  31
 0.0
   0
@@ -14475,7 +14475,7 @@ LINE
   5
 318
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14485,13 +14485,13 @@ AcDbLine
  10
 137.0000000000001
  20
-1946.0
+1926.0
  30
 0.0
  11
 137.0000000000001
  21
-850.0000000000002
+855.0
  31
 0.0
   0
@@ -14499,7 +14499,7 @@ LINE
   5
 319
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14509,7 +14509,7 @@ AcDbLine
  10
 137.0
  20
-760.0000000000002
+755.0000000000001
  30
 0.0
  11
@@ -14523,7 +14523,7 @@ LINE
   5
 31B
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14533,13 +14533,13 @@ AcDbLine
  10
 122.0
  20
-835.0000000000001
+840.0000000000001
  30
 0.0
  11
 122.0000000000001
  21
-1961.0
+1941.0
  31
 0.0
   0
@@ -14547,7 +14547,7 @@ LINE
   5
 31C
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14557,13 +14557,13 @@ AcDbLine
  10
 137.0000000000001
  20
-760.0000000000001
+755.0000000000001
  30
 0.0
  11
 756.0
  21
-760.0000000000001
+755.0000000000001
  31
 0.0
   0
@@ -14571,7 +14571,7 @@ LINE
   5
 31D
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14581,13 +14581,13 @@ AcDbLine
  10
 771.0
  20
-775.0000000000001
+770.0000000000001
  30
 0.0
  11
 122.0000000000001
  21
-775.0000000000001
+770.0000000000001
  31
 0.0
   0
@@ -14595,7 +14595,7 @@ LINE
   5
 31E
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14605,13 +14605,13 @@ AcDbLine
  10
 122.0000000000001
  20
-835.0000000000001
+840.0000000000001
  30
 0.0
  11
 771.0000000000001
  21
-835.0000000000001
+840.0000000000001
  31
 0.0
   0
@@ -14619,7 +14619,7 @@ LINE
   5
 31F
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14629,13 +14629,13 @@ AcDbLine
  10
 756.0
  20
-850.0000000000001
+855.0000000000001
  30
 0.0
  11
 137.0000000000001
  21
-850.0000000000001
+855.0000000000001
  31
 0.0
   0
@@ -14643,7 +14643,7 @@ LINE
   5
 552
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14667,7 +14667,7 @@ LINE
   5
 553
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14691,7 +14691,7 @@ LINE
   5
 554
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14715,7 +14715,7 @@ LINE
   5
 78B
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14725,13 +14725,13 @@ AcDbLine
  10
 124.0000000000001
  20
-1959.0
+1939.0
  30
 0.0
  11
 769.0000000000001
  21
-1959.0
+1939.0
  31
 0.0
   0
@@ -14739,7 +14739,7 @@ LINE
   5
 78C
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14749,13 +14749,13 @@ AcDbLine
  10
 769.0000000000001
  20
-837.0000000000001
+842.0
  30
 0.0
  11
 769.0000000000001
  21
-1959.0
+1939.0
  31
 0.0
   0
@@ -14763,7 +14763,7 @@ LINE
   5
 78D
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14773,13 +14773,13 @@ AcDbLine
  10
 124.0
  20
-837.0000000000001
+842.0000000000001
  30
 0.0
  11
 769.0000000000001
  21
-837.0000000000001
+842.0000000000001
  31
 0.0
   0
@@ -14787,7 +14787,7 @@ LINE
   5
 78E
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14797,13 +14797,13 @@ AcDbLine
  10
 124.0
  20
-837.0000000000001
+842.0
  30
 0.0
  11
 124.0000000000001
  21
-1959.0
+1939.0
  31
 0.0
   0
@@ -14811,7 +14811,7 @@ LINE
   5
 78F
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14821,13 +14821,13 @@ AcDbLine
  10
 124.0
  20
-773.0000000000001
+768.0000000000001
  30
 0.0
  11
 769.0000000000001
  21
-773.0000000000001
+768.0000000000001
  31
 0.0
   0
@@ -14835,7 +14835,7 @@ LINE
   5
 790
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14851,7 +14851,7 @@ AcDbLine
  11
 124.0
  21
-773.0
+768.0000000000002
  31
 0.0
   0
@@ -14859,7 +14859,7 @@ LINE
   5
 791
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14875,7 +14875,7 @@ AcDbLine
  11
 769.0
  21
-773.0000000000001
+768.0000000000002
  31
 0.0
   0
@@ -14883,7 +14883,7 @@ LINE
   5
 792
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14907,7 +14907,7 @@ LINE
   5
 8AE
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14931,7 +14931,7 @@ LINE
   5
 8AF
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14955,7 +14955,7 @@ LINE
   5
 8B0
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -14979,7 +14979,7 @@ LINE
   5
 8B1
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -15003,7 +15003,7 @@ LINE
   5
 8B7
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -15027,7 +15027,7 @@ LINE
   5
 8B8
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -15051,7 +15051,7 @@ LINE
   5
 8B9
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -15069,7 +15069,7 @@ AcDbLine
  11
 771.0
  21
-775.0000000000001
+770.0000000000001
  31
 0.0
   0
@@ -15077,7 +15077,7 @@ LINE
   5
 8BA
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -15093,7 +15093,7 @@ AcDbLine
  11
 771.0
  21
-775.0000000000001
+770.0000000000001
  31
 0.0
   0
@@ -15101,7 +15101,7 @@ LINE
   5
 8BB
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -15117,7 +15117,7 @@ AcDbLine
  11
 122.0
  21
-775.0000000000002
+770.0000000000001
  31
 0.0
   0
@@ -15125,7 +15125,7 @@ LINE
   5
 8BF
 330
-8DE
+8EE
 100
 AcDbEntity
   8
@@ -15155,7 +15155,7 @@ OBJECTS
   0
 DICTIONARY
   5
-8CC
+8DC
 330
 0
 100
@@ -15165,69 +15165,69 @@ AcDbDictionary
   3
 ACAD_DETAILVIEWSTYLE
 350
-A33
+A43
   3
 ACAD_GROUP
 350
-8CD
+8DD
   3
 ACAD_LAYOUT
 350
-8D9
+8E9
   3
 ACAD_MATERIAL
 350
-902
+912
   3
 ACAD_MLEADERSTYLE
 350
-92A
+93A
   3
 ACAD_MLINESTYLE
 350
-8D6
+8E6
   3
 ACAD_PLOTSETTINGS
 350
-8D8
+8E8
   3
 ACAD_PLOTSTYLENAME
 350
-8CE
+8DE
   3
 ACAD_SCALELIST
 350
-906
+916
   3
 ACAD_SECTIONVIEWSTYLE
 350
-A34
+A44
   3
 ACAD_TABLESTYLE
 350
-928
+938
   3
 ACAD_VISUALSTYLE
 350
-8E9
+8F9
   3
 ACDB_RECOMPOSE_DATA
 350
-A30
+A40
   3
 AcDbVariableDictionary
 350
-A2C
+A3C
   3
 QCAD_OBJECTS
 350
-92E
+93E
   0
 SUN
   5
-92C
+93C
 330
-8E8
+8F8
 100
 AcDbSun
  90
@@ -15257,15 +15257,15 @@ AcDbSun
   0
 DICTIONARY
   5
-A33
+A43
 102
 {ACAD_REACTORS
 330
-8CC
+8DC
 102
 }
 330
-8CC
+8DC
 100
 AcDbDictionary
 281
@@ -15273,339 +15273,19 @@ AcDbDictionary
   0
 DICTIONARY
   5
-8CD
-102
-{ACAD_REACTORS
-330
-8CC
-102
-}
-330
-8CC
-100
-AcDbDictionary
-281
-     1
-  0
-DICTIONARY
-  5
-8D9
-102
-{ACAD_REACTORS
-330
-8CC
-102
-}
-330
-8CC
-100
-AcDbDictionary
-281
-     1
-  3
-Layout1
-350
 8DD
-  3
-Layout2
-350
-8E5
-  3
-Model
-350
-8E1
-  0
-DICTIONARY
-  5
-902
 102
 {ACAD_REACTORS
 330
-8CC
+8DC
 102
 }
 330
-8CC
+8DC
 100
 AcDbDictionary
 281
      1
-  3
-ByBlock
-350
-904
-  3
-ByLayer
-350
-903
-  3
-Global
-350
-905
-  0
-DICTIONARY
-  5
-92A
-102
-{ACAD_REACTORS
-330
-8CC
-102
-}
-330
-8CC
-100
-AcDbDictionary
-281
-     1
-  3
-Standard
-350
-92B
-  0
-DICTIONARY
-  5
-8D6
-102
-{ACAD_REACTORS
-330
-8CC
-102
-}
-330
-8CC
-100
-AcDbDictionary
-281
-     1
-  3
-Standard
-350
-8D7
-  0
-DICTIONARY
-  5
-8D8
-102
-{ACAD_REACTORS
-330
-8CC
-102
-}
-330
-8CC
-100
-AcDbDictionary
-281
-     1
-  0
-ACDBDICTIONARYWDFLT
-  5
-8CE
-102
-{ACAD_REACTORS
-330
-8CC
-102
-}
-330
-8CC
-100
-AcDbDictionary
-281
-     1
-  3
-Normal
-350
-8CF
-100
-AcDbDictionaryWithDefault
-340
-8CF
-  0
-DICTIONARY
-  5
-906
-102
-{ACAD_REACTORS
-330
-8CC
-102
-}
-330
-8CC
-100
-AcDbDictionary
-281
-     1
-  3
-A0
-350
-907
-  3
-A1
-350
-908
-  3
-A2
-350
-909
-  3
-A3
-350
-90A
-  3
-A4
-350
-90B
-  3
-A5
-350
-90C
-  3
-A6
-350
-90D
-  3
-A7
-350
-90E
-  3
-A8
-350
-90F
-  3
-A9
-350
-910
-  3
-B0
-350
-911
-  3
-B1
-350
-912
-  3
-B2
-350
-913
-  3
-B3
-350
-914
-  3
-B4
-350
-915
-  3
-B5
-350
-916
-  3
-B6
-350
-917
-  3
-B7
-350
-918
-  3
-B8
-350
-919
-  3
-B9
-350
-91A
-  3
-C0
-350
-91B
-  3
-C1
-350
-91C
-  3
-C2
-350
-91D
-  3
-C3
-350
-91E
-  3
-C4
-350
-91F
-  3
-C5
-350
-920
-  3
-C6
-350
-921
-  3
-C7
-350
-922
-  3
-C8
-350
-923
-  3
-C9
-350
-924
-  3
-D0
-350
-925
-  3
-D1
-350
-926
-  3
-D2
-350
-927
-  0
-DICTIONARY
-  5
-A34
-102
-{ACAD_REACTORS
-330
-8CC
-102
-}
-330
-8CC
-100
-AcDbDictionary
-281
-     1
-  0
-DICTIONARY
-  5
-928
-102
-{ACAD_REACTORS
-330
-8CC
-102
-}
-330
-8CC
-100
-AcDbDictionary
-281
-     1
-  3
-Standard
-350
-929
   0
 DICTIONARY
   5
@@ -15613,11 +15293,331 @@ DICTIONARY
 102
 {ACAD_REACTORS
 330
-8CC
+8DC
 102
 }
 330
-8CC
+8DC
+100
+AcDbDictionary
+281
+     1
+  3
+Layout1
+350
+8ED
+  3
+Layout2
+350
+8F5
+  3
+Model
+350
+8F1
+  0
+DICTIONARY
+  5
+912
+102
+{ACAD_REACTORS
+330
+8DC
+102
+}
+330
+8DC
+100
+AcDbDictionary
+281
+     1
+  3
+ByBlock
+350
+914
+  3
+ByLayer
+350
+913
+  3
+Global
+350
+915
+  0
+DICTIONARY
+  5
+93A
+102
+{ACAD_REACTORS
+330
+8DC
+102
+}
+330
+8DC
+100
+AcDbDictionary
+281
+     1
+  3
+Standard
+350
+93B
+  0
+DICTIONARY
+  5
+8E6
+102
+{ACAD_REACTORS
+330
+8DC
+102
+}
+330
+8DC
+100
+AcDbDictionary
+281
+     1
+  3
+Standard
+350
+8E7
+  0
+DICTIONARY
+  5
+8E8
+102
+{ACAD_REACTORS
+330
+8DC
+102
+}
+330
+8DC
+100
+AcDbDictionary
+281
+     1
+  0
+ACDBDICTIONARYWDFLT
+  5
+8DE
+102
+{ACAD_REACTORS
+330
+8DC
+102
+}
+330
+8DC
+100
+AcDbDictionary
+281
+     1
+  3
+Normal
+350
+8DF
+100
+AcDbDictionaryWithDefault
+340
+8DF
+  0
+DICTIONARY
+  5
+916
+102
+{ACAD_REACTORS
+330
+8DC
+102
+}
+330
+8DC
+100
+AcDbDictionary
+281
+     1
+  3
+A0
+350
+917
+  3
+A1
+350
+918
+  3
+A2
+350
+919
+  3
+A3
+350
+91A
+  3
+A4
+350
+91B
+  3
+A5
+350
+91C
+  3
+A6
+350
+91D
+  3
+A7
+350
+91E
+  3
+A8
+350
+91F
+  3
+A9
+350
+920
+  3
+B0
+350
+921
+  3
+B1
+350
+922
+  3
+B2
+350
+923
+  3
+B3
+350
+924
+  3
+B4
+350
+925
+  3
+B5
+350
+926
+  3
+B6
+350
+927
+  3
+B7
+350
+928
+  3
+B8
+350
+929
+  3
+B9
+350
+92A
+  3
+C0
+350
+92B
+  3
+C1
+350
+92C
+  3
+C2
+350
+92D
+  3
+C3
+350
+92E
+  3
+C4
+350
+92F
+  3
+C5
+350
+930
+  3
+C6
+350
+931
+  3
+C7
+350
+932
+  3
+C8
+350
+933
+  3
+C9
+350
+934
+  3
+D0
+350
+935
+  3
+D1
+350
+936
+  3
+D2
+350
+937
+  0
+DICTIONARY
+  5
+A44
+102
+{ACAD_REACTORS
+330
+8DC
+102
+}
+330
+8DC
+100
+AcDbDictionary
+281
+     1
+  0
+DICTIONARY
+  5
+938
+102
+{ACAD_REACTORS
+330
+8DC
+102
+}
+330
+8DC
+100
+AcDbDictionary
+281
+     1
+  3
+Standard
+350
+939
+  0
+DICTIONARY
+  5
+8F9
+102
+{ACAD_REACTORS
+330
+8DC
+102
+}
+330
+8DC
 100
 AcDbDictionary
 281
@@ -15625,111 +15625,111 @@ AcDbDictionary
   3
 2dWireframe
 350
-8EE
+8FE
   3
 Basic
 350
-8F1
+901
   3
 Brighten
 350
-8F5
+905
   3
 ColorChange
 350
-8F9
+909
   3
 Conceptual
 350
-8F3
+903
   3
 Dim
 350
-8F4
+904
   3
 EdgeColorOff
 350
-8FC
+90C
   3
 Facepattern
 350
-8F8
+908
   3
 Flat
 350
-8EA
+8FA
   3
 FlatWithEdges
 350
-8EB
+8FB
   3
 Gouraud
 350
-8EC
+8FC
   3
 GouraudWithEdges
 350
-8ED
+8FD
   3
 Hidden
 350
-8F0
+900
   3
 JitterOff
 350
-8FA
+90A
   3
 Linepattern
 350
-8F7
+907
   3
 OverhangOff
 350
-8FB
+90B
   3
 Realistic
 350
-8F2
+902
   3
 Shaded
 350
-901
+911
   3
 Shaded with edges
 350
-900
+910
   3
 Shades of Gray
 350
-8FD
+90D
   3
 Sketchy
 350
-8FE
+90E
   3
 Thicken
 350
-8F6
+906
   3
 Wireframe
 350
-8EF
+8FF
   3
 X-Ray
 350
-8FF
+90F
   0
 XRECORD
   5
-A30
+A40
 102
 {ACAD_REACTORS
 330
-8CC
+8DC
 102
 }
 330
-8CC
+8DC
 100
 AcDbXrecord
 280
@@ -15737,19 +15737,19 @@ AcDbXrecord
  90
         1
 330
-929
+939
   0
 DICTIONARY
   5
-A2C
+A3C
 102
 {ACAD_REACTORS
 330
-8CC
+8DC
 102
 }
 330
-8CC
+8DC
 100
 AcDbDictionary
 281
@@ -15757,27 +15757,27 @@ AcDbDictionary
   3
 CANNOSCALE
 350
-A2D
+A3D
   3
 CMLEADERSTYLE
 350
-A32
+A42
   3
 CTABLESTYLE
 350
-A31
+A41
   0
 DICTIONARY
   5
-92E
+93E
 102
 {ACAD_REACTORS
 330
-8CC
+8DC
 102
 }
 330
-8CC
+8DC
 100
 AcDbDictionary
 281
@@ -15785,215 +15785,215 @@ AcDbDictionary
   3
 DimensionSettings/AngularFormat
 350
-930
+940
   3
 DimensionSettings/AngularPrecision
 350
-931
+941
   3
 DimensionSettings/DimensionFont
 350
-932
+942
   3
 DimensionSettings/KeepProportions
 350
-933
+943
   3
 DimensionSettings/LinearFormat
 350
-934
+944
   3
 DimensionSettings/LinearPrecision
 350
-935
+945
   3
 Grid/DisplayGrid00
 350
-936
+946
   3
 Grid/DisplayGrid01
 350
-937
+947
   3
 Grid/DisplayGrid02
 350
-938
+948
   3
 Grid/DisplayGrid03
 350
-939
+949
   3
 Grid/GridSpacingX00
 350
-93A
+94A
   3
 Grid/GridSpacingX01
 350
-93B
+94B
   3
 Grid/GridSpacingX02
 350
-93C
+94C
   3
 Grid/GridSpacingX03
 350
-93D
+94D
   3
 Grid/GridSpacingY00
 350
-93E
+94E
   3
 Grid/GridSpacingY01
 350
-93F
+94F
   3
 Grid/GridSpacingY02
 350
-940
+950
   3
 Grid/GridSpacingY03
 350
-941
+951
   3
 Grid/IsometricGrid00
 350
-942
+952
   3
 Grid/IsometricGrid01
 350
-943
+953
   3
 Grid/IsometricGrid02
 350
-944
+954
   3
 Grid/IsometricGrid03
 350
-945
+955
   3
 Grid/IsometricProjection00
 350
-946
+956
   3
 Grid/IsometricProjection01
 350
-947
+957
   3
 Grid/IsometricProjection02
 350
-948
+958
   3
 Grid/IsometricProjection03
 350
-949
+959
   3
 Grid/MetaGridSpacingX00
 350
-94A
+95A
   3
 Grid/MetaGridSpacingX01
 350
-94B
+95B
   3
 Grid/MetaGridSpacingX02
 350
-94C
+95C
   3
 Grid/MetaGridSpacingX03
 350
-94D
+95D
   3
 Grid/MetaGridSpacingY00
 350
-94E
+95E
   3
 Grid/MetaGridSpacingY01
 350
-94F
+95F
   3
 Grid/MetaGridSpacingY02
 350
-950
+960
   3
 Grid/MetaGridSpacingY03
 350
-951
+961
   3
 MultiPageSettings/Columns
 350
-952
+962
   3
 MultiPageSettings/GlueMarginsBottom
 350
-953
+963
   3
 MultiPageSettings/GlueMarginsLeft
 350
-954
+964
   3
 MultiPageSettings/GlueMarginsRight
 350
-955
+965
   3
 MultiPageSettings/GlueMarginsTop
 350
-956
+966
   3
 MultiPageSettings/PrintCropMarks
 350
-957
+967
   3
 MultiPageSettings/Rows
 350
-958
+968
   3
 PageSettings/OffsetX
 350
-959
+969
   3
 PageSettings/OffsetY
 350
-95A
+96A
   3
 PageSettings/PageOrientation
 350
-95B
+96B
   3
 PageSettings/PaperHeight
 350
-95C
+96C
   3
 PageSettings/PaperWidth
 350
-95D
+96D
   3
 PageSettings/Scale
 350
-95E
+96E
   3
 PageSettings/ShowPaperBorders
 350
-95F
+96F
   3
 QCADVersion
 350
-960
+970
   3
 UnitSettings/PaperUnit
 350
-961
+971
   0
 LAYOUT
   5
-8DD
+8ED
 102
 {ACAD_REACTORS
 330
-8D9
+8E9
 102
 }
 330
-8D9
+8E9
 100
 AcDbPlotSettings
   1
@@ -16113,19 +16113,19 @@ Layout1
  76
      0
 330
-8DA
+8EA
   0
 LAYOUT
   5
-8E5
+8F5
 102
 {ACAD_REACTORS
 330
-8D9
+8E9
 102
 }
 330
-8D9
+8E9
 100
 AcDbPlotSettings
   1
@@ -16245,19 +16245,19 @@ Layout2
  76
      0
 330
-8E2
+8F2
   0
 LAYOUT
   5
-8E1
+8F1
 102
 {ACAD_REACTORS
 330
-8D9
+8E9
 102
 }
 330
-8D9
+8E9
 100
 AcDbPlotSettings
   1
@@ -16377,21 +16377,21 @@ Model
  76
      0
 330
-8DE
+8EE
 331
-8E8
+8F8
   0
 MATERIAL
   5
-904
+914
 102
 {ACAD_REACTORS
 330
-902
+912
 102
 }
 330
-902
+912
 100
 AcDbMaterial
   1
@@ -16403,15 +16403,15 @@ ByBlock
   0
 MATERIAL
   5
-903
+913
 102
 {ACAD_REACTORS
 330
-902
+912
 102
 }
 330
-902
+912
 100
 AcDbMaterial
   1
@@ -16423,15 +16423,15 @@ ByLayer
   0
 MATERIAL
   5
-905
+915
 102
 {ACAD_REACTORS
 330
-902
+912
 102
 }
 330
-902
+912
 100
 AcDbMaterial
   1
@@ -16443,15 +16443,15 @@ Global
   0
 MLEADERSTYLE
   5
-92B
+93B
 102
 {ACAD_REACTORS
 330
-92A
+93A
 102
 }
 330
-92A
+93A
 100
 AcDbMLeaderStyle
 179
@@ -16473,7 +16473,7 @@ AcDbMLeaderStyle
  91
 -1056964608
 340
-8D3
+8E3
  92
        -2
 290
@@ -16493,7 +16493,7 @@ Standard
 300
 
 342
-8D1
+8E1
 174
      1
 178
@@ -16549,15 +16549,15 @@ Standard
   0
 MLINESTYLE
   5
-8D7
+8E7
 102
 {ACAD_REACTORS
 330
-8D6
+8E6
 102
 }
 330
-8D6
+8E6
 100
 AcDbMlineStyle
   2
@@ -16589,27 +16589,27 @@ BYLAYER
   0
 ACDBPLACEHOLDER
   5
-8CF
+8DF
 102
 {ACAD_REACTORS
 330
-8CE
+8DE
 102
 }
 330
-8CE
+8DE
   0
 SCALE
   5
-907
+917
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -16625,15 +16625,15 @@ AcDbScale
   0
 SCALE
   5
-908
+918
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -16649,15 +16649,15 @@ AcDbScale
   0
 SCALE
   5
-909
+919
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -16673,15 +16673,15 @@ AcDbScale
   0
 SCALE
   5
-90A
+91A
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -16697,15 +16697,15 @@ AcDbScale
   0
 SCALE
   5
-90B
+91B
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -16721,15 +16721,15 @@ AcDbScale
   0
 SCALE
   5
-90C
+91C
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -16745,15 +16745,15 @@ AcDbScale
   0
 SCALE
   5
-90D
+91D
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -16769,15 +16769,15 @@ AcDbScale
   0
 SCALE
   5
-90E
+91E
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -16793,15 +16793,15 @@ AcDbScale
   0
 SCALE
   5
-90F
+91F
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -16817,15 +16817,15 @@ AcDbScale
   0
 SCALE
   5
-910
+920
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -16841,15 +16841,15 @@ AcDbScale
   0
 SCALE
   5
-911
+921
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -16865,15 +16865,15 @@ AcDbScale
   0
 SCALE
   5
-912
+922
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -16889,15 +16889,15 @@ AcDbScale
   0
 SCALE
   5
-913
+923
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -16913,15 +16913,15 @@ AcDbScale
   0
 SCALE
   5
-914
+924
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -16937,15 +16937,15 @@ AcDbScale
   0
 SCALE
   5
-915
+925
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -16961,15 +16961,15 @@ AcDbScale
   0
 SCALE
   5
-916
+926
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -16985,15 +16985,15 @@ AcDbScale
   0
 SCALE
   5
-917
+927
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -17009,15 +17009,15 @@ AcDbScale
   0
 SCALE
   5
-918
+928
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -17033,15 +17033,15 @@ AcDbScale
   0
 SCALE
   5
-919
+929
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -17057,15 +17057,15 @@ AcDbScale
   0
 SCALE
   5
-91A
+92A
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -17081,15 +17081,15 @@ AcDbScale
   0
 SCALE
   5
-91B
+92B
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -17105,15 +17105,15 @@ AcDbScale
   0
 SCALE
   5
-91C
+92C
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -17129,15 +17129,15 @@ AcDbScale
   0
 SCALE
   5
-91D
+92D
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -17153,15 +17153,15 @@ AcDbScale
   0
 SCALE
   5
-91E
+92E
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -17177,15 +17177,15 @@ AcDbScale
   0
 SCALE
   5
-91F
+92F
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -17201,15 +17201,15 @@ AcDbScale
   0
 SCALE
   5
-920
+930
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -17225,15 +17225,15 @@ AcDbScale
   0
 SCALE
   5
-921
+931
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -17249,15 +17249,15 @@ AcDbScale
   0
 SCALE
   5
-922
+932
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -17273,15 +17273,15 @@ AcDbScale
   0
 SCALE
   5
-923
+933
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -17297,15 +17297,15 @@ AcDbScale
   0
 SCALE
   5
-924
+934
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -17321,15 +17321,15 @@ AcDbScale
   0
 SCALE
   5
-925
+935
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -17345,15 +17345,15 @@ AcDbScale
   0
 SCALE
   5
-926
+936
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -17369,15 +17369,15 @@ AcDbScale
   0
 SCALE
   5
-927
+937
 102
 {ACAD_REACTORS
 330
-906
+916
 102
 }
 330
-906
+916
 100
 AcDbScale
  70
@@ -17393,21 +17393,21 @@ AcDbScale
   0
 TABLESTYLE
   5
-929
+939
 102
 {ACAD_REACTORS
 330
-928
+938
 102
 }
 102
 {ACAD_XDICTIONARY
 360
-A2E
+A3E
 102
 }
 330
-928
+938
 100
 AcDbTableStyle
   3
@@ -17589,15 +17589,15 @@ Standard
   0
 VISUALSTYLE
   5
-8EE
+8FE
 102
 {ACAD_REACTORS
 330
-8E9
+8F9
 102
 }
 330
-8E9
+8F9
 100
 AcDbVisualStyle
   2
@@ -17851,15 +17851,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-8F1
+901
 102
 {ACAD_REACTORS
 330
-8E9
+8F9
 102
 }
 330
-8E9
+8F9
 100
 AcDbVisualStyle
   2
@@ -18113,15 +18113,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-8F5
+905
 102
 {ACAD_REACTORS
 330
-8E9
+8F9
 102
 }
 330
-8E9
+8F9
 100
 AcDbVisualStyle
   2
@@ -18375,15 +18375,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-8F9
+909
 102
 {ACAD_REACTORS
 330
-8E9
+8F9
 102
 }
 330
-8E9
+8F9
 100
 AcDbVisualStyle
   2
@@ -18639,15 +18639,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-8F3
+903
 102
 {ACAD_REACTORS
 330
-8E9
+8F9
 102
 }
 330
-8E9
+8F9
 100
 AcDbVisualStyle
   2
@@ -18901,15 +18901,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-8F4
+904
 102
 {ACAD_REACTORS
 330
-8E9
+8F9
 102
 }
 330
-8E9
+8F9
 100
 AcDbVisualStyle
   2
@@ -19163,15 +19163,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-8FC
+90C
 102
 {ACAD_REACTORS
 330
-8E9
+8F9
 102
 }
 330
-8E9
+8F9
 100
 AcDbVisualStyle
   2
@@ -19425,15 +19425,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-8F8
+908
 102
 {ACAD_REACTORS
 330
-8E9
+8F9
 102
 }
 330
-8E9
+8F9
 100
 AcDbVisualStyle
   2
@@ -19687,15 +19687,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-8EA
+8FA
 102
 {ACAD_REACTORS
 330
-8E9
+8F9
 102
 }
 330
-8E9
+8F9
 100
 AcDbVisualStyle
   2
@@ -19949,15 +19949,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-8EB
+8FB
 102
 {ACAD_REACTORS
 330
-8E9
+8F9
 102
 }
 330
-8E9
+8F9
 100
 AcDbVisualStyle
   2
@@ -20211,15 +20211,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-8EC
+8FC
 102
 {ACAD_REACTORS
 330
-8E9
+8F9
 102
 }
 330
-8E9
+8F9
 100
 AcDbVisualStyle
   2
@@ -20473,15 +20473,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-8ED
+8FD
 102
 {ACAD_REACTORS
 330
-8E9
+8F9
 102
 }
 330
-8E9
+8F9
 100
 AcDbVisualStyle
   2
@@ -20735,15 +20735,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-8F0
+900
 102
 {ACAD_REACTORS
 330
-8E9
+8F9
 102
 }
 330
-8E9
+8F9
 100
 AcDbVisualStyle
   2
@@ -20997,15 +20997,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-8FA
+90A
 102
 {ACAD_REACTORS
 330
-8E9
+8F9
 102
 }
 330
-8E9
+8F9
 100
 AcDbVisualStyle
   2
@@ -21259,15 +21259,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-8F7
+907
 102
 {ACAD_REACTORS
 330
-8E9
+8F9
 102
 }
 330
-8E9
+8F9
 100
 AcDbVisualStyle
   2
@@ -21521,15 +21521,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-8FB
+90B
 102
 {ACAD_REACTORS
 330
-8E9
+8F9
 102
 }
 330
-8E9
+8F9
 100
 AcDbVisualStyle
   2
@@ -21783,15 +21783,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-8F2
+902
 102
 {ACAD_REACTORS
 330
-8E9
+8F9
 102
 }
 330
-8E9
+8F9
 100
 AcDbVisualStyle
   2
@@ -22045,15 +22045,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-901
+911
 102
 {ACAD_REACTORS
 330
-8E9
+8F9
 102
 }
 330
-8E9
+8F9
 100
 AcDbVisualStyle
   2
@@ -22309,15 +22309,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-900
+910
 102
 {ACAD_REACTORS
 330
-8E9
+8F9
 102
 }
 330
-8E9
+8F9
 100
 AcDbVisualStyle
   2
@@ -22571,15 +22571,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-8FD
+90D
 102
 {ACAD_REACTORS
 330
-8E9
+8F9
 102
 }
 330
-8E9
+8F9
 100
 AcDbVisualStyle
   2
@@ -22833,15 +22833,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-8FE
+90E
 102
 {ACAD_REACTORS
 330
-8E9
+8F9
 102
 }
 330
-8E9
+8F9
 100
 AcDbVisualStyle
   2
@@ -23095,15 +23095,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-8F6
+906
 102
 {ACAD_REACTORS
 330
-8E9
+8F9
 102
 }
 330
-8E9
+8F9
 100
 AcDbVisualStyle
   2
@@ -23357,15 +23357,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-8EF
+8FF
 102
 {ACAD_REACTORS
 330
-8E9
+8F9
 102
 }
 330
-8E9
+8F9
 100
 AcDbVisualStyle
   2
@@ -23619,15 +23619,15 @@ strokes_ogs.tif
   0
 VISUALSTYLE
   5
-8FF
+90F
 102
 {ACAD_REACTORS
 330
-8E9
+8F9
 102
 }
 330
-8E9
+8F9
 100
 AcDbVisualStyle
   2
@@ -23881,15 +23881,15 @@ strokes_ogs.tif
   0
 DICTIONARYVAR
   5
-A2D
+A3D
 102
 {ACAD_REACTORS
 330
-A2C
+A3C
 102
 }
 330
-A2C
+A3C
 100
 DictionaryVariables
 280
@@ -23899,15 +23899,15 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-A32
+A42
 102
 {ACAD_REACTORS
 330
-A2C
+A3C
 102
 }
 330
-A2C
+A3C
 100
 DictionaryVariables
 280
@@ -23917,15 +23917,15 @@ Standard
   0
 DICTIONARYVAR
   5
-A31
+A41
 102
 {ACAD_REACTORS
 330
-A2C
+A3C
 102
 }
 330
-A2C
+A3C
 100
 DictionaryVariables
 280
@@ -23935,15 +23935,15 @@ Standard
   0
 XRECORD
   5
-930
+940
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
 100
 AcDbXrecord
 280
@@ -23953,15 +23953,15 @@ AcDbXrecord
   0
 XRECORD
   5
-931
+941
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
 100
 AcDbXrecord
 280
@@ -23971,15 +23971,15 @@ AcDbXrecord
   0
 XRECORD
   5
-932
+942
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
 100
 AcDbXrecord
 280
@@ -23989,15 +23989,15 @@ Standard
   0
 XRECORD
   5
-933
+943
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
 100
 AcDbXrecord
 280
@@ -24007,15 +24007,15 @@ AcDbXrecord
   0
 XRECORD
   5
-934
+944
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
 100
 AcDbXrecord
 280
@@ -24025,15 +24025,15 @@ AcDbXrecord
   0
 XRECORD
   5
-935
+945
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
 100
 AcDbXrecord
 280
@@ -24043,309 +24043,21 @@ AcDbXrecord
   0
 XRECORD
   5
-936
-102
-{ACAD_REACTORS
-330
-92E
-102
-}
-330
-92E
-100
-AcDbXrecord
-280
-     1
-290
-     1
-  0
-XRECORD
-  5
-937
-102
-{ACAD_REACTORS
-330
-92E
-102
-}
-330
-92E
-100
-AcDbXrecord
-280
-     1
-290
-     1
-  0
-XRECORD
-  5
-938
-102
-{ACAD_REACTORS
-330
-92E
-102
-}
-330
-92E
-100
-AcDbXrecord
-280
-     1
-290
-     1
-  0
-XRECORD
-  5
-939
-102
-{ACAD_REACTORS
-330
-92E
-102
-}
-330
-92E
-100
-AcDbXrecord
-280
-     1
-290
-     1
-  0
-XRECORD
-  5
-93A
-102
-{ACAD_REACTORS
-330
-92E
-102
-}
-330
-92E
-100
-AcDbXrecord
-280
-     1
-1000
-auto
-  0
-XRECORD
-  5
-93B
-102
-{ACAD_REACTORS
-330
-92E
-102
-}
-330
-92E
-100
-AcDbXrecord
-280
-     1
-1000
-auto
-  0
-XRECORD
-  5
-93C
-102
-{ACAD_REACTORS
-330
-92E
-102
-}
-330
-92E
-100
-AcDbXrecord
-280
-     1
-1000
-auto
-  0
-XRECORD
-  5
-93D
-102
-{ACAD_REACTORS
-330
-92E
-102
-}
-330
-92E
-100
-AcDbXrecord
-280
-     1
-1000
-auto
-  0
-XRECORD
-  5
-93E
-102
-{ACAD_REACTORS
-330
-92E
-102
-}
-330
-92E
-100
-AcDbXrecord
-280
-     1
-1000
-auto
-  0
-XRECORD
-  5
-93F
-102
-{ACAD_REACTORS
-330
-92E
-102
-}
-330
-92E
-100
-AcDbXrecord
-280
-     1
-1000
-auto
-  0
-XRECORD
-  5
-940
-102
-{ACAD_REACTORS
-330
-92E
-102
-}
-330
-92E
-100
-AcDbXrecord
-280
-     1
-1000
-auto
-  0
-XRECORD
-  5
-941
-102
-{ACAD_REACTORS
-330
-92E
-102
-}
-330
-92E
-100
-AcDbXrecord
-280
-     1
-1000
-auto
-  0
-XRECORD
-  5
-942
-102
-{ACAD_REACTORS
-330
-92E
-102
-}
-330
-92E
-100
-AcDbXrecord
-280
-     1
-290
-     0
-  0
-XRECORD
-  5
-943
-102
-{ACAD_REACTORS
-330
-92E
-102
-}
-330
-92E
-100
-AcDbXrecord
-280
-     1
-290
-     0
-  0
-XRECORD
-  5
-944
-102
-{ACAD_REACTORS
-330
-92E
-102
-}
-330
-92E
-100
-AcDbXrecord
-280
-     1
-290
-     0
-  0
-XRECORD
-  5
-945
-102
-{ACAD_REACTORS
-330
-92E
-102
-}
-330
-92E
-100
-AcDbXrecord
-280
-     1
-290
-     0
-  0
-XRECORD
-  5
 946
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
 100
 AcDbXrecord
 280
      1
- 90
-        0
+290
+     1
   0
 XRECORD
   5
@@ -24353,17 +24065,17 @@ XRECORD
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
 100
 AcDbXrecord
 280
      1
- 90
-        0
+290
+     1
   0
 XRECORD
   5
@@ -24371,17 +24083,17 @@ XRECORD
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
 100
 AcDbXrecord
 280
      1
- 90
-        0
+290
+     1
   0
 XRECORD
   5
@@ -24389,17 +24101,17 @@ XRECORD
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
 100
 AcDbXrecord
 280
      1
- 90
-        0
+290
+     1
   0
 XRECORD
   5
@@ -24407,11 +24119,11 @@ XRECORD
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
 100
 AcDbXrecord
 280
@@ -24425,11 +24137,11 @@ XRECORD
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
 100
 AcDbXrecord
 280
@@ -24443,11 +24155,11 @@ XRECORD
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
 100
 AcDbXrecord
 280
@@ -24461,11 +24173,11 @@ XRECORD
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
 100
 AcDbXrecord
 280
@@ -24479,11 +24191,11 @@ XRECORD
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
 100
 AcDbXrecord
 280
@@ -24497,11 +24209,11 @@ XRECORD
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
 100
 AcDbXrecord
 280
@@ -24515,11 +24227,11 @@ XRECORD
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
 100
 AcDbXrecord
 280
@@ -24533,11 +24245,11 @@ XRECORD
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
 100
 AcDbXrecord
 280
@@ -24551,101 +24263,11 @@ XRECORD
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
-100
-AcDbXrecord
-280
-     1
- 90
-        1
-  0
-XRECORD
-  5
-953
-102
-{ACAD_REACTORS
-330
-92E
-102
-}
-330
-92E
-100
-AcDbXrecord
-280
-     1
- 40
-10.0
-  0
-XRECORD
-  5
-954
-102
-{ACAD_REACTORS
-330
-92E
-102
-}
-330
-92E
-100
-AcDbXrecord
-280
-     1
- 40
-10.0
-  0
-XRECORD
-  5
-955
-102
-{ACAD_REACTORS
-330
-92E
-102
-}
-330
-92E
-100
-AcDbXrecord
-280
-     1
- 40
-10.0
-  0
-XRECORD
-  5
-956
-102
-{ACAD_REACTORS
-330
-92E
-102
-}
-330
-92E
-100
-AcDbXrecord
-280
-     1
- 40
-10.0
-  0
-XRECORD
-  5
-957
-102
-{ACAD_REACTORS
-330
-92E
-102
-}
-330
-92E
+93E
 100
 AcDbXrecord
 280
@@ -24655,15 +24277,285 @@ AcDbXrecord
   0
 XRECORD
   5
+953
+102
+{ACAD_REACTORS
+330
+93E
+102
+}
+330
+93E
+100
+AcDbXrecord
+280
+     1
+290
+     0
+  0
+XRECORD
+  5
+954
+102
+{ACAD_REACTORS
+330
+93E
+102
+}
+330
+93E
+100
+AcDbXrecord
+280
+     1
+290
+     0
+  0
+XRECORD
+  5
+955
+102
+{ACAD_REACTORS
+330
+93E
+102
+}
+330
+93E
+100
+AcDbXrecord
+280
+     1
+290
+     0
+  0
+XRECORD
+  5
+956
+102
+{ACAD_REACTORS
+330
+93E
+102
+}
+330
+93E
+100
+AcDbXrecord
+280
+     1
+ 90
+        0
+  0
+XRECORD
+  5
+957
+102
+{ACAD_REACTORS
+330
+93E
+102
+}
+330
+93E
+100
+AcDbXrecord
+280
+     1
+ 90
+        0
+  0
+XRECORD
+  5
 958
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
+100
+AcDbXrecord
+280
+     1
+ 90
+        0
+  0
+XRECORD
+  5
+959
+102
+{ACAD_REACTORS
+330
+93E
+102
+}
+330
+93E
+100
+AcDbXrecord
+280
+     1
+ 90
+        0
+  0
+XRECORD
+  5
+95A
+102
+{ACAD_REACTORS
+330
+93E
+102
+}
+330
+93E
+100
+AcDbXrecord
+280
+     1
+1000
+auto
+  0
+XRECORD
+  5
+95B
+102
+{ACAD_REACTORS
+330
+93E
+102
+}
+330
+93E
+100
+AcDbXrecord
+280
+     1
+1000
+auto
+  0
+XRECORD
+  5
+95C
+102
+{ACAD_REACTORS
+330
+93E
+102
+}
+330
+93E
+100
+AcDbXrecord
+280
+     1
+1000
+auto
+  0
+XRECORD
+  5
+95D
+102
+{ACAD_REACTORS
+330
+93E
+102
+}
+330
+93E
+100
+AcDbXrecord
+280
+     1
+1000
+auto
+  0
+XRECORD
+  5
+95E
+102
+{ACAD_REACTORS
+330
+93E
+102
+}
+330
+93E
+100
+AcDbXrecord
+280
+     1
+1000
+auto
+  0
+XRECORD
+  5
+95F
+102
+{ACAD_REACTORS
+330
+93E
+102
+}
+330
+93E
+100
+AcDbXrecord
+280
+     1
+1000
+auto
+  0
+XRECORD
+  5
+960
+102
+{ACAD_REACTORS
+330
+93E
+102
+}
+330
+93E
+100
+AcDbXrecord
+280
+     1
+1000
+auto
+  0
+XRECORD
+  5
+961
+102
+{ACAD_REACTORS
+330
+93E
+102
+}
+330
+93E
+100
+AcDbXrecord
+280
+     1
+1000
+auto
+  0
+XRECORD
+  5
+962
+102
+{ACAD_REACTORS
+330
+93E
+102
+}
+330
+93E
 100
 AcDbXrecord
 280
@@ -24673,15 +24565,123 @@ AcDbXrecord
   0
 XRECORD
   5
-959
+963
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
+100
+AcDbXrecord
+280
+     1
+ 40
+10.0
+  0
+XRECORD
+  5
+964
+102
+{ACAD_REACTORS
+330
+93E
+102
+}
+330
+93E
+100
+AcDbXrecord
+280
+     1
+ 40
+10.0
+  0
+XRECORD
+  5
+965
+102
+{ACAD_REACTORS
+330
+93E
+102
+}
+330
+93E
+100
+AcDbXrecord
+280
+     1
+ 40
+10.0
+  0
+XRECORD
+  5
+966
+102
+{ACAD_REACTORS
+330
+93E
+102
+}
+330
+93E
+100
+AcDbXrecord
+280
+     1
+ 40
+10.0
+  0
+XRECORD
+  5
+967
+102
+{ACAD_REACTORS
+330
+93E
+102
+}
+330
+93E
+100
+AcDbXrecord
+280
+     1
+290
+     0
+  0
+XRECORD
+  5
+968
+102
+{ACAD_REACTORS
+330
+93E
+102
+}
+330
+93E
+100
+AcDbXrecord
+280
+     1
+ 90
+        1
+  0
+XRECORD
+  5
+969
+102
+{ACAD_REACTORS
+330
+93E
+102
+}
+330
+93E
 100
 AcDbXrecord
 280
@@ -24691,15 +24691,15 @@ AcDbXrecord
   0
 XRECORD
   5
-95A
+96A
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
 100
 AcDbXrecord
 280
@@ -24709,15 +24709,15 @@ AcDbXrecord
   0
 XRECORD
   5
-95B
+96B
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
 100
 AcDbXrecord
 280
@@ -24727,15 +24727,15 @@ Portrait
   0
 XRECORD
   5
-95C
+96C
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
 100
 AcDbXrecord
 280
@@ -24745,15 +24745,15 @@ AcDbXrecord
   0
 XRECORD
   5
-95D
+96D
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
 100
 AcDbXrecord
 280
@@ -24763,15 +24763,15 @@ AcDbXrecord
   0
 XRECORD
   5
-95E
+96E
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
 100
 AcDbXrecord
 280
@@ -24781,15 +24781,15 @@ AcDbXrecord
   0
 XRECORD
   5
-95F
+96F
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
 100
 AcDbXrecord
 280
@@ -24799,15 +24799,15 @@ AcDbXrecord
   0
 XRECORD
   5
-960
+970
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
 100
 AcDbXrecord
 280
@@ -24817,15 +24817,15 @@ AcDbXrecord
   0
 XRECORD
   5
-961
+971
 102
 {ACAD_REACTORS
 330
-92E
+93E
 102
 }
 330
-92E
+93E
 100
 AcDbXrecord
 280
@@ -24835,9 +24835,9 @@ AcDbXrecord
   0
 DICTIONARY
   5
-A2E
+A3E
 330
-929
+939
 100
 AcDbDictionary
 280
@@ -24847,19 +24847,19 @@ AcDbDictionary
   3
 ACAD_ROUNDTRIP_2008_TABLESTYLE_CELLSTYLEMAP
 360
-A2F
+A3F
   0
 CELLSTYLEMAP
   5
-A2F
+A3F
 102
 {ACAD_REACTORS
 330
-A2E
+A3E
 102
 }
 330
-A2E
+A3E
 100
 AcDbCellStyleMap
  90
@@ -24903,7 +24903,7 @@ CONTENTFORMAT_BEGIN
  62
      0
 340
-8D1
+8E1
 144
 0.25
 309
@@ -24945,7 +24945,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-8D3
+8E3
  93
         0
  40
@@ -24967,7 +24967,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-8D3
+8E3
  93
         0
  40
@@ -24989,7 +24989,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-8D3
+8E3
  93
         0
  40
@@ -25011,7 +25011,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-8D3
+8E3
  93
         0
  40
@@ -25033,7 +25033,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-8D3
+8E3
  93
         0
  40
@@ -25055,7 +25055,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-8D3
+8E3
  93
         0
  40
@@ -25113,7 +25113,7 @@ CONTENTFORMAT_BEGIN
  62
      0
 340
-8D1
+8E1
 144
 0.18
 309
@@ -25155,7 +25155,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-8D3
+8E3
  93
         0
  40
@@ -25177,7 +25177,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-8D3
+8E3
  93
         0
  40
@@ -25199,7 +25199,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-8D3
+8E3
  93
         0
  40
@@ -25221,7 +25221,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-8D3
+8E3
  93
         0
  40
@@ -25243,7 +25243,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-8D3
+8E3
  93
         0
  40
@@ -25265,7 +25265,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-8D3
+8E3
  93
         0
  40
@@ -25323,7 +25323,7 @@ CONTENTFORMAT_BEGIN
  62
      0
 340
-8D1
+8E1
 144
 0.18
 309
@@ -25365,7 +25365,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-8D3
+8E3
  93
         0
  40
@@ -25387,7 +25387,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-8D3
+8E3
  93
         0
  40
@@ -25409,7 +25409,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-8D3
+8E3
  93
         0
  40
@@ -25431,7 +25431,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-8D3
+8E3
  93
         0
  40
@@ -25453,7 +25453,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-8D3
+8E3
  93
         0
  40
@@ -25475,7 +25475,7 @@ GRIDFORMAT_BEGIN
  92
        -2
 340
-8D3
+8E3
  93
         0
  40
