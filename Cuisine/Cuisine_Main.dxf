@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-2295.424214579552
+1171.62875037534
  22
-1099.35622314773
+595.1624769193879
  13
 0
  23
@@ -1143,7 +1143,7 @@ AcDbViewportTableRecord
  37
 0
  40
-3280.305283431827
+1726.282786457282
  41
 1.696750902527076
  42
@@ -18145,30 +18145,6 @@ ByLayer
 100
 AcDbLine
  10
--7825.000000000002
- 20
--5505
- 11
--7840.000000000002
- 21
--5505
-  0
-LINE
-  5
-2EF
-100
-AcDbEntity
-  8
-CP_MeubleBasSud
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
 -5695.000000000002
  20
 -6090.000000000001
@@ -18179,7 +18155,7 @@ AcDbLine
   0
 LINE
   5
-2F0
+2EF
 100
 AcDbEntity
   8
@@ -18203,7 +18179,7 @@ AcDbLine
   0
 LINE
   5
-2F1
+2F0
 100
 AcDbEntity
   8
@@ -18227,7 +18203,7 @@ AcDbLine
   0
 LINE
   5
-2F2
+2F1
 100
 AcDbEntity
   8
@@ -18251,6 +18227,30 @@ AcDbLine
   0
 LINE
   5
+2F2
+100
+AcDbEntity
+  8
+CP_MeubleBasSud
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-15370
+ 20
+820
+ 11
+-15970
+ 21
+820
+  0
+LINE
+  5
 2F3
 100
 AcDbEntity
@@ -18265,13 +18265,13 @@ ByLayer
 100
 AcDbLine
  10
--7825.000000000002
+-15970.00000000001
  20
--6090.000000000001
+0
  11
--7825.000000000002
+-15970
  21
--5505
+820
   0
 LINE
   5
@@ -18289,13 +18289,13 @@ ByLayer
 100
 AcDbLine
  10
--7828.000000000002
+-15370
  20
--6090.000000000001
+0
  11
--7825.000000000002
+-15970.00000000001
  21
--6090.000000000001
+0
   0
 LINE
   5
@@ -18313,137 +18313,17 @@ ByLayer
 100
 AcDbLine
  10
--7840.000000000002
+-15370
  20
--6105.000000000001
+0
  11
--7828.000000000002
+-15370
  21
--6105.000000000001
+820
   0
 LINE
   5
 2F6
-100
-AcDbEntity
-  8
-CP_MeubleBasSud
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--7828.000000000002
- 20
--6105.000000000001
- 11
--7828.000000000002
- 21
--6090.000000000001
-  0
-LINE
-  5
-2F7
-100
-AcDbEntity
-  8
-CP_MeubleBasSud
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--15370
- 20
-820
- 11
--15970
- 21
-820
-  0
-LINE
-  5
-2F8
-100
-AcDbEntity
-  8
-CP_MeubleBasSud
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--15970.00000000001
- 20
-0
- 11
--15970
- 21
-820
-  0
-LINE
-  5
-2F9
-100
-AcDbEntity
-  8
-CP_MeubleBasSud
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--15370
- 20
-0
- 11
--15970.00000000001
- 21
-0
-  0
-LINE
-  5
-2FA
-100
-AcDbEntity
-  8
-CP_MeubleBasSud
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
--15370
- 20
-0
- 11
--15370
- 21
-820
-  0
-LINE
-  5
-2FB
 100
 AcDbEntity
   8
@@ -18467,7 +18347,7 @@ AcDbLine
   0
 LINE
   5
-2FC
+2F7
 100
 AcDbEntity
   8
@@ -18491,7 +18371,7 @@ AcDbLine
   0
 LINE
   5
-2FD
+2F8
 100
 AcDbEntity
   8
@@ -18515,7 +18395,7 @@ AcDbLine
   0
 LINE
   5
-2FE
+2F9
 100
 AcDbEntity
   8
@@ -18536,6 +18416,126 @@ AcDbLine
 2144.999999999998
  21
 18
+  0
+LINE
+  5
+2FA
+100
+AcDbEntity
+  8
+CP_MeubleBasSud
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-7825.000000000002
+ 20
+-5520
+ 11
+-7830.000000000002
+ 21
+-5520
+  0
+LINE
+  5
+2FB
+100
+AcDbEntity
+  8
+CP_MeubleBasSud
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-7830.000000000002
+ 20
+-5505
+ 11
+-7840.000000000002
+ 21
+-5505
+  0
+LINE
+  5
+2FC
+100
+AcDbEntity
+  8
+CP_MeubleBasSud
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-7830.000000000002
+ 20
+-5520
+ 11
+-7830.000000000002
+ 21
+-5505
+  0
+LINE
+  5
+2FD
+100
+AcDbEntity
+  8
+CP_MeubleBasSud
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-7825.000000000002
+ 20
+-6105.000000000001
+ 11
+-7825.000000000002
+ 21
+-5520
+  0
+LINE
+  5
+2FE
+100
+AcDbEntity
+  8
+CP_MeubleBasSud
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-7840.000000000002
+ 20
+-6105.000000000001
+ 11
+-7825.000000000002
+ 21
+-6105.000000000001
   0
 ENDBLK
   5
@@ -32879,6 +32879,150 @@ ParoiVerticale1_MeubleBasSud
  45
 0
   0
+LINE
+  5
+528
+100
+AcDbEntity
+  8
+CP_MeubleBasSud
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+767.5
+ 20
+-25.00000000000091
+ 11
+2148
+ 21
+-25.00000000000091
+  0
+LINE
+  5
+529
+100
+AcDbEntity
+  8
+CP_MeubleBasSud
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+2148
+ 20
+-25.00000000000091
+ 11
+2148
+ 21
+-10.00000000000091
+  0
+LINE
+  5
+52A
+100
+AcDbEntity
+  8
+CP_MeubleBasSud
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+767.5
+ 20
+-10.00000000000091
+ 11
+767.5
+ 21
+-25.00000000000091
+  0
+LINE
+  5
+52B
+100
+AcDbEntity
+  8
+CP_MeubleBasSud
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+1157.5
+ 20
+-10.00000000000091
+ 11
+767.5
+ 21
+-10.00000000000091
+  0
+LINE
+  5
+52C
+100
+AcDbEntity
+  8
+CP_MeubleBasSud
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+1557.5
+ 20
+-10.00000000000091
+ 11
+1172.5
+ 21
+-10.00000000000091
+  0
+LINE
+  5
+52D
+100
+AcDbEntity
+  8
+CP_MeubleBasSud
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+2148
+ 20
+-10.00000000000091
+ 11
+1572.5
+ 21
+-10.00000000000091
+  0
 ENDSEC
   0
 SECTION
@@ -32911,7 +33055,7 @@ AcDbDictionary
   0
 PLOTSETTINGS
   5
-528
+52E
 100
 AcDbPlotSettings
   6
